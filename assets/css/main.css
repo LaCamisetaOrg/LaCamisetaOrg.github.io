@@ -201,6 +201,10 @@ ul[role="list"] {
   background-color: #cccccc;
 }
 
+.cause-article__image-wrap img {
+  object-position: top;
+}
+
 .cause-article__body {
   display: flex;
   flex-direction: column;

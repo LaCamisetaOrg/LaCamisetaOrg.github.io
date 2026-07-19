@@ -1,7 +1,7 @@
 ---
 title: "Los Glaciares"
 slug: "glaciares"
-image: /assets/images/glaciares.jpg
+image: /assets/images/glaciares.png
 hashtags:
   - LaLeyDeGlaciaresNoSeToca
   - ElAguaValeMasQueElOro

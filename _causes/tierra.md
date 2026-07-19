@@ -1,7 +1,7 @@
 ---
 title: "La Tierra"
 slug: "tierra"
-image_color: "#7ab87a"
+image: /assets/images/tierra.png
 hashtags:
   - DefendamosNuestraTierra
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
