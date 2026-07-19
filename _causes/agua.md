@@ -1,9 +1,10 @@
 ---
 title: "El agua"
 slug: "agua"
-image_color: "#6CACE4"
+image: /assets/images/agua.png
 hashtags:
   - AysaNoSeVende
+  - ElAguaSeDefiende
   - ElAguaEsNuestra
 order: 2
 ---

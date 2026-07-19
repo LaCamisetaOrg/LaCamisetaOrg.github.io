@@ -1,9 +1,11 @@
 ---
 title: "Los Glaciares"
 slug: "glaciares"
-image_color: "#6CACE4"
+image: /assets/images/glaciares.jpg
 hashtags:
-  - LosGlaciaresNoSeTocan
+  - LaLeyDeGlaciaresNoSeToca
+  - ElAguaValeMasQueElOro
+  - NoALaReformaDeLaLeyDeGlaciares
 order: 2
 ---
 
