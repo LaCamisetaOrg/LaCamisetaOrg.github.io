@@ -18,7 +18,7 @@ description: "Ponete la camiseta no sólo en la cancha"
     <article class="cause-article {% cycle 'layout': 'cause-article--image-left', 'cause-article--image-right' %}">
       <div class="cause-article__image-wrap">
         {% if cause.image %}
-        <img src="{{ cause.image | relative_url }}" alt="{{ cause.title }}" loading="lazy">
+        <img src="{{ cause.image | relative_url }}" alt="{{ cause.image_alt | default: cause.title }}" loading="lazy">
         {% endif %}
       </div>
       <div class="cause-article__body">
@@ -40,4 +40,4 @@ description: "Ponete la camiseta no sólo en la cancha"
 </section>
 
 {% capture page_url %}{{ site.url }}{{ site.baseurl }}/{% endcapture %}
-{% capture page_text %}{{ site.title }} — {{ site.description }}{% endcapture %}
+{% capture page_text %}{{ site.title }} - {{ site.description }}{% endcapture %}

@@ -2,6 +2,7 @@
 title: "La Tierra"
 slug: "tierra"
 image: /assets/images/tierra.png
+image_alt: "Camiseta argentina sobre vista aérea de campos agrícolas: Ponete la camiseta contra la extranjerización del territorio"
 hashtags:
   - DefendamosNuestraTierra
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua

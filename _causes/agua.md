@@ -2,6 +2,7 @@
 title: "El agua"
 slug: "agua"
 image: /assets/images/agua.png
+image_alt: "Camiseta argentina sostenida sobre un chorro de agua potable: Ponete la camiseta contra la privatización de AySA"
 hashtags:
   - AysaNoSeVende
   - ElAguaSeDefiende
