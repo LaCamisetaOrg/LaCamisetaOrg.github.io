@@ -1,6 +1,6 @@
 ---
 title: "Los Glaciares"
-slug: "educacion"
+slug: "glaciares"
 image_color: "#6CACE4"
 hashtags:
   - LosGlaciaresNoSeTocan
