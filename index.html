@@ -1,8 +1,43 @@
-🇦🇷 Ponete la camiseta dentro y fuera de la cancha
+---
+layout: default
+title: "Ponete la camiseta"
+description: "Ponete la camiseta no sólo en la cancha"
+---
 
-<ul>
-<li>Poneta la camiseta por la tierra</li>: NO a la tramposamente llamada "Ley de Inviolabilidad de la Propiedad Privada"
-<li>Ponete la camiseta por los glaciares</li>: NO a la modificación de la Ley de Glaciares
-<li>Ponete la camiseta por la soberanía del agua</li>: NO a la privatización de AySA
-</ul>
+<section class="hero">
+  <h1 class="hero__title">Ponete la<br>camiseta</h1>
+  <p class="hero__lemma">🇦🇷 Ponete la camiseta dentro y fuera de la cancha</p>
+</section>
 
+{% include cause-nav.html %}
+
+<section class="causes">
+  {% assign sorted_causes = site.causes | sort: "order" %}
+  {% for cause in sorted_causes %}
+  <div class="cause-wrapper {% cycle 'bg': 'cause-wrapper--bg-blue', 'cause-wrapper--bg-white' %}" id="{{ cause.slug }}">
+    <article class="cause-article {% cycle 'layout': 'cause-article--image-left', 'cause-article--image-right' %}">
+      <div class="cause-article__image-wrap">
+        {% if cause.image %}
+        <img src="{{ cause.image | relative_url }}" alt="{{ cause.title }}" loading="lazy">
+        {% endif %}
+      </div>
+      <div class="cause-article__body">
+        <h2 class="cause-article__title">Ponete la camiseta por {{ cause.title }}</h2>
+        <div class="cause-article__content">{{ cause.content }}</div>
+        <ul class="hashtag-list" role="list">
+          {% for tag in cause.hashtags %}
+          <li class="hashtag-chip">#{{ tag }}</li>
+          {% endfor %}
+        </ul>
+        {% capture share_url %}{{ site.url }}{{ site.baseurl }}/#{{ cause.slug }}{% endcapture %}
+        {% capture share_text %}Ponete la camiseta por {{ cause.title }}{% endcapture %}
+        {% capture share_tags %}{{ cause.hashtags | join: ',' }}{% endcapture %}
+        {% include share-buttons.html url=share_url text=share_text hashtags=share_tags %}
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+</section>
+
+{% capture page_url %}{{ site.url }}{{ site.baseurl }}/{% endcapture %}
+{% capture page_text %}{{ site.title }} — {{ site.description }}{% endcapture %}

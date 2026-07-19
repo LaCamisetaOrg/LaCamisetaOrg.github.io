@@ -1,0 +1,10 @@
+{% assign sorted_causes = site.causes | sort: "order" %}
+<nav class="cause-nav" aria-label="Causas">
+  <ul class="cause-nav__list" role="list">
+    {% for cause in sorted_causes %}
+    <li class="cause-nav__item">
+      <a class="cause-nav__pill" href="#{{ cause.slug }}">{{ cause.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

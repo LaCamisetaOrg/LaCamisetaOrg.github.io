@@ -1,0 +1,417 @@
+/* =========================================================
+   Variables
+   ========================================================= */
+:root {
+  --color-blue:   #6CACE4;
+  --color-yellow: #FFB81C;
+  --color-white:  #ffffff;
+  --color-text:   #1a1a1a;
+  --color-muted:  #555555;
+  --color-border: #e8e8e8;
+
+  --font-base: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  --space-xs:  0.5rem;
+  --space-sm:  1rem;
+  --space-md:  2rem;
+  --space-lg:  4rem;
+
+  --max-width:   1200px;
+  --article-gap: 5rem;
+}
+
+/* =========================================================
+   Reset
+   ========================================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-base);
+  color: var(--color-text);
+  background-color: var(--color-white);
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+/* =========================================================
+   Site Header
+   ========================================================= */
+.site-header {
+  padding: var(--space-sm) var(--space-md);
+}
+
+.site-brand {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-blue);
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.site-brand:hover {
+  opacity: 0.75;
+}
+
+/* =========================================================
+   Hero
+   ========================================================= */
+.hero {
+  padding: var(--space-sm) var(--space-md) var(--space-lg);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-size: clamp(2.8rem, 7vw, 5rem);
+  font-weight: 800;
+  color: var(--color-blue);
+  line-height: 1.05;
+  margin-bottom: var(--space-sm);
+}
+
+.hero__lemma {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: var(--color-muted);
+  max-width: 460px;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   Cause Nav
+   ========================================================= */
+.cause-nav {
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.cause-nav__list {
+  display: flex;
+  gap: var(--space-xs);
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-blue) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cause-nav__list::-webkit-scrollbar {
+  height: 3px;
+}
+
+.cause-nav__list::-webkit-scrollbar-thumb {
+  background: var(--color-blue);
+  border-radius: 2px;
+}
+
+.cause-nav__item {
+  flex-shrink: 0;
+}
+
+.cause-nav__pill {
+  display: inline-block;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  border: 2px solid var(--color-blue);
+  color: var(--color-blue);
+  background: transparent;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.cause-nav__pill:hover,
+.cause-nav__pill:focus-visible {
+  background: var(--color-blue);
+  color: var(--color-white);
+  outline: none;
+}
+
+/* =========================================================
+   Causes Section
+   ========================================================= */
+.causes {
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================================
+   Cause Wrapper — full-bleed background stripe
+   ========================================================= */
+.cause-wrapper {
+  padding: var(--space-lg) var(--space-md);
+}
+
+.cause-wrapper--bg-blue {
+  background-color: var(--color-blue);
+}
+
+.cause-wrapper--bg-white {
+  background-color: var(--color-white);
+}
+
+/* Invert text colors inside blue sections */
+.cause-wrapper--bg-blue .cause-article__title {
+  color: var(--color-white);
+}
+
+.cause-wrapper--bg-blue .cause-article__content {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* =========================================================
+   Cause Article — Base
+   ========================================================= */
+.cause-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  align-items: stretch;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cause-article__image-wrap {
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background-color: #cccccc;
+}
+
+.cause-article__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  justify-content: flex-start;
+  padding: var(--space-sm) 0;
+}
+
+/* =========================================================
+   Alternating Layout
+   ========================================================= */
+
+/* Image on the left (odd articles) */
+.cause-article--image-left .cause-article__image-wrap {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.cause-article--image-left .cause-article__body {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/* Image on the right (even articles) */
+.cause-article--image-right .cause-article__image-wrap {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cause-article--image-right .cause-article__body {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* =========================================================
+   Article Typography
+   ========================================================= */
+.cause-article__title {
+  font-size: clamp(1rem, 2.2vw, 1.4rem);
+  font-weight: 800;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+.cause-article__content {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  line-height: 1.75;
+  text-align: justify;
+}
+
+.cause-article__content p + p {
+  margin-top: 0.8em;
+}
+
+/* =========================================================
+   Hashtag Chips
+   ========================================================= */
+.hashtag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-xs);
+}
+
+.hashtag-chip {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  background-color: var(--color-yellow);
+  color: var(--color-text);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* =========================================================
+   Share Buttons
+   ========================================================= */
+.share-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+}
+
+.share-label {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--color-blue);
+  margin-right: var(--space-xs);
+}
+
+.cause-wrapper--bg-blue .share-label {
+  color: var(--color-white);
+}
+
+.share-platform-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xs);
+  flex: 1;
+}
+
+.share-platform-buttons .share-btn {
+  justify-content: center;
+  width: 100%;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+  line-height: 1;
+}
+
+.share-btn:hover { opacity: 0.82; }
+
+.share-btn--whatsapp { background: #25D366; color: #fff; }
+.share-btn--twitter  { background: #000;    color: #fff; }
+.share-btn--telegram { background: #2AABEE; color: #fff; }
+.share-btn--facebook { background: #1877F2; color: #fff; }
+.share-btn--native   { background: var(--color-yellow); color: var(--color-text); }
+
+/* Page-level share section */
+.share-page {
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+  border-top: 2px solid var(--color-border);
+}
+
+.share-page__title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-blue);
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-md);
+}
+
+.share-page .share-buttons {
+  justify-content: center;
+}
+
+.share-page .share-label {
+  display: none;
+}
+
+/* =========================================================
+   Footer
+   ========================================================= */
+.site-footer {
+  padding: var(--space-md);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+}
+
+/* =========================================================
+   Responsive — Tablet
+   ========================================================= */
+@media (max-width: 900px) {
+  :root {
+    --space-md:    1.5rem;
+    --article-gap: 3.5rem;
+  }
+}
+
+/* =========================================================
+   Responsive — Mobile
+   ========================================================= */
+@media (max-width: 640px) {
+  .cause-article,
+  .cause-article--image-left,
+  .cause-article--image-right {
+    grid-template-columns: 1fr;
+  }
+
+  .cause-article--image-left .cause-article__image-wrap,
+  .cause-article--image-right .cause-article__image-wrap {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cause-article--image-left .cause-article__body,
+  .cause-article--image-right .cause-article__body {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .cause-wrapper {
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .share-platform-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    padding-bottom: var(--space-md);
+  }
+}

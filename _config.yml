@@ -1,0 +1,18 @@
+title: "Ponete la camiseta"
+description: "🇦🇷 Ponete la camiseta dentro y fuera de la cancha"
+baseurl: ""
+url: ""
+
+collections:
+  causes:
+    output: false
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - design.png
