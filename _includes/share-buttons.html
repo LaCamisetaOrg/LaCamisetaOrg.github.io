@@ -4,7 +4,7 @@
   <button
     class="share-btn share-btn--native"
     data-url="{{ include.url }}"
-    data-text="{{ include.text }}"
+    data-text="{{ include.text }} {{ include.url }}"
     aria-label="Compartir"
     style="display:none"
   >
@@ -26,7 +26,7 @@
       Twitter/X
     </a>
     <a class="share-btn share-btn--telegram"
-       href="https://t.me/share/url?url={{ include.url | url_encode }}&text={{ include.text | url_encode }}"
+       href="https://t.me/share/url?url={{ include.url | url_encode }}&text={{ include.text | append: ' ' | append: include.url | url_encode }}"
        target="_blank" rel="noopener noreferrer" aria-label="Compartir por Telegram">
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.289c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.24 13.848l-2.95-.924c-.642-.204-.654-.642.136-.953l11.521-4.44c.535-.194 1.003.131.615.717z"/></svg>
       Telegram

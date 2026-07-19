@@ -79,7 +79,7 @@ ul[role="list"] {
 .hero {
   padding: var(--space-sm) var(--space-md) var(--space-lg);
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 0;
 }
 
 .hero__title {
@@ -283,10 +283,7 @@ ul[role="list"] {
    Share Buttons
    ========================================================= */
 .share-buttons {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-xs);
+  display: block;
   margin-top: var(--space-sm);
 }
 
@@ -295,7 +292,7 @@ ul[role="list"] {
   font-weight: 800;
   letter-spacing: 0.08em;
   color: var(--color-blue);
-  margin-right: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
 .cause-wrapper--bg-blue .share-label {
@@ -306,7 +303,6 @@ ul[role="list"] {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--space-xs);
-  flex: 1;
 }
 
 .share-platform-buttons .share-btn {
