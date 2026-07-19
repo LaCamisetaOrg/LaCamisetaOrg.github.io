@@ -39,6 +39,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-white);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 img {
@@ -158,7 +159,7 @@ ul[role="list"] {
 }
 
 /* =========================================================
-   Cause Wrapper — full-bleed background stripe
+   Cause Wrapper: full-bleed background stripe
    ========================================================= */
 .cause-wrapper {
   padding: var(--space-lg) var(--space-md);
@@ -182,13 +183,13 @@ ul[role="list"] {
 }
 
 /* =========================================================
-   Cause Article — Base
+   Cause Article: Base
    ========================================================= */
 .cause-article {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: var(--space-md);
-  align-items: stretch;
+  align-items: start;
   max-width: var(--max-width);
   margin: 0 auto;
   width: 100%;
@@ -199,6 +200,8 @@ ul[role="list"] {
   overflow: hidden;
   aspect-ratio: 4 / 3;
   background-color: #cccccc;
+  min-width: 0;
+  width: 100%;
 }
 
 .cause-article__image-wrap img {
@@ -211,6 +214,7 @@ ul[role="list"] {
   gap: var(--space-sm);
   justify-content: flex-start;
   padding: var(--space-sm) 0;
+  min-width: 0;
 }
 
 /* =========================================================
@@ -305,7 +309,7 @@ ul[role="list"] {
 
 .share-platform-buttons {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--space-xs);
 }
 
@@ -372,7 +376,7 @@ ul[role="list"] {
 }
 
 /* =========================================================
-   Responsive — Tablet
+   Responsive: Tablet
    ========================================================= */
 @media (max-width: 900px) {
   :root {
@@ -382,7 +386,7 @@ ul[role="list"] {
 }
 
 /* =========================================================
-   Responsive — Mobile
+   Responsive: Mobile
    ========================================================= */
 @media (max-width: 640px) {
   .cause-article,
