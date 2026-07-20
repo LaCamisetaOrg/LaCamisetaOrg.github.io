@@ -61,6 +61,10 @@ ul[role="list"] {
   padding: var(--space-sm) var(--space-md);
 }
 
+.layout-default .site-header {
+  border-bottom: 2px solid var(--color-border);
+}
+
 .site-brand {
   font-size: 0.8rem;
   font-weight: 700;
@@ -78,7 +82,7 @@ ul[role="list"] {
    Hero
    ========================================================= */
 .hero {
-  padding: var(--space-sm) var(--space-md) var(--space-lg);
+  padding: var(--space-sm) var(--space-md) var(--space-md);
   max-width: var(--max-width);
   margin: 0;
 }
@@ -99,11 +103,59 @@ ul[role="list"] {
 }
 
 /* =========================================================
+   Cause Cards (index)
+   ========================================================= */
+.cause-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+  padding: var(--space-xs) var(--space-md) var(--space-lg);
+  max-width: var(--max-width);
+}
+
+.cause-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid var(--color-border);
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+
+.cause-card:hover {
+  border-color: var(--color-blue);
+  transform: translateY(-2px);
+}
+
+.cause-card__image-wrap {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #ccc;
+}
+
+.cause-card__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.cause-card__title {
+  padding: var(--space-sm);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* =========================================================
    Qué es la camiseta
    ========================================================= */
 .que-es {
-  padding: var(--space-md) var(--space-md) var(--space-lg);
-  border-top: 2px solid var(--color-border);
+  padding: var(--space-lg) var(--space-md);
+  background-color: var(--color-blue);
 }
 
 .que-es__inner {
@@ -113,7 +165,7 @@ ul[role="list"] {
 .que-es__title {
   font-size: clamp(1rem, 2.2vw, 1.4rem);
   font-weight: 800;
-  color: var(--color-blue);
+  color: var(--color-white);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: var(--space-sm);
@@ -121,7 +173,7 @@ ul[role="list"] {
 
 .que-es__body {
   font-size: 0.95rem;
-  color: var(--color-muted);
+  color: rgba(255, 255, 255, 0.88);
   line-height: 1.75;
   text-align: justify;
 }
@@ -183,14 +235,6 @@ ul[role="list"] {
 }
 
 /* =========================================================
-   Causes Section
-   ========================================================= */
-.causes {
-  display: flex;
-  flex-direction: column;
-}
-
-/* =========================================================
    Cause Wrapper: full-bleed background stripe
    ========================================================= */
 .cause-wrapper {
@@ -199,6 +243,11 @@ ul[role="list"] {
 
 .cause-wrapper--bg-blue {
   background-color: var(--color-blue);
+}
+
+.cause-wrapper--actions {
+  padding-top: var(--space-md);
+  padding-bottom: var(--space-md);
 }
 
 .cause-wrapper--bg-white {
@@ -218,84 +267,48 @@ ul[role="list"] {
    Cause Article: Base
    ========================================================= */
 .cause-article {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: var(--space-md);
-  align-items: start;
   max-width: var(--max-width);
   margin: 0 auto;
   width: 100%;
+  overflow: hidden;
 }
 
 .cause-article__image-wrap {
+  float: left;
+  width: calc(50% - var(--space-md) / 2);
+  margin-right: var(--space-md);
   border-radius: 10px;
   overflow: hidden;
   aspect-ratio: 4 / 3;
   background-color: #cccccc;
-  min-width: 0;
-  width: 100%;
 }
 
 .cause-article__image-wrap img {
   object-position: top;
 }
 
+.cause-article--image-right .cause-article__image-wrap {
+  float: right;
+  margin-right: 0;
+  margin-left: var(--space-md);
+}
+
 .cause-article__body {
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
-  justify-content: flex-start;
   padding: var(--space-sm) 0;
-  min-width: 0;
 }
 
-.cause-article__actions {
-  grid-column: 1 / -1;
+.cause-actions {
+  max-width: var(--max-width);
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
-  padding-top: var(--space-sm);
 }
 
-.cause-article__actions::before {
-  content: '';
-  display: block;
-  width: 40%;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.15);
-  align-self: center;
-  margin-bottom: calc(var(--space-sm) / 4);
-}
 
-.cause-wrapper--bg-blue .cause-article__actions::before {
-  background: rgba(255, 255, 255, 0.35);
-}
-
-/* =========================================================
-   Alternating Layout
-   ========================================================= */
-
-/* Image on the left (odd articles) */
-.cause-article--image-left .cause-article__image-wrap {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.cause-article--image-left .cause-article__body {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-/* Image on the right (even articles) */
-.cause-article--image-right .cause-article__image-wrap {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.cause-article--image-right .cause-article__body {
-  grid-column: 1;
-  grid-row: 1;
-}
 
 /* =========================================================
    Article Typography
@@ -473,6 +486,24 @@ ul[role="list"] {
   margin: 0 auto;
 }
 
+.action-page__inner--with-image {
+  overflow: hidden;
+}
+
+.action-page__image-wrap {
+  float: right;
+  width: calc(50% - var(--space-md) / 2);
+  margin-left: var(--space-md);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.action-page__image-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .action-page__title {
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-weight: 800;
@@ -488,13 +519,6 @@ ul[role="list"] {
   line-height: 1.75;
 }
 
-.action-page__body img {
-  width: auto;
-  max-width: 420px;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: var(--space-sm);
-}
 
 .action-page__body p + p {
   margin-top: 0.8em;
@@ -525,22 +549,20 @@ ul[role="list"] {
    Responsive: Mobile
    ========================================================= */
 @media (max-width: 640px) {
-  .cause-article,
-  .cause-article--image-left,
-  .cause-article--image-right {
-    grid-template-columns: 1fr;
-  }
-
-  .cause-article--image-left .cause-article__image-wrap,
+  .cause-article__image-wrap,
   .cause-article--image-right .cause-article__image-wrap {
-    grid-column: 1;
-    grid-row: 1;
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: var(--space-sm);
   }
 
-  .cause-article--image-left .cause-article__body,
-  .cause-article--image-right .cause-article__body {
-    grid-column: 1;
-    grid-row: 2;
+  .action-page__image-wrap {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: var(--space-sm);
   }
 
   .cause-wrapper {

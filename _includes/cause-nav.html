@@ -3,7 +3,7 @@
   <ul class="cause-nav__list" role="list">
     {% for cause in sorted_causes %}
     <li class="cause-nav__item">
-      <a class="cause-nav__pill" href="#{{ cause.slug }}">{{ cause.title }}</a>
+      <a class="cause-nav__pill" href="{{ cause.url | relative_url }}">{{ cause.title }}</a>
     </li>
     {% endfor %}
   </ul>

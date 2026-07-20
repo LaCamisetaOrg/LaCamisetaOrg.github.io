@@ -25,10 +25,18 @@
 <body>
   {% include header.html %}
   <main>
+    {% include cause-nav.html %}
     <article class="action-page">
-      <div class="action-page__inner">
-        <h1 class="action-page__title">{{ page.title }}</h1>
-        <div class="action-page__body">{{ content }}</div>
+      <div class="action-page__inner {% if page.image %}action-page__inner--with-image{% endif %}">
+        {% if page.image %}
+        <div class="action-page__image-wrap">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+        </div>
+        {% endif %}
+        <div class="action-page__body">
+          <h1 class="action-page__title">{{ page.title }}</h1>
+          {{ content }}
+        </div>
       </div>
     </article>
   </main>

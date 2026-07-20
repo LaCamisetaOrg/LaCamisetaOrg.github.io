@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponete la camiseta por {{ page.title }} — {{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:title" content="Ponete la camiseta por {{ page.title }}">
+  <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+  <meta property="og:image:alt" content="{{ page.image_alt | default: page.title }}">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ponete la camiseta por {{ page.title }}">
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+  <meta name="twitter:image:alt" content="{{ page.image_alt | default: page.title }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    {% include cause-nav.html %}
+    <div class="cause-wrapper cause-wrapper--bg-white">
+      <article class="cause-article cause-article--image-left">
+        <div class="cause-article__image-wrap">
+          {% if page.image %}
+          <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
+          {% endif %}
+        </div>
+        <div class="cause-article__body">
+          <h1 class="cause-article__title">Ponete la camiseta por {{ page.title }}</h1>
+          <div class="cause-article__content">{{ content }}</div>
+          <ul class="hashtag-list" role="list">
+            {% for tag in page.hashtags %}
+            <li class="hashtag-chip">#{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </article>
+    </div>
+    <div class="cause-wrapper cause-wrapper--bg-blue cause-wrapper--actions">
+      <div class="cause-actions">
+        {% include organize-buttons.html links=page.organize_links %}
+        {% capture share_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
+        {% capture share_text %}Ponete la camiseta por {{ page.title }}{% endcapture %}
+        {% capture share_tags %}{{ page.hashtags | join: ',' }}{% endcapture %}
+        {% include share-buttons.html url=share_url text=share_text hashtags=share_tags %}
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; {{ 'now' | date: "%Y" }} Ponete la camiseta</p>
+  </footer>
+  <script>
+    if (navigator.share) {
+      document.querySelectorAll('.share-buttons').forEach(function(el) {
+        el.querySelector('.share-platform-buttons').style.display = 'none';
+        var btn = el.querySelector('.share-btn--native');
+        btn.style.display = 'inline-flex';
+        btn.addEventListener('click', function() {
+          navigator.share({ title: document.title, text: btn.dataset.text, url: btn.dataset.url });
+        });
+      });
+    }
+  </script>
+</body>
+</html>

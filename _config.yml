@@ -5,12 +5,19 @@ url: "https://lacamiseta.org"
 
 collections:
   causes:
-    output: false
+    output: true
+    permalink: /:slug/
   sections:
     output: false
   actions:
     output: true
     permalink: /acciones/:slug/
+
+defaults:
+  - scope:
+      type: causes
+    values:
+      layout: cause
 
 markdown: kramdown
 plugins:
