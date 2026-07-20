@@ -7,7 +7,7 @@ hashtags:
   - LaLeyDeGlaciaresNoSeToca
   - ElAguaValeMasQueElOro
   - NoALaReformaDeLaLeyDeGlaciares
-order: 2
+order: 3
 ---
 
 NO a la reforma a la _ley de Glaciares_. Más de 850.000 personas ya respaldan la demanda colectiva más grande de la historia para frenar la reforma de la Ley de Glaciares. Ya fue presentada ante la Justicia (ante el Juzgado Federal de la Provincia de La Pampa) para que se declare su inconstitucionalidad y se suspenda su aplicación en todo el territorio nacional.
