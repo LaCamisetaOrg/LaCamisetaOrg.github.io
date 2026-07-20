@@ -5,6 +5,9 @@ image: /assets/images/parana.png
 image_alt: "Camiseta argentina sostenida sobre el cauce del río Paraná: Ponete la camiseta por el Río Paraná"
 hashtags:
   - NoALaPrivatizaciónDelParana
+organize_links:
+  - text: "Seguí al foro por la recuperación del Paraná"
+    url: "https://www.instagram.com/foroporlarecuperaciondelparana"
 order: 4
 ---
 

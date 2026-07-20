@@ -99,6 +99,38 @@ ul[role="list"] {
 }
 
 /* =========================================================
+   Qué es la camiseta
+   ========================================================= */
+.que-es {
+  padding: var(--space-md) var(--space-md) var(--space-lg);
+  border-top: 2px solid var(--color-border);
+}
+
+.que-es__inner {
+  max-width: var(--max-width);
+}
+
+.que-es__title {
+  font-size: clamp(1rem, 2.2vw, 1.4rem);
+  font-weight: 800;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-sm);
+}
+
+.que-es__body {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  line-height: 1.75;
+  text-align: justify;
+}
+
+.que-es__body p + p {
+  margin-top: 0.8em;
+}
+
+/* =========================================================
    Cause Nav
    ========================================================= */
 .cause-nav {
@@ -217,6 +249,28 @@ ul[role="list"] {
   min-width: 0;
 }
 
+.cause-article__actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding-top: var(--space-sm);
+}
+
+.cause-article__actions::before {
+  content: '';
+  display: block;
+  width: 40%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+  align-self: center;
+  margin-bottom: calc(var(--space-sm) / 4);
+}
+
+.cause-wrapper--bg-blue .cause-article__actions::before {
+  background: rgba(255, 255, 255, 0.35);
+}
+
 /* =========================================================
    Alternating Layout
    ========================================================= */
@@ -288,11 +342,54 @@ ul[role="list"] {
 }
 
 /* =========================================================
+   Organize Buttons
+   ========================================================= */
+.organize-buttons {
+  display: block;
+}
+
+.organize-label {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--color-blue);
+  margin-bottom: var(--space-sm);
+}
+
+.cause-wrapper--bg-blue .organize-label {
+  color: var(--color-white);
+}
+
+.organize-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.organize-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: #7D4016;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  transition: opacity 0.15s ease;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.organize-btn:hover { opacity: 0.82; }
+
+/* =========================================================
    Share Buttons
    ========================================================= */
 .share-buttons {
   display: block;
-  margin-top: var(--space-sm);
 }
 
 .share-label {
@@ -362,6 +459,45 @@ ul[role="list"] {
 
 .share-page .share-label {
   display: none;
+}
+
+/* =========================================================
+   Action Page
+   ========================================================= */
+.action-page {
+  padding: var(--space-lg) var(--space-md);
+}
+
+.action-page__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.action-page__title {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-md);
+}
+
+.action-page__body {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  line-height: 1.75;
+}
+
+.action-page__body img {
+  width: auto;
+  max-width: 420px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: var(--space-sm);
+}
+
+.action-page__body p + p {
+  margin-top: 0.8em;
 }
 
 /* =========================================================

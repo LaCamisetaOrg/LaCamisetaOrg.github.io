@@ -6,6 +6,9 @@ image_alt: "Camiseta argentina sobre vista aérea de campos agrícolas: Ponete l
 hashtags:
   - DefendamosNuestraTierra
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
+organize_links:
+  - text: "Unite a la reunión virtual del 20 de julio"
+    url: "/acciones/reunion20260720/"
 order: 1
 ---
 

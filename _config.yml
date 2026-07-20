@@ -1,11 +1,16 @@
 title: "Ponete la camiseta"
-description: "🇦🇷 Ponete la camiseta dentro y fuera de la cancha"
+description: "Ponete la camiseta dentro y fuera de la cancha"
 baseurl: ""
 url: "https://lacamiseta.org"
 
 collections:
   causes:
     output: false
+  sections:
+    output: false
+  actions:
+    output: true
+    permalink: /acciones/:slug/
 
 markdown: kramdown
 plugins:

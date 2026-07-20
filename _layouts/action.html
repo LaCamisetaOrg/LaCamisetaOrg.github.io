@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/logo.jpeg">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/logo.jpeg">
+
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    <article class="action-page">
+      <div class="action-page__inner">
+        <h1 class="action-page__title">{{ page.title }}</h1>
+        <div class="action-page__body">{{ content }}</div>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; {{ 'now' | date: "%Y" }} Ponete la camiseta</p>
+  </footer>
+</body>
+</html>

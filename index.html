@@ -6,7 +6,7 @@ description: "Ponete la camiseta no sólo en la cancha"
 
 <section class="hero">
   <h1 class="hero__title">Ponete la<br>camiseta</h1>
-  <p class="hero__lemma">🇦🇷 Ponete la camiseta dentro y fuera de la cancha</p>
+  <p class="hero__lemma">Ponete la camiseta dentro y fuera de la cancha</p>
 </section>
 
 {% include cause-nav.html %}
@@ -29,6 +29,9 @@ description: "Ponete la camiseta no sólo en la cancha"
           <li class="hashtag-chip">#{{ tag }}</li>
           {% endfor %}
         </ul>
+      </div>
+      <div class="cause-article__actions">
+        {% include organize-buttons.html links=cause.organize_links %}
         {% capture share_url %}{{ site.url }}{{ site.baseurl }}/#{{ cause.slug }}{% endcapture %}
         {% capture share_text %}Ponete la camiseta por {{ cause.title }}{% endcapture %}
         {% capture share_tags %}{{ cause.hashtags | join: ',' }}{% endcapture %}
@@ -41,3 +44,13 @@ description: "Ponete la camiseta no sólo en la cancha"
 
 {% capture page_url %}{{ site.url }}{{ site.baseurl }}/{% endcapture %}
 {% capture page_text %}{{ site.title }} - {{ site.description }}{% endcapture %}
+
+{% assign que_es = site.sections | where: "slug", "que-es" | first %}
+{% if que_es %}
+<section class="que-es">
+  <div class="que-es__inner">
+    <h2 class="que-es__title">¿Qué es la camiseta?</h2>
+    <div class="que-es__body">{{ que_es.content }}</div>
+  </div>
+</section>
+{% endif %}

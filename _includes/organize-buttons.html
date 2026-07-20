@@ -1,0 +1,10 @@
+{% if include.links and include.links.size > 0 %}
+<div class="organize-buttons">
+  <h3 class="organize-label">ORGANIZATE</h3>
+  <div class="organize-links">
+    {% for link in include.links %}
+    <a href="{{ link.url }}" class="organize-btn" target="_blank" rel="noopener noreferrer">{{ link.text }}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
