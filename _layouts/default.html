@@ -25,6 +25,7 @@
   <meta name="twitter:image:alt" content="{{ site.title }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <script src="{{ '/assets/js/flag.js' | relative_url }}"></script>
 </head>
 <body class="layout-default">
   {% include header.html %}
@@ -45,6 +46,70 @@
         });
       });
     }
+
+    /* DISABLED: la → tu word animation
+    (function () {
+      var word  = document.getElementById('hero-word');
+      var la    = document.getElementById('hero-la');
+      var tu    = document.getElementById('hero-tu');
+      var flagA = document.getElementById('hero-flag-a');
+      var flagB = document.getElementById('hero-flag-b');
+      if (!word) return;
+
+      var INITIAL_DELAY = 1000;
+      var STEP_DURATION = 1300;
+      var FLAG_LINGER   = 1000;
+
+      var STEPS = [
+        { color: '#0F47AF', flag: '/assets/images/wiphala.png'  },
+        { color: '#008000', flag: '/assets/images/wenufoye.png'  },
+        { color: '#6CACE4', flag: '/assets/images/argentina.png' },
+      ];
+
+      var active = flagA, idle = flagB;
+
+      STEPS.forEach(function (step, i) {
+        setTimeout(function () {
+          if (i === 0) {
+            // Text swap + instant color + first flag fade-in
+            la.style.transition = 'opacity 0.35s ease';
+            la.style.opacity    = '0';
+            tu.style.transition = 'opacity 0.35s ease';
+            tu.style.opacity    = '1';
+            tu.removeAttribute('aria-hidden');
+
+            word.style.transition = 'none';
+            word.style.color      = step.color;
+            word.getBoundingClientRect();
+
+            active.src           = step.flag;
+            active.style.opacity = '1';
+          } else {
+            // Simultaneous crossfade: idle fades in, active fades out
+            word.style.transition = 'color ' + (STEP_DURATION / 1000) + 's ease';
+            word.style.color      = step.color;
+
+            idle.src           = step.flag;
+            idle.style.opacity = '1';
+            active.style.opacity = '0';
+
+            var tmp = active; active = idle; idle = tmp;
+          }
+        }, INITIAL_DELAY + i * STEP_DURATION);
+      });
+
+      var lastT = INITIAL_DELAY + (STEPS.length - 1) * STEP_DURATION;
+
+      setTimeout(function () {
+        active.style.opacity = '0';
+      }, lastT + FLAG_LINGER);
+
+      setTimeout(function () {
+        word.style.transition = '';
+        word.style.color      = '';
+      }, lastT + FLAG_LINGER + STEP_DURATION);
+    }());
+    */
   </script>
 </body>
 </html>

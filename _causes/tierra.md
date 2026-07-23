@@ -6,9 +6,16 @@ image_alt: "Camiseta argentina sobre vista aérea de campos agrícolas: Ponete l
 hashtags:
   - DefendamosNuestraTierra
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
-organize_links:
-  - text: "Unite a la reunión virtual del 20 de julio"
-    url: "/acciones/reunion20260720/"
+actions:
+  - title: "Reunión virtual del 20 de julio"
+    link: /acciones/reunion20260720/
+    image: /assets/images/reunion_20260720.jpeg
+  - title: "Acciones por la Tierra del 25 de Julio al 6 de Agosto"
+    link: /acciones/reunion20260725al20260808/
+    image: /assets/images/tierra_20260725al20260808/flyer_1.jpeg
+  - title: "Charla abierta del Observatorio de Tierras"
+    link: /acciones/charla20260729/
+    image: /assets/images/charla_observatorio_tierras.jpeg
 order: 1
 ---
 

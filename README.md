@@ -2,6 +2,18 @@
 
 Jekyll site for social causes, deployable to GitHub Pages.
 
+## Color palettes
+
+Switch at runtime via `setFlag(name)` (persisted in `localStorage`).
+
+| variable                | `argentina` | `wenufoye` | `wiphala` |
+|-------------------------|-------------|------------|-----------|
+| `--color-main`          | `#6CACE4`   | `#008000`  | `#0F47AF` |
+| `--color-complementary` | `#FFB81C`   | `#ffd700`  | `#FCDD09` |
+| `--color-action`        | `#7D4016`   | `#b01f20`  | `#DA121A` |
+| `--color-navbar`        | `#ffffff`   | `#75aadb`  | `#078930` |
+| `--color-footer`        | `#ffffff`   | `#cc0000`  | `#eb7711` |
+
 ## Local development
 
 ```bash

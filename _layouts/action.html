@@ -6,26 +6,67 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
+  {% comment %}
+    Resolve OG image: first element if image is a list, scalar if single, logo as fallback.
+  {% endcomment %}
+  {% if page.image[0].size > 2 %}
+    {% assign og_image = page.image[0] %}
+  {% elsif page.image %}
+    {% assign og_image = page.image %}
+  {% else %}
+    {% assign og_image = '/logo.jpeg' %}
+  {% endif %}
+
   <!-- Open Graph / WhatsApp / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/logo.jpeg">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ og_image }}">
   <meta property="og:locale" content="es_AR">
   <meta property="og:site_name" content="{{ site.title }}">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/logo.jpeg">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ og_image }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <script src="{{ '/assets/js/flag.js' | relative_url }}"></script>
 </head>
 <body>
   {% include header.html %}
   <main>
     {% include cause-nav.html %}
+    {% comment %}
+      Detect gallery: page.image[0] returns the first array element when image is a list,
+      or the first character when it is a scalar string. Paths are always longer than 2 chars.
+    {% endcomment %}
+    {% assign is_gallery = false %}
+    {% if page.image[0].size > 2 %}
+      {% assign is_gallery = true %}
+    {% endif %}
+    {% if is_gallery %}
+    <div class="cause-wrapper cause-wrapper--bg-blue">
+      <div class="action-page__inner">
+        <h1 class="action-page__title">{{ page.title }}</h1>
+        <div class="action-gallery">
+          {% for img in page.image %}
+          <div class="action-gallery__item">
+            <img src="{{ img | relative_url }}" alt="{{ page.title }}" loading="lazy">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <article class="action-page">
+      <div class="action-page__inner">
+        <div class="action-page__body">
+          {{ content }}
+        </div>
+      </div>
+    </article>
+    {% else %}
     <article class="action-page">
       <div class="action-page__inner {% if page.image %}action-page__inner--with-image{% endif %}">
         {% if page.image %}
@@ -39,9 +80,64 @@
         </div>
       </div>
     </article>
+    {% endif %}
+    <div class="cause-wrapper cause-wrapper--bg-blue cause-wrapper--actions">
+      <div class="cause-actions">
+        {% capture share_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
+        {% capture share_text %}{{ page.title }}{% endcapture %}
+        {% include share-buttons.html url=share_url text=share_text %}
+      </div>
+    </div>
   </main>
   <footer class="site-footer">
     <p>&copy; {{ 'now' | date: "%Y" }} Ponete la camiseta</p>
   </footer>
+  <script>
+    if (navigator.share) {
+      document.querySelectorAll('.share-buttons').forEach(function(el) {
+        el.querySelector('.share-platform-buttons').style.display = 'none';
+        var btn = el.querySelector('.share-btn--native');
+        btn.style.display = 'inline-flex';
+        btn.addEventListener('click', function() {
+          navigator.share({ title: document.title, text: btn.dataset.text, url: btn.dataset.url });
+        });
+      });
+    }
+  </script>
+  {% if is_gallery %}
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <button class="lightbox__close" aria-label="Cerrar">&times;</button>
+    <img class="lightbox__img" src="" alt="">
+  </div>
+  <script>
+    (function () {
+      var lb    = document.getElementById('lightbox');
+      var lbImg = lb.querySelector('.lightbox__img');
+
+      document.querySelectorAll('.action-gallery__item img').forEach(function (img) {
+        img.parentElement.style.cursor = 'zoom-in';
+        img.parentElement.addEventListener('click', function () {
+          lbImg.src = img.src;
+          lbImg.alt = img.alt;
+          lb.classList.add('is-open');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      function close() {
+        lb.classList.remove('is-open');
+        document.body.style.overflow = '';
+      }
+
+      lb.addEventListener('click', function (e) {
+        if (e.target !== lbImg) close();
+      });
+      lb.querySelector('.lightbox__close').addEventListener('click', close);
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') close();
+      });
+    }());
+  </script>
+  {% endif %}
 </body>
 </html>

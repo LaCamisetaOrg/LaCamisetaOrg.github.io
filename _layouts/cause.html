@@ -24,6 +24,7 @@
   <meta name="twitter:image:alt" content="{{ page.image_alt | default: page.title }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <script src="{{ '/assets/js/flag.js' | relative_url }}"></script>
 </head>
 <body>
   {% include header.html %}
@@ -49,7 +50,21 @@
     </div>
     <div class="cause-wrapper cause-wrapper--bg-blue cause-wrapper--actions">
       <div class="cause-actions">
-        {% include organize-buttons.html links=page.organize_links %}
+        {% if page.actions.size > 0 %}
+        <h3 class="organize-label">ORGANIZATE</h3>
+        <div class="cause-action-cards">
+          {% for action in page.actions %}
+          <a class="cause-card" href="{{ action.link | relative_url }}">
+            <div class="cause-card__image-wrap">
+              {% if action.image %}
+              <img src="{{ action.image | relative_url }}" alt="{{ action.title }}" loading="lazy">
+              {% endif %}
+            </div>
+            <span class="cause-card__title">{{ action.title }}</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
         {% capture share_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
         {% capture share_text %}Ponete la camiseta por {{ page.title }}{% endcapture %}
         {% capture share_tags %}{{ page.hashtags | join: ',' }}{% endcapture %}
