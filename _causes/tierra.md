@@ -16,6 +16,11 @@ actions:
   - title: "Charla abierta del Observatorio de Tierras"
     link: /acciones/charla20260729/
     image: /assets/images/charla_observatorio_tierras.jpeg
+  - title: "Campaña Plurinacional \"Todx Somos Pueblo Lule\""
+    link: https://www.instagram.com/p/DbHQoltztkz/
+    image: /assets/images/lule.jpg
+
+
 order: 1
 ---
 
