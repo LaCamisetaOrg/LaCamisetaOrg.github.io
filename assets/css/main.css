@@ -203,6 +203,10 @@ ul[role="list"] {
   margin-bottom: var(--space-md);
 }
 
+.cause-article__body h2 {
+  padding-top: var(--space-sm);
+}
+
 /* =========================================================
    Qué es la camiseta
    ========================================================= */
@@ -350,7 +354,7 @@ ul[role="list"] {
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
-  padding: var(--space-sm) 0;
+  padding: 0 0 var(--space-sm);
 }
 
 .cause-actions {
@@ -366,14 +370,6 @@ ul[role="list"] {
 /* =========================================================
    Article Typography
    ========================================================= */
-.cause-article__title {
-  font-size: clamp(1rem, 2.2vw, 1.4rem);
-  font-weight: 800;
-  color: var(--color-main);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  line-height: 1.2;
-}
 
 .cause-article__content {
   font-size: 0.95rem;
@@ -557,13 +553,13 @@ ul[role="list"] {
   display: block;
 }
 
-.action-page__title {
+.action-page__title, .cause-article__title {
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-weight: 800;
   color: var(--color-main);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  margin-bottom: var(--space-md);
+  margin-bottom: 0;
 }
 
 .cause-wrapper--bg-blue .action-page__title {
@@ -580,6 +576,12 @@ ul[role="list"] {
 .action-page__body p + p {
   margin-top: 0.8em;
 }
+
+.action-page__body li {
+  margin-left: 1em;
+}
+
+
 
 /* =========================================================
    Action Gallery (multi-image list)
