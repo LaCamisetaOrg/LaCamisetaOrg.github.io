@@ -31,7 +31,7 @@
   <main>
     {% include cause-nav.html %}
     <div class="cause-wrapper cause-wrapper--bg-white">
-      <article class="cause-article cause-article--image-left">
+      <article class="cause-article cause-article--image-right">
         <div class="cause-article__image-wrap">
           {% if page.image %}
           <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
@@ -39,12 +39,12 @@
         </div>
         <div class="cause-article__body">
           <h1 class="cause-article__title">Ponete la camiseta por {{ page.title }}</h1>
-          <div class="cause-article__content">{{ content }}</div>
           <ul class="hashtag-list" role="list">
             {% for tag in page.hashtags %}
             <li class="hashtag-chip">#{{ tag }}</li>
             {% endfor %}
           </ul>
+          <div class="cause-article__content">{{ content }}</div>
         </div>
       </article>
     </div>
