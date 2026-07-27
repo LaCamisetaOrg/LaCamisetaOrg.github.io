@@ -8,18 +8,27 @@ hashtags:
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - LaTierraNoSeVendeNoSeQuemaNiSeDesaloja
 actions:
-  - title: "Reunión virtual del 20 de julio"
-    link: /acciones/reunion20260720/
-    image: /assets/images/reunion_20260720.jpeg
-  - title: Firmá el petitorio del observatorio de tierras
-    link: https://www.observatoriodetierras.ar/
-    image: /assets/images/observatorio_tierras.jpeg
-  - title: "Acciones por la Tierra del 25 de Julio al 6 de Agosto"
-    link: /acciones/reunion20260725al20260808/
-    image: /assets/images/tierra_20260725al20260808/flyer_1.jpeg
+  - title: "Banderazo 1° de Agosto"
+    link: /acciones/banderazo20260801/
+    image: /assets/images/banderazo20260801.jpeg
+  - title: "La Tierra Explota - Gaumont"
+    link: /acciones/latierraexplota/
+    image: /assets/images/latierraexplota.jpeg
   - title: "Charla abierta del Observatorio de Tierras"
     link: /acciones/charla20260729/
     image: /assets/images/charla_observatorio_tierras.jpeg
+  - title: "Acciones por la Tierra del 25 de Julio al 6 de Agosto"
+    link: /acciones/reunion20260725al20260808/
+    image: /assets/images/tierra_20260725al20260808/flyer_1.jpeg
+  - title: Firmá el petitorio del observatorio de tierras
+    link: https://www.observatoriodetierras.ar/
+    image: /assets/images/observatorio_tierras.jpeg
+  - title: "Basta de Falsas Soluciones"
+    link: https://www.instagram.com/bastadefalsassoluciones/
+    image: /assets/images/bfs.jpg
+  - title: "Reunión virtual del 20 de julio"
+    link: /acciones/reunion20260720/
+    image: /assets/images/reunion_20260720.jpeg
   - title: "Campaña Plurinacional \"Todx Somos Pueblo Lule\""
     link: https://www.instagram.com/p/DbHQoltztkz/
     image: /assets/images/lule.jpg

@@ -5,6 +5,13 @@
   ];
 
   var PALETTES = {
+    'default': {
+      '--color-main':          '#cc0000',
+      '--color-complementary': '#cc0000',
+      '--color-action':        '#1a1a1a',
+      '--color-navbar':        '#ffffff',
+      '--color-footer':        '#ffffff',
+    },
     argentina: {
       '--color-main':          '#6CACE4',
       '--color-complementary': '#FFB81C',
@@ -28,7 +35,7 @@
     },
   };
 
-  function setFlag(name) {
+  function setThemeColors(name) {
     var palette = PALETTES[name];
     if (!palette) return;
     var root = document.documentElement;
@@ -39,8 +46,8 @@
 
   try {
     var saved = localStorage.getItem('lacamiseta-flag');
-    if (saved && PALETTES[saved]) setFlag(saved);
+    if (saved && PALETTES[saved]) setThemeColors(saved);
   } catch (e) {}
 
-  window.setFlag = setFlag;
+  window.setThemeColors = setThemeColors;
 }());

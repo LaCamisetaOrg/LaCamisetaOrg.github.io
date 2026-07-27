@@ -30,13 +30,13 @@
   {% include header.html %}
   <main>
     {% include cause-nav.html %}
+    {% if page.image %}
+    <div class="cause-banner">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
+    </div>
+    {% endif %}
     <div class="cause-wrapper cause-wrapper--bg-white">
-      <article class="cause-article cause-article--image-right">
-        <div class="cause-article__image-wrap">
-          {% if page.image %}
-          <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
-          {% endif %}
-        </div>
+      <article class="cause-article">
         <div class="cause-article__body">
           <h1 class="cause-article__title">Ponete la camiseta por {{ page.title }}</h1>
           <ul class="hashtag-list" role="list">
@@ -86,6 +86,17 @@
         });
       });
     }
+
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('main-nav');
+      if (!toggle || !nav) return;
+      toggle.addEventListener('click', function () {
+        var expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('is-open');
+      });
+    }());
   </script>
 </body>
 </html>

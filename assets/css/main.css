@@ -61,12 +61,13 @@ ul[role="list"] {
    Site Header
    ========================================================= */
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: var(--space-sm) var(--space-md);
   background-color: var(--color-navbar);
-}
-
-.layout-default .site-header {
   border-bottom: 2px solid var(--color-border);
+  position: relative;
 }
 
 .site-brand {
@@ -83,20 +84,49 @@ ul[role="list"] {
 }
 
 /* =========================================================
-   Hero word animation
+   Main Nav (mobile-only; hidden on desktop)
    ========================================================= */
-#hero-word {
-  position: relative;
-  display: inline-block;
+.main-nav {
+  display: none;
 }
 
-#hero-tu {
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
+.main-nav__link {
+  color: var(--color-main);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
+.main-nav__link:hover {
+  opacity: 0.75;
+}
+
+/* =========================================================
+   Hamburger Toggle
+   ========================================================= */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.nav-toggle__bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-main);
+  border-radius: 2px;
+  transition: background-color 0.15s ease;
+}
+
+/* =========================================================
+   Hero flag slot (reserved for future use)
+   ========================================================= */
 #hero-flag-slot {
   display: inline-block;
   position: relative;
@@ -292,6 +322,22 @@ ul[role="list"] {
 }
 
 /* =========================================================
+   Cause Banner (full-width image on desktop)
+   ========================================================= */
+.cause-banner {
+  width: 100%;
+  overflow: hidden;
+  height: 380px;
+}
+
+.cause-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* =========================================================
    Cause Wrapper: full-bleed background stripe
    ========================================================= */
 .cause-wrapper {
@@ -327,27 +373,6 @@ ul[role="list"] {
   max-width: var(--max-width);
   margin: 0 auto;
   width: 100%;
-  overflow: hidden;
-}
-
-.cause-article__image-wrap {
-  float: left;
-  width: calc(50% - var(--space-md) / 2);
-  margin-right: var(--space-md);
-  border-radius: 10px;
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-  background-color: #cccccc;
-}
-
-.cause-article__image-wrap img {
-  object-position: top;
-}
-
-.cause-article--image-right .cause-article__image-wrap {
-  float: right;
-  margin-right: 0;
-  margin-left: var(--space-md);
 }
 
 .cause-article__body {
@@ -577,7 +602,8 @@ ul[role="list"] {
   margin-top: 0.8em;
 }
 
-.action-page__body li {
+.action-page__body li,
+.cause-article__content li {
   margin-left: 1em;
 }
 
@@ -674,13 +700,60 @@ ul[role="list"] {
    Responsive: Mobile
    ========================================================= */
 @media (max-width: 640px) {
-  .cause-article__image-wrap,
-  .cause-article--image-right .cause-article__image-wrap {
-    float: none;
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: var(--space-sm);
+  .nav-toggle {
+    display: flex;
+  }
+
+  .main-nav.is-open {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 220px;
+    background: var(--color-navbar);
+    border: 2px solid var(--color-border);
+    border-top: none;
+    border-radius: 0 0 0 8px;
+    z-index: 100;
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .main-nav__list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .main-nav__link {
+    display: block;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .main-nav__group-title {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-muted);
+    padding: var(--space-sm) 0 0.25rem;
+  }
+
+  .main-nav__link--sub {
+    padding-left: var(--space-sm);
+    font-size: 0.85rem;
+  }
+
+  .main-nav__sublist li:last-child .main-nav__link {
+    border-bottom: none;
+  }
+
+  .cause-nav {
+    display: none;
+  }
+
+  .cause-banner {
+    height: 220px;
   }
 
   .action-page__image-wrap {

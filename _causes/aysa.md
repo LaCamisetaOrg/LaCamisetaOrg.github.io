@@ -7,6 +7,10 @@ hashtags:
   - AysaNoSeVende
   - ElAguaSeDefiende
   - ElAguaEsNuestra
+actions:
+  - title: "Fuera Mekorot"
+    link: https://www.instagram.com/fueramekorot/
+    image: /assets/images/fueramekorot.jpg
 order: 2
 ---
 
