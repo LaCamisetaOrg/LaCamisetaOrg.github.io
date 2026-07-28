@@ -1,5 +1,5 @@
 (function () {
-  var AVAILABLE_FLAGS = ['argentina', 'wiphala'];
+  var AVAILABLE_FLAGS = ['argentina'];
 
   var VARS = [
     '--color-main', '--color-secondary', '--color-complementary', '--color-text-complementary',
