@@ -15,24 +15,33 @@
   var overlay = document.getElementById('presentation-overlay');
   var revealDeck = null;
 
+  function setOverlayHeight() {
+    var h = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    overlay.style.height = h + 'px';
+  }
+
   function loadReveal(cb) {
     if (window.Reveal && window.RevealMarkdown) { cb(); return; }
+    // Load CSS first, then JS, so RevealJS measures an already-styled DOM.
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css';
-    document.head.appendChild(link);
-    var s = document.createElement('script');
-    s.src = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js';
-    s.onload = function () {
-      var md = document.createElement('script');
-      md.src = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js';
-      md.onload = cb;
-      document.head.appendChild(md);
+    link.onload = function () {
+      var s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js';
+      s.onload = function () {
+        var md = document.createElement('script');
+        md.src = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js';
+        md.onload = cb;
+        document.head.appendChild(md);
+      };
+      document.head.appendChild(s);
     };
-    document.head.appendChild(s);
+    document.head.appendChild(link);
   }
 
   window.openPresentation = function () {
+    setOverlayHeight();
     overlay.hidden = false;
     document.body.style.overflow = 'hidden';
     var nav = document.getElementById('main-nav');
@@ -51,7 +60,24 @@
           center: true,
           transition: 'slide'
         });
-        revealDeck.initialize();
+        revealDeck.initialize().then(function () {
+          // Keep the overlay class in sync so CSS can show the arrow on the last slide.
+          function syncLastSlide() {
+            overlay.classList.toggle('is-last-slide', revealDeck.isLastSlide());
+          }
+          revealDeck.on('slidechanged', syncLastSlide);
+          syncLastSlide();
+
+          // Wire the standard navigate-right control to close on the last slide.
+          var nextBtn = overlay.querySelector('.navigate-right');
+          if (nextBtn) {
+            nextBtn.addEventListener('click', function () {
+              if (revealDeck.isLastSlide()) closePresentation();
+            });
+          }
+          // Let the browser paint the overlay before measuring slide dimensions.
+          requestAnimationFrame(function () { revealDeck.layout(); });
+        });
       });
     } else {
       revealDeck.layout();
@@ -60,28 +86,41 @@
 
   window.closePresentation = function () {
     overlay.hidden = true;
+    overlay.style.height = '';
     document.body.style.overflow = '';
     document.documentElement.style.overflow = '';
   };
 
+  // Recalculate on mobile when the URL bar collapses/expands.
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', function () {
+      if (!overlay.hidden) {
+        setOverlayHeight();
+        if (revealDeck) revealDeck.layout();
+      }
+    });
+  }
+
   document.getElementById('close-presentation').addEventListener('click', closePresentation);
 
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && !overlay.hidden) {
+    if (overlay.hidden) return;
+    if (e.key === 'Escape') {
       e.stopPropagation();
       closePresentation();
     }
-  });
+    if (e.key === 'ArrowRight' && revealDeck && revealDeck.isLastSlide()) {
+      closePresentation();
+    }
+  }, true); // capture phase so it fires before RevealJS's own handler
 
-  // Auto-show the presentation on the first visit to the home page.
-  // Uncomment this block to enable it.
-  // if (window.location.pathname === '/' || window.location.pathname === '') {
-  //   var shown;
-  //   try { shown = localStorage.getItem('lacamiseta-presentation-shown'); } catch (err) {}
-  //   if (!shown) {
-  //     openPresentation();
-  //     try { localStorage.setItem('lacamiseta-presentation-shown', '1'); } catch (err) {}
-  //   }
-  // }
+  if (window.location.pathname === '/' || window.location.pathname === '') {
+    var shown;
+    try { shown = localStorage.getItem('lacamiseta-presentation-shown'); } catch (err) {}
+    if (!shown) {
+      openPresentation();
+      try { localStorage.setItem('lacamiseta-presentation-shown', '1'); } catch (err) {}
+    }
+  }
 }());
 </script>

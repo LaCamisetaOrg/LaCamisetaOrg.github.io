@@ -1,12 +1,12 @@
 # El territorio está siendo saqueado
 
-El suelo que habitamos está siendo saqueado, con renovada intensidad: su agua, sus lagos, ríos y glaciares; su tierra, sus bosques nativos, parques nacionales y humedales; su ciencia, salud, educación y arte.
+El suelo que habitamos está siendo saqueado con renovada intensidad: su agua, sus lagos, ríos y glaciares; su tierra, sus bosques nativos, parques nacionales y humedales; su ciencia, salud, educación y arte.
 
 ---
 
 # El saqueo nos afecta
 
-El saqueo ataca a quienes siempre hemos perdido: las comunidades originarias, a las familias campesinas e inquilinas, a pequeños productores, a la clase trabajadora y desocupada, a las mujeres y disidencias, a las personas pobres, racionalizadas, migrantes, mayores y discapacitadas.
+El saqueo ataca a quienes siempre hemos perdido: a las familias inquilinas y campesinas, a las comunidades indígenas y de pequeños productores, a la clase trabajadora y desocupada, a las mujeres y disidencias, a las personas pobres, racionalizadas, migrantes, mayores y discapacitadas.
 
 ---
 
