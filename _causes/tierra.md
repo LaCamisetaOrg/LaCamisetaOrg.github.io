@@ -1,7 +1,7 @@
 ---
 title: "La Tierra"
 slug: "tierra"
-image: /assets/images/tierra.png
+image: /assets/images/causes/tierra.png
 image_alt: "Camiseta argentina sobre vista aérea de campos agrícolas: Ponete la camiseta contra la extranjerización del territorio"
 hashtags:
   - DefendamosNuestraTierra
@@ -29,12 +29,13 @@ actions:
   - title: "Seguí a Basta de Falsas Soluciones"
     link: https://www.instagram.com/bastadefalsassoluciones/
     image: /assets/images/bfs.jpg
-  - title: "Reunión virtual del 20 de julio"
-    link: /acciones/reunion20260720/
-    image: /assets/images/reunion_20260720.jpeg
   - title: "Sumate a la Campaña Plurinacional \"Todx Somos Pueblo Lule\""
     link: https://www.instagram.com/p/DbHQoltztkz/
     image: /assets/images/lule.jpg
+past-actions:
+  - title: "Reunión virtual del 20 de julio"
+    link: /acciones/reunion20260720/
+    image: /assets/images/reunion_20260720.jpeg
 order: 1
 ---
 
@@ -79,3 +80,8 @@ También modifica la Ley de Manejo del Fuego y elimina las prohibiciones que imp
 ## LA TIERRA NO ES UNA MERCANCÍA MÁS
 
 En esos territorios están el agua, los alimentos, el litio, el cobre, las tierras raras, los hidrocarburos y la biodiversidad. Pero ahí también viven comunidades y familias. Discutir quién compra la tierra es discutir quién controla nuestros recursos, quién se queda con la riqueza y quién decide sobre el futuro del país. Todo al servicio de despoblar el territorio y capturar dólares para pagarle al FMI
+
+<video class="cause-video" controls>
+  <source src="../assets/videos/banderazo_tierras.mp4" type="video/mp4">
+  Video: No a la ley de inviolabilidad de la propiedad privada. Convocatoria Banderazo 6 de Agosto.
+</video>
