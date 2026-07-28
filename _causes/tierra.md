@@ -75,8 +75,3 @@ Quemar un bosque, un humedal o un territorio productivo podría volver a ser un 
 ## LA TIERRA NO ES UNA MERCANCÍA MÁS
 
 En esos territorios están el agua, los alimentos, el litio, el cobre, las tierras raras, los hidrocarburos y la biodiversidad. Pero ahí también viven comunidades y familias. Discutir quién compra la tierra es discutir quién controla nuestros recursos, quién se queda con la riqueza y quién decide sobre el futuro del país. Todo al servicio de despoblar el territorio y capturar dólares para pagarle al FMI
-
-<video class="cause-video" controls>
-  <source src="../assets/videos/banderazo_tierras.mp4" type="video/mp4">
-  Video: No a la ley de inviolabilidad de la propiedad privada. Convocatoria Banderazo 6 de Agosto.
-</video>
