@@ -8,7 +8,7 @@ hashtags:
   - ElAguaSeDefiende
   - ElAguaEsNuestra
 actions:
-  - title: "Fuera Mekorot"
+  - title: "Seguí a la Campaña Fuera Mekorot"
     link: https://www.instagram.com/fueramekorot/
     image: /assets/images/fueramekorot.jpg
 order: 2

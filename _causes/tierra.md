@@ -5,31 +5,34 @@ image: /assets/images/tierra.png
 image_alt: "Camiseta argentina sobre vista aérea de campos agrícolas: Ponete la camiseta contra la extranjerización del territorio"
 hashtags:
   - DefendamosNuestraTierra
-  - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - LaTierraNoSeVendeNoSeQuemaNiSeDesaloja
+  - LaTierraSeCuidaSeHabitaYSeDefiende
+  - NuestroSueloNoTienePrecio
+  - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
+  - DerechoAlTerritorioDerechoAlHogar
 actions:
-  - title: "Banderazo 1° de Agosto"
+  - title: "Sumate al Banderazo del 1° de Agosto"
     link: /acciones/banderazo20260801/
     image: /assets/images/banderazo20260801.jpeg
-  - title: "La Tierra Explota - Gaumont"
+  - title: "Mirá la La Tierra Explota en el Gaumont"
     link: /acciones/latierraexplota/
     image: /assets/images/latierraexplota.jpeg
-  - title: "Charla abierta del Observatorio de Tierras"
+  - title: "Sumate a la Charla abierta del Observatorio de Tierras"
     link: /acciones/charla20260729/
     image: /assets/images/charla_observatorio_tierras.jpeg
-  - title: "Acciones por la Tierra del 25 de Julio al 6 de Agosto"
+  - title: "Participá de las acciones por la Tierra del 25 de Julio al 6 de Agosto"
     link: /acciones/reunion20260725al20260808/
     image: /assets/images/tierra_20260725al20260808/flyer_1.jpeg
   - title: Firmá el petitorio del observatorio de tierras
     link: https://www.observatoriodetierras.ar/
     image: /assets/images/observatorio_tierras.jpeg
-  - title: "Basta de Falsas Soluciones"
+  - title: "Seguí a Basta de Falsas Soluciones"
     link: https://www.instagram.com/bastadefalsassoluciones/
     image: /assets/images/bfs.jpg
   - title: "Reunión virtual del 20 de julio"
     link: /acciones/reunion20260720/
     image: /assets/images/reunion_20260720.jpeg
-  - title: "Campaña Plurinacional \"Todx Somos Pueblo Lule\""
+  - title: "Sumate a la Campaña Plurinacional \"Todx Somos Pueblo Lule\""
     link: https://www.instagram.com/p/DbHQoltztkz/
     image: /assets/images/lule.jpg
 order: 1
@@ -72,3 +75,8 @@ Quemar un bosque, un humedal o un territorio productivo podría volver a ser un 
 ## LA TIERRA NO ES UNA MERCANCÍA MÁS
 
 En esos territorios están el agua, los alimentos, el litio, el cobre, las tierras raras, los hidrocarburos y la biodiversidad. Pero ahí también viven comunidades y familias. Discutir quién compra la tierra es discutir quién controla nuestros recursos, quién se queda con la riqueza y quién decide sobre el futuro del país. Todo al servicio de despoblar el territorio y capturar dólares para pagarle al FMI
+
+<video class="cause-video" controls>
+  <source src="../assets/videos/banderazo_tierras.mp4" type="video/mp4">
+  Video: No a la ley de inviolabilidad de la propiedad privada. Convocatoria Banderazo 6 de Agosto.
+</video>

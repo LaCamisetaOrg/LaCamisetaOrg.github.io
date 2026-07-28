@@ -9,6 +9,9 @@
     <ul class="main-nav__list" role="list">
       <li><a href="{{ '/' | relative_url }}" class="main-nav__link">Inicio</a></li>
       <li><a href="{{ '/#que-es' | relative_url }}" class="main-nav__link">¿Qué es?</a></li>
+      <li class="nav-presentation-mobile">
+        <button class="main-nav__link main-nav__btn" onclick="openPresentation()">Presentación</button>
+      </li>
       <li class="main-nav__group">
         <span class="main-nav__group-title">Causas urgentes</span>
         <ul class="main-nav__sublist" role="list">
@@ -20,4 +23,7 @@
       </li>
     </ul>
   </nav>
+  {% if page.url == '/' %}
+  <button class="nav-btn-presentation" onclick="openPresentation()">Presentación</button>
+  {% endif %}
 </header>

@@ -1,0 +1,87 @@
+<div id="presentation-overlay" class="presentation-overlay" hidden>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown>
+        <textarea data-template>
+{% include presentation.md %}
+        </textarea>
+      </section>
+    </div>
+  </div>
+  <button class="presentation-close" id="close-presentation" aria-label="Cerrar presentación">&#215;</button>
+</div>
+<script>
+(function () {
+  var overlay = document.getElementById('presentation-overlay');
+  var revealDeck = null;
+
+  function loadReveal(cb) {
+    if (window.Reveal && window.RevealMarkdown) { cb(); return; }
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css';
+    document.head.appendChild(link);
+    var s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js';
+    s.onload = function () {
+      var md = document.createElement('script');
+      md.src = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js';
+      md.onload = cb;
+      document.head.appendChild(md);
+    };
+    document.head.appendChild(s);
+  }
+
+  window.openPresentation = function () {
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+    var nav = document.getElementById('main-nav');
+    var toggle = document.querySelector('.nav-toggle');
+    if (nav && nav.classList.contains('is-open')) {
+      nav.classList.remove('is-open');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    }
+    if (!revealDeck) {
+      loadReveal(function () {
+        revealDeck = new Reveal(overlay.querySelector('.reveal'), {
+          plugins: [RevealMarkdown],
+          hash: false,
+          controls: true,
+          progress: true,
+          center: true,
+          transition: 'slide'
+        });
+        revealDeck.initialize();
+      });
+    } else {
+      revealDeck.layout();
+    }
+  };
+
+  window.closePresentation = function () {
+    overlay.hidden = true;
+    document.body.style.overflow = '';
+    document.documentElement.style.overflow = '';
+  };
+
+  document.getElementById('close-presentation').addEventListener('click', closePresentation);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !overlay.hidden) {
+      e.stopPropagation();
+      closePresentation();
+    }
+  });
+
+  // Auto-show the presentation on the first visit to the home page.
+  // Uncomment this block to enable it.
+  // if (window.location.pathname === '/' || window.location.pathname === '') {
+  //   var shown;
+  //   try { shown = localStorage.getItem('lacamiseta-presentation-shown'); } catch (err) {}
+  //   if (!shown) {
+  //     openPresentation();
+  //     try { localStorage.setItem('lacamiseta-presentation-shown', '1'); } catch (err) {}
+  //   }
+  // }
+}());
+</script>
