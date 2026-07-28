@@ -42,6 +42,10 @@ NO a la **tramposamente llamada _"Ley de Inviolabilidad de la Propiedad Privada"
 
 Este proyecto de ley a tratarse el próximo 6 de Agosto, es una ley ómnibus que afecta a un conjunto de sectores de nuestra sociedad, poniendo en riesgo la soberanía nacional, las capacidades estatales para diseñar políticas públicas y el derecho a la vivienda de millones de familias inquilinas.
 
+## NO ES INVIOLABILIDAD, ES ENTREGA DEL TERRITORIO
+
+El Gobierno busca facilitar la concentración de la tierra, los desalojos y el avance de empresas extractivas, terratenientes y capitales extranjeros sobre nuestros bienes estratégicos. Forma parte del mismo plan de entrega junto a la Ley de Glaciares, el RIGI y  Super RIGI.
+
 ## ¿A QUIÉNES BENEFICIA?
 
 A quienes ya tienen tierra y poder y a las grandes corporaciones extranjeras como Palantir de Peter Thiel.
@@ -62,15 +66,15 @@ Con la desregulación quedarían sin protección específica:
  * El 65% de los ríos
  * El 41% de las nacientes de agua
 
-Además, incorpora el llamado “silencio administrativo": si el Estado no responde dentro del plazo establecido, la compra puede considerarse autorizada.
-DESALOJOS EXPRÉS
+Además, incorpora el llamado "silencio administrativo": si el Estado no responde dentro del plazo establecido, la compra puede considerarse autorizada.
+
+## DESALOJOS EXPRÉS
 
 El proyecto facilita desalojos urbanos y rurales y habilita: Allanamientos, uso de la fuerza pública, apertura de cerraduras, procedimientos en días y horarios inhábiles y restitución inmediata de tierras y viviendas. Más poder para los propietarios. Menos derechos para quienes viven y producen en esos territorios.
 
 ## QUEMAR PARA DESPUÉS COMPRAR
 
-También modifica la Ley de Manejo del Fuego y elimina las prohibiciones que impedían cambiar el uso del suelo durante 30 o 60 años después de un incendio.
-Quemar un bosque, un humedal o un territorio productivo podría volver a ser un negocio inmobiliario o agropecuario.
+También modifica la Ley de Manejo del Fuego y elimina las prohibiciones que impedían cambiar el uso del suelo durante 30 o 60 años después de un incendio. Quemar un bosque, un humedal o un territorio productivo podría volver a ser un negocio inmobiliario o agropecuario.
 
 ## LA TIERRA NO ES UNA MERCANCÍA MÁS
 
