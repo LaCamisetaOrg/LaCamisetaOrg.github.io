@@ -8,7 +8,9 @@
   --color-navbar:        #ffffff;
   --color-footer:        #ffffff;
   --color-white:  #ffffff;
-  --color-text:   #1a1a1a;
+  --color-secondary:           #1a1a1a;
+  --color-text:                #1a1a1a;
+  --color-text-complementary: #1a1a1a;
   --color-muted:  #555555;
   --color-border: #e8e8e8;
 
@@ -125,6 +127,72 @@ ul[role="list"] {
 }
 
 /* =========================================================
+   Hero palette picker
+   ========================================================= */
+.hero-palette-trigger {
+  display: inline-block;
+  position: relative;
+}
+
+#hero-word[role="button"] {
+  color: var(--color-complementary);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: currentColor;
+}
+
+.hero-palette-menu {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  background: var(--color-white);
+  border: 2px solid var(--color-border);
+  border-radius: 8px;
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 150px;
+  z-index: 50;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  font-size: 1rem;
+}
+
+.hero-palette-menu[hidden] {
+  display: none;
+}
+
+.hero-palette-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border: none;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-align: left;
+  width: 100%;
+}
+
+.hero-palette-option:hover {
+  background: var(--color-border);
+}
+
+.hero-palette-option img {
+  width: 22px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 2px;
+  object-fit: contain;
+}
+
+/* =========================================================
    Hero flag slot (reserved for future use)
    ========================================================= */
 #hero-flag-slot {
@@ -199,7 +267,7 @@ ul[role="list"] {
 
 .cause-card:hover,
 .action-gallery__item:hover {
-  border-color: var(--color-main);
+  border-color: var(--color-action);
   transform: translateY(-2px);
 }
 
@@ -233,8 +301,10 @@ ul[role="list"] {
   margin-bottom: var(--space-md);
 }
 
-.cause-article__body h2 {
+.cause-article__body h2,
+.action-page__body h2 {
   padding-top: var(--space-sm);
+  color: var(--color-secondary);
 }
 
 /* =========================================================
@@ -421,7 +491,7 @@ ul[role="list"] {
   display: inline-block;
   padding: 0.3rem 0.85rem;
   background-color: var(--color-complementary);
-  color: var(--color-text);
+  color: var(--color-text-complementary);
   border-radius: 999px;
   font-size: 0.78rem;
   font-weight: 700;
@@ -523,7 +593,7 @@ ul[role="list"] {
 .share-btn--twitter  { background: #000;    color: #fff; }
 .share-btn--telegram { background: #2AABEE; color: #fff; }
 .share-btn--facebook { background: #1877F2; color: #fff; }
-.share-btn--native   { background: var(--color-complementary); color: var(--color-text); }
+.share-btn--native   { background: var(--color-complementary); color: var(--color-text-complementary); }
 
 /* Page-level share section */
 .share-page {
@@ -773,5 +843,143 @@ ul[role="list"] {
 
   .hero {
     padding-bottom: var(--space-md);
+  }
+}
+
+/* =========================================================
+   Cause Video
+   ========================================================= */
+.cause-video {
+  display: block;
+  width: 100%;
+  margin: var(--space-md) auto;
+}
+
+@media (min-width: 641px) {
+  .cause-video {
+    width: 45%;
+  }
+}
+
+/* =========================================================
+   Presentation Overlay
+   ========================================================= */
+.presentation-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: #1a1a1a;
+}
+
+.presentation-overlay .reveal,
+.presentation-overlay .reveal-viewport {
+  width: 100% !important;
+  height: 100% !important;
+  background: #1a1a1a;
+}
+
+.presentation-close {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  z-index: 2001;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.7;
+  padding: 0;
+}
+
+.presentation-close:hover {
+  opacity: 1;
+}
+
+/* RevealJS custom theme — site default palette (rojo, blanco, negro) */
+.reveal {
+  font-family: var(--font-base) !important;
+  color: #ffffff !important;
+}
+
+.reveal .slides section {
+  color: #ffffff;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: #cc0000 !important;
+  font-family: var(--font-base) !important;
+  text-transform: uppercase !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.2em !important;
+}
+
+.reveal p,
+.reveal li {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-left: 1em;
+}
+
+.reveal a {
+  color: #cc0000 !important;
+}
+
+.reveal .progress {
+  color: #cc0000 !important;
+}
+
+.reveal .controls {
+  color: #cc0000 !important;
+}
+
+.reveal strong {
+  color: #cc0000;
+}
+
+/* Desktop nav presentation button */
+.nav-btn-presentation {
+  display: none;
+}
+
+.main-nav__btn {
+  display: block;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font-family: var(--font-base);
+}
+
+@media (min-width: 641px) {
+  .nav-btn-presentation {
+    display: inline-flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-base);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-main);
+    white-space: nowrap;
+    padding: 0;
+  }
+
+  .nav-btn-presentation:hover {
+    opacity: 0.75;
   }
 }
