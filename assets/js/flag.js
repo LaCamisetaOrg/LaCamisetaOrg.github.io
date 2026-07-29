@@ -151,11 +151,11 @@
     if (AVAILABLE_FLAGS.length === 1) {
       initial = AVAILABLE_FLAGS[0];
     } else {
-      initial = saved && PALETTES[saved] && AVAILABLE_FLAGS.indexOf(saved) !== -1 ? saved : 'default';
+      initial = saved && PALETTES[saved] && AVAILABLE_FLAGS.indexOf(saved) !== -1 ? saved : 'argentina';
     }
     setThemeColors(initial);
   } catch (e) {
-    setThemeColors(AVAILABLE_FLAGS.length === 1 ? AVAILABLE_FLAGS[0] : 'default');
+    setThemeColors(AVAILABLE_FLAGS.length === 1 ? AVAILABLE_FLAGS[0] : 'argentina');
   }
 
   window.setThemeColors = setThemeColors;
