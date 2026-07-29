@@ -11,7 +11,7 @@
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   <meta property="og:title" content="Ponete la camiseta por {{ page.title }}">
   <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image | replace: '.png', '_argentina.png' }}">
   <meta property="og:image:alt" content="{{ page.image_alt | default: page.title }}">
   <meta property="og:locale" content="es_AR">
   <meta property="og:site_name" content="{{ site.title }}">
