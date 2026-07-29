@@ -2,6 +2,7 @@
 title: "El Río Paraná"
 slug: "parana"
 image: /assets/images/causes/parana.png
+og_image: /assets/images/causes/parana_compressed.png
 image_alt: "Camiseta argentina sostenida sobre el cauce del río Paraná: Ponete la camiseta por el Río Paraná"
 hashtags:
   - NoALaPrivatizaciónDelParana

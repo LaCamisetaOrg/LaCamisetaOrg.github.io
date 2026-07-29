@@ -2,6 +2,7 @@
 title: "Los Glaciares"
 slug: "glaciares"
 image: /assets/images/causes/glaciares.png
+og_image: /assets/images/causes/aysa_compressed.png
 image_alt: "Camiseta argentina frente a un lago glaciar patagónico con cóndores en el cielo: Ponete la camiseta por los glaciares"
 hashtags:
   - LaLeyDeGlaciaresNoSeToca

@@ -7,9 +7,11 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
 
   {% comment %}
-    Resolve OG image: first element if image is a list, scalar if single, logo as fallback.
+    Resolve OG image: og_image if set, else first element if image is a list, scalar if single, logo as fallback.
   {% endcomment %}
-  {% if page.image[0].size > 2 %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% elsif page.image[0].size > 2 %}
     {% assign og_image = page.image[0] %}
   {% elsif page.image %}
     {% assign og_image = page.image %}

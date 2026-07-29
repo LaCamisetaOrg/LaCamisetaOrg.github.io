@@ -2,6 +2,7 @@
 title: "AySA"
 slug: "aysa"
 image: /assets/images/causes/aysa.png
+og_image: /assets/images/causes/aysa_compressed.png
 image_alt: "Camiseta argentina sostenida sobre un chorro de agua potable: Ponete la camiseta por AySA"
 hashtags:
   - AysaNoSeVende

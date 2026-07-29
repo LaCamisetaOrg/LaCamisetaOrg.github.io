@@ -6,12 +6,18 @@
   <title>Ponete la camiseta por {{ page.title }} — {{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
 
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = page.image | replace: '.png', '_argentina.png' %}
+  {% endif %}
+
   <!-- Open Graph / WhatsApp / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   <meta property="og:title" content="Ponete la camiseta por {{ page.title }}">
   <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image | replace: '.png', '_argentina.png' }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ og_image }}">
   <meta property="og:image:alt" content="{{ page.image_alt | default: page.title }}">
   <meta property="og:locale" content="es_AR">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -20,7 +26,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ponete la camiseta por {{ page.title }}">
   <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ og_image }}">
   <meta name="twitter:image:alt" content="{{ page.image_alt | default: page.title }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">

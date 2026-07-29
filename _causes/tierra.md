@@ -2,7 +2,8 @@
 title: "La Tierra"
 slug: "tierra"
 image: /assets/images/causes/tierra.png
-image_alt: "Camiseta argentina sobre vista aérea de campos agrícolas: Ponete la camiseta contra la extranjerización del territorio"
+og_image: /assets/images/causes/tierra_compressed.png
+image_alt: "Camiseta argentina sobre vista aérea de cataratas: Ponete la camiseta contra la extranjerización del territorio"
 hashtags:
   - DefendamosNuestraTierra
   - LaTierraNoSeVendeNoSeQuemaNiSeDesaloja
