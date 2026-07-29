@@ -301,6 +301,42 @@ ul[role="list"] {
   margin-bottom: var(--space-md);
 }
 
+/* =========================================================
+   Actions Tabs
+   ========================================================= */
+.actions-tabs {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.actions-tab {
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  font-family: var(--font-base);
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  white-space: nowrap;
+}
+
+.actions-tab:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.actions-tab--active {
+  background: var(--color-white);
+  color: var(--color-main);
+  border-color: var(--color-white);
+}
+
 .cause-article__body h2,
 .action-page__body h2 {
   padding-top: var(--space-sm);
@@ -869,6 +905,9 @@ ul[role="list"] {
   inset: 0;
   z-index: 2000;
   background: #1a1a1a;
+  /* Explicit height so percentage children resolve correctly on mobile */
+  height: 100vh;
+  overflow: hidden;
 }
 
 .presentation-overlay .reveal,
@@ -919,6 +958,10 @@ ul[role="list"] {
   margin-bottom: 1.2em !important;
 }
 
+.reveal h1 {
+  font-size: 3rem !important;
+}
+
 .reveal p,
 .reveal li {
   color: rgba(255, 255, 255, 0.9);
@@ -945,6 +988,15 @@ ul[role="list"] {
 
 .reveal strong {
   color: #cc0000;
+}
+
+/* Keep the right arrow visible on the last slide so it can close the presentation */
+.presentation-overlay.is-last-slide .navigate-right {
+  opacity: 0.7 !important;
+}
+
+.presentation-overlay.is-last-slide .navigate-right:hover {
+  opacity: 1 !important;
 }
 
 /* Desktop nav presentation button */
