@@ -114,13 +114,13 @@
     }
   }, true); // capture phase so it fires before RevealJS's own handler
 
-  if (window.location.pathname === '/' || window.location.pathname === '') {
-    var shown;
-    try { shown = localStorage.getItem('lacamiseta-presentation-shown'); } catch (err) {}
-    if (!shown) {
-      openPresentation();
-      try { localStorage.setItem('lacamiseta-presentation-shown', '1'); } catch (err) {}
-    }
-  }
+  // if (window.location.pathname === '/' || window.location.pathname === '') {
+  //   var shown;
+  //   try { shown = localStorage.getItem('lacamiseta-presentation-shown'); } catch (err) {}
+  //   if (!shown) {
+  //     openPresentation();
+  //     try { localStorage.setItem('lacamiseta-presentation-shown', '1'); } catch (err) {}
+  //   }
+  // }
 }());
 </script>
