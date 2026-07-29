@@ -33,7 +33,7 @@ Este sábado 1/08 sumate al BANDERAZO DE LOS PUEBLOS QUE RESISTEN 🇦🇷🇵�
 
 📍15hs Plaza de los 100 años
 
-## Entre Rios
+## Paraná
 
 📍15hs Balneario Municipal
 
