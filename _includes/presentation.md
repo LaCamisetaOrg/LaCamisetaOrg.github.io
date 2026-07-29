@@ -6,7 +6,7 @@ El suelo que habitamos está siendo saqueado con renovada intensidad: su agua, s
 
 # El saqueo nos afecta
 
-El saqueo ataca a quienes siempre hemos perdido: a las familias inquilinas y campesinas, a las comunidades indígenas y de pequeños productores, a la clase trabajadora y desocupada, a las mujeres y disidencias, a las personas pobres, racionalizadas, migrantes, mayores y discapacitadas.
+El saqueo ataca a quienes siempre hemos perdido: a las familias inquilinas y campesinas, a las comunidades indígenas y de pequeños productores, a la clase trabajadora y desocupada, a las mujeres y disidencias, a las personas pobres, racializadas, migrantes, mayores y discapacitadas.
 
 ---
 
