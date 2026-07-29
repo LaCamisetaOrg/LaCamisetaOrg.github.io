@@ -60,7 +60,8 @@
     document.querySelectorAll(CAUSE_IMAGES + '[data-src-base]').forEach(function (img) {
       var base = img.dataset.srcBase;
       var newSrc;
-      if (paletteName === 'default') {
+      var isCauseImage = base.indexOf('assets/images/causes') !== -1;
+      if (paletteName === 'default' || !isCauseImage) {
         newSrc = base;
       } else {
         var dot = base.lastIndexOf('.');
