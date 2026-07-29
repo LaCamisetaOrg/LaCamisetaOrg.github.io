@@ -26,7 +26,7 @@
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css';
-    link.onload = function () {
+link.onload = function () {
       var s = document.createElement('script');
       s.src = 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js';
       s.onload = function () {
@@ -59,7 +59,8 @@
           progress: true,
           center: true,
           transition: 'slide',
-          backgroundColor: '#1a1a1a'
+          backgroundColor: '#1a1a1a',
+          embedded: true
         });
         revealDeck.initialize().then(function () {
           // Keep the overlay class in sync so CSS can show the arrow on the last slide.
