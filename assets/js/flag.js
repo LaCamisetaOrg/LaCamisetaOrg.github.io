@@ -59,15 +59,20 @@
   function swapImages(paletteName) {
     document.querySelectorAll(CAUSE_IMAGES + '[data-src-base]').forEach(function (img) {
       var base = img.dataset.srcBase;
+      var newSrc;
       if (paletteName === 'default') {
-        img.src = base;
-        return;
+        newSrc = base;
+      } else {
+        var dot = base.lastIndexOf('.');
+        if (dot === -1) return;
+        newSrc = base.slice(0, dot) + '_' + paletteName + base.slice(dot);
       }
-      var dot = base.lastIndexOf('.');
-      if (dot === -1) return;
-      var variant = base.slice(0, dot) + '_' + paletteName + base.slice(dot);
-      img.onerror = function () { img.src = base; img.onerror = null; };
-      img.src = variant;
+      var wrap = img.parentElement;
+      img.onload = function () { wrap.classList.remove('is-loading'); img.onload = null; };
+      img.onerror = function () { img.src = base; img.onerror = null; wrap.classList.remove('is-loading'); };
+      wrap.classList.add('is-loading');
+      img.src = newSrc;
+      if (img.complete) wrap.classList.remove('is-loading');
     });
   }
 

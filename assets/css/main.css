@@ -275,6 +275,7 @@ ul[role="list"] {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   background: #ccc;
+  position: relative;
 }
 
 .cause-card__image-wrap img {
@@ -434,6 +435,7 @@ ul[role="list"] {
   width: 100%;
   overflow: hidden;
   height: 380px;
+  position: relative;
 }
 
 .cause-banner img {
@@ -441,6 +443,30 @@ ul[role="list"] {
   height: 100%;
   object-fit: cover;
   object-position: top;
+}
+
+.cause-card__image-wrap.is-loading img,
+.cause-banner.is-loading img {
+  opacity: 0.4;
+}
+
+.cause-card__image-wrap.is-loading::after,
+.cause-banner.is-loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: img-spin 0.7s linear infinite;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes img-spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 /* =========================================================
@@ -914,7 +940,13 @@ ul[role="list"] {
 .presentation-overlay .reveal-viewport {
   width: 100% !important;
   height: 100% !important;
-  background: #1a1a1a;
+  background: #1a1a1a !important;
+}
+
+.presentation-overlay .reveal .backgrounds,
+.presentation-overlay .reveal .slide-background,
+.presentation-overlay .reveal .slide-background-content {
+  background: #1a1a1a !important;
 }
 
 .presentation-close {
