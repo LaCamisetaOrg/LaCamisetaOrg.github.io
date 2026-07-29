@@ -930,17 +930,15 @@ ul[role="list"] {
   position: fixed;
   inset: 0;
   z-index: 2000;
-  background: #1a1a1a;
+  background: #191919;
   /* Explicit height so percentage children resolve correctly on mobile */
   height: 100vh;
   overflow: hidden;
 }
 
-.presentation-overlay .reveal,
-.presentation-overlay .reveal-viewport {
-  width: 100% !important;
-  height: 100% !important;
-  background: #1a1a1a !important;
+.presentation-overlay .reveal {
+  width: 100%;
+  height: 100%;
 }
 
 .presentation-overlay .reveal .backgrounds,
