@@ -18,6 +18,9 @@ actions:
   - title: "El 6 de Agosto se trata la ley. Acciones por región."
     link: /acciones/acciones68/
     image: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
+  - title: "Acciones del Viernes 31 por region"
+    link: /acciones/viernes31/
+    image: /assets/images/tierra_20260725al20260808/viernes_31_junin_charla.jpeg
   - title: "Participá de las acciones por la Tierra del 25 de Julio al 6 de Agosto"
     link: /acciones/reunion20260725al20260808/
     image: /assets/images/tierra_20260725al20260808/flyer_1_b.jpeg
