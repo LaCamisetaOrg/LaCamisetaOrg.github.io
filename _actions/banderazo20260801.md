@@ -6,6 +6,7 @@ image:
   - /assets/images/banderazo20260801.jpeg
   - /assets/images/banderazo20260801tierradelfuego.jpeg
   - /assets/images/banderazo20260801entrerios.jpeg
+  - /assets/images/sabado_1_lomas_de_zamora.jpeg
 ---
 
 
@@ -36,6 +37,10 @@ Este sábado 1/08 sumate al BANDERAZO DE LOS PUEBLOS QUE RESISTEN 🇦🇷🇵�
 ## Paraná
 
 📍15hs Balneario Municipal
+
+## Lomas de Zamora
+
+📍11hs Laprida y España
 
 
 Con las reformas que propone la ley, peligra la autonomía alimentaria, hídrica y el acceso a la tierra, aumenta la desprotección y apropiación de lagos, ríos y nacientes de agua, agiliza y facilita el despojo de comunidades originarias y de quienes son vulnerades en su derecho a la vivienda.
