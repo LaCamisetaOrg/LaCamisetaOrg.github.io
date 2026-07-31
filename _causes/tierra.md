@@ -30,6 +30,9 @@ actions:
   - title: "Sumate a la Campaña Plurinacional \"Todx Somos Pueblo Lule\""
     link: https://www.instagram.com/p/DbHQoltztkz/
     image: /assets/images/lule.jpg
+  - title: "Colaborá con la Caminata Warmis por la tierra"
+    link: /acciones/caminatawarmis/
+    image: /assets/images/tierra_20260725al20260808/caminata_warmis.jpeg
 past-actions:
   - title: "Reunión virtual del 20 de julio"
     link: /acciones/reunion20260720/
