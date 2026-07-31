@@ -15,12 +15,6 @@ actions:
   - title: "Sumate al Banderazo del 1° de Agosto"
     link: /acciones/banderazo20260801/
     image: /assets/images/banderazo20260801.jpeg
-  - title: "Mirá la La Tierra Explota en el Gaumont"
-    link: /acciones/latierraexplota/
-    image: /assets/images/latierraexplota.jpeg
-  - title: "Sumate a la Charla abierta del Observatorio de Tierras"
-    link: /acciones/charla20260729/
-    image: /assets/images/charla_observatorio_tierras.jpeg
   - title: "Participá de las acciones por la Tierra del 25 de Julio al 6 de Agosto"
     link: /acciones/reunion20260725al20260808/
     image: /assets/images/tierra_20260725al20260808/flyer_1.jpeg
@@ -37,6 +31,12 @@ past-actions:
   - title: "Reunión virtual del 20 de julio"
     link: /acciones/reunion20260720/
     image: /assets/images/reunion_20260720.jpeg
+  - title: "Mirá la La Tierra Explota en el Gaumont"
+    link: /acciones/latierraexplota/
+    image: /assets/images/latierraexplota.jpeg
+  - title: "Sumate a la Charla abierta del Observatorio de Tierras"
+    link: /acciones/charla20260729/
+    image: /assets/images/charla_observatorio_tierras.jpeg
 order: 1
 ---
 
