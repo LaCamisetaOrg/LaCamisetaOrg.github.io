@@ -17,7 +17,7 @@ actions:
     image: /assets/images/banderazo20260801.jpeg
   - title: "Participá de las acciones por la Tierra del 25 de Julio al 6 de Agosto"
     link: /acciones/reunion20260725al20260808/
-    image: /assets/images/tierra_20260725al20260808/flyer_1.jpeg
+    image: /assets/images/tierra_20260725al20260808/flyer_1_b.jpeg
   - title: Firmá el petitorio del observatorio de tierras
     link: https://www.observatoriodetierras.ar/
     image: /assets/images/observatorio_tierras.jpeg
