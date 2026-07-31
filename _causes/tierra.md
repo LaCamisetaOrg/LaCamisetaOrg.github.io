@@ -16,7 +16,7 @@ actions:
     link: /acciones/banderazo20260801/
     image: /assets/images/banderazo20260801.jpeg
   - title: "El 6 de Agosto se trata la ley. Acciones por región."
-    link: /acciones/acciones_6_8/
+    link: /acciones/acciones68/
     image: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
   - title: "Participá de las acciones por la Tierra del 25 de Julio al 6 de Agosto"
     link: /acciones/reunion20260725al20260808/
