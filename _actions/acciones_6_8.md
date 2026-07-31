@@ -12,6 +12,10 @@ image:
 
 📍12hs Congreso - Concentración. Verdurazo. Festival. Vuelta a la plaza. Intervenciones.
 
+## Catamarca
+
+📍17hs Plaza 25 de Mayo - Concentración. Jornada Nacional en defensa de la Tierra.
+
 ## Junín
 
 📍16hs Plaza Belgrano - Concentración. 17hs Movilización.
