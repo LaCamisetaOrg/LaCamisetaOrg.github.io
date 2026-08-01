@@ -7,10 +7,12 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
 
   {% comment %}
-    Resolve OG image: og_image if set, else first element if image is a list, scalar if single, logo as fallback.
+    Resolve OG image: og_image if set, else first element if image is a list (objects or strings), scalar if single, logo as fallback.
   {% endcomment %}
   {% if page.og_image %}
     {% assign og_image = page.og_image %}
+  {% elsif page.image[0].src %}
+    {% assign og_image = page.image[0].src %}
   {% elsif page.image[0].size > 2 %}
     {% assign og_image = page.image[0] %}
   {% elsif page.image %}
@@ -41,11 +43,11 @@
   <main>
     {% include cause-nav.html %}
     {% comment %}
-      Detect gallery: page.image[0] returns the first array element when image is a list,
-      or the first character when it is a scalar string. Paths are always longer than 2 chars.
+      Detect gallery: image is a list when the first element is an object (has .src) or a long string (path > 2 chars).
+      A scalar string gives page.image[0] as its first character (size 1).
     {% endcomment %}
     {% assign is_gallery = false %}
-    {% if page.image[0].size > 2 %}
+    {% if page.image[0].src or page.image[0].size > 2 %}
       {% assign is_gallery = true %}
     {% endif %}
     {% if is_gallery %}
@@ -55,7 +57,11 @@
         <div class="action-gallery">
           {% for img in page.image %}
           <div class="action-gallery__item">
+            {% if img.src %}
+            <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
+            {% else %}
             <img src="{{ img | relative_url }}" alt="{{ page.title }}" loading="lazy">
+            {% endif %}
           </div>
           {% endfor %}
         </div>
