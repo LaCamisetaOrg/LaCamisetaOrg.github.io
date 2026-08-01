@@ -18,12 +18,12 @@ actions:
   - title: "La Tierra Explota - Estreno el 1° de Agosto"
     link: /acciones/latierraexplotaestreno18
     image: /assets/images/latierraexplota_afiche.jpeg
+  - title: "Victor Hugo convoca al Banderazo del 1ro de Agosto"
+    link: /acciones/vhconvoca
+    image: /assets/images/am750.jpg
   - title: "El 6 de Agosto se trata la ley. Acciones por región."
     link: /acciones/acciones68/
     image: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
-  - title: "Acciones del Viernes 31 por region"
-    link: /acciones/viernes31/
-    image: /assets/images/tierra_20260725al20260808/viernes_31_junin_charla.jpeg
   - title: Firmá el petitorio del observatorio de tierras
     link: https://www.observatoriodetierras.ar/
     image: /assets/images/observatorio_tierras.jpeg
@@ -49,6 +49,9 @@ past-actions:
   - title: "Sumate a la Charla abierta del Observatorio de Tierras"
     link: /acciones/charla20260729/
     image: /assets/images/charla_observatorio_tierras.jpeg
+  - title: "Acciones del Viernes 31 por region"
+    link: /acciones/viernes31/
+    image: /assets/images/tierra_20260725al20260808/viernes_31_junin_charla.jpeg
 order: 1
 ---
 
