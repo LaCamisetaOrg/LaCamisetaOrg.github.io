@@ -21,11 +21,11 @@ image:
 
 ## CABA
 
-📍12hs CNA. Concentración.
+📍12hs Congreso - Concentración. Verdurazo. Festival. Vuelta a la plaza. Intervenciones.
 
 ## Catamarca
 
-📍17hs Plaza 25 de Mayo. Movilización. Concentración.
+📍17hs Plaza 25 de Mayo - Concentración. Movilización. Jornada Nacional en defensa de la Tierra.
 
 ## Chubut - Comodoro Rivadavia
 
@@ -54,6 +54,10 @@ image:
 ## Entre Ríos - Paraná
 
 📍Casa de Gobierno. Movilización.
+
+## Junín
+
+📍16hs Plaza Belgrano - Concentración. 17hs Movilización.
 
 ## Jujuy
 
@@ -90,8 +94,7 @@ image:
 
 ## Salta
 
-📍17hs Plaza 9 de Julio hacia la Legislatura. Movilización.
-
+📍17hs Plaza 9 de Julio - Nos encontramos para marchar a la Legislatura, honrar a la Pacha y frenar este proyecto de ley.
 
 ## Santa Fe - Rosario
 
