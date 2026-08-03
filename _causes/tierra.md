@@ -12,15 +12,6 @@ hashtags:
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - DerechoAlTerritorioDerechoAlHogar
 actions:
-  - title: "Sumate al Banderazo del 1° de Agosto"
-    link: /acciones/banderazo20260801/
-    image: /assets/images/banderazo20260801.jpeg
-  - title: "La Tierra Explota - Estreno el 1° de Agosto"
-    link: /acciones/latierraexplotaestreno18
-    image: /assets/images/latierraexplota_afiche.jpeg
-  - title: "Victor Hugo convoca al Banderazo del 1ro de Agosto"
-    link: /acciones/vhconvoca
-    image: /assets/images/am750.jpg
   - title: "El 6 de Agosto se trata la ley. Acciones por región."
     link: /acciones/acciones68/
     image: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
@@ -37,6 +28,15 @@ actions:
     link: /acciones/caminatawarmis/
     image: /assets/images/tierra_20260725al20260808/caminata_warmis.jpeg
 past-actions:
+  - title: "Sumate al Banderazo del 1° de Agosto"
+    link: /acciones/banderazo20260801/
+    image: /assets/images/banderazo20260801.jpeg
+  - title: "La Tierra Explota - Estreno el 1° de Agosto"
+    link: /acciones/latierraexplotaestreno18
+    image: /assets/images/latierraexplota_afiche.jpeg
+  - title: "Victor Hugo convoca al Banderazo del 1ro de Agosto"
+    link: /acciones/vhconvoca
+    image: /assets/images/am750.jpg
   - title: "Reunión virtual del 20 de julio"
     link: /acciones/reunion20260720/
     image: /assets/images/reunion_20260720.jpeg

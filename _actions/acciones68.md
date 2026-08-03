@@ -11,6 +11,10 @@ image:
     alt: "Afiche de acciones en Jujuy contra la Ley de Inviolabilidad de la Propiedad Privada. Cronograma: viernes 31/07 banderazo y volanteada en semáforos, concentración 17hs en Plazoleta Eva Perón; martes 4/8 conferencia de prensa y sahumada 10:30hs en Plaza Belgrano; jueves 6/8 concentración 16hs y movilización 17hs en Plaza Belgrano. Mapa de Argentina con banderines a la venta."
   - src: /assets/images/tierra_20260725al20260808/jueves_6_salta.jpeg
     alt: "Afiche de Salta para el 6 de agosto. El territorio se defiende, no se vende. Convocatoria a artistas, referentes de la cultura, la ciencia y la educación a marchar desde Plaza 9 de Julio a las 17hs hacia la Legislatura, para honrar a la Pacha y frenar el proyecto de ley. #ElTerritorioSeDefiende #SaltaSeLevanta."
+  - src: /assets/images/acciones68concepcionuruguay.jpeg
+    alt: "Afiche del 6/8 en Concepción del Uruguay. Concentración 18hs en Plaza Ramírez. No a la ley de inviolabilidad de la propiedad privada. La tierra no se vende, no se quema, ni se desaloja."
+  - src: /assets/images/acciones68parana.jpeg
+    alt: "Afiche del 6/8 en Paraná. Volanteada 12hs en la peatonal (traé tu bandera), marcha 15hs desde Plaza de Mayo, concentración 16hs en Casa de Gobierno hasta voltear la ley. Manos alzando banderas argentina, mapuche, de Malvinas, palestina, Pueblo-Nación Charrúa y wiphala. La tierra no se vende, no se quema, ni se desaloja."
 ---
 
 ¡La tierra no se vende, no se quema ni se desaloja! El 06/08 se trata la ley en el Congreso. Te compartimos las acciones por región para ese día. Nos vemos en la calle. ✊
@@ -47,13 +51,21 @@ image:
 
 📍Explanada. Concentración.
 
+## Entre Ríos - Concepción del Uruguay
+
+📍18hs Plaza Ramírez. Concentración.
+
 ## Entre Ríos - Gualeguaychú
 
 📍Caravanazo hacia Paraná. Movilización.
 
 ## Entre Ríos - Paraná
 
-📍Casa de Gobierno. Movilización.
+📍12hs Peatonal - Volanteada. Traé tu bandera.
+
+📍15hs desde Plaza de Mayo - Marcha.
+
+📍16hs Casa de Gobierno - Concentración hasta voltear la ley.
 
 ## Junín
 
