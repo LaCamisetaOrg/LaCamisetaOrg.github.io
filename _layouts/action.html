@@ -54,17 +54,6 @@
     <div class="cause-wrapper cause-wrapper--bg-blue">
       <div class="action-page__inner">
         <h1 class="action-page__title">{{ page.title }}</h1>
-        <div class="action-gallery">
-          {% for img in page.image %}
-          <div class="action-gallery__item">
-            {% if img.src %}
-            <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
-            {% else %}
-            <img src="{{ img | relative_url }}" alt="{{ page.title }}" loading="lazy">
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
       </div>
     </div>
     <article class="action-page">
@@ -89,6 +78,21 @@
       </div>
     </article>
     {% endif %}
+    <div class="cause-wrapper cause-wrapper--bg-blue">
+      <div class="action-page__inner">
+        <div class="action-gallery">
+          {% for img in page.image %}
+          <div class="action-gallery__item">
+            {% if img.src %}
+            <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
+            {% else %}
+            <img src="{{ img | relative_url }}" alt="{{ page.title }}" loading="lazy">
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
     <div class="cause-wrapper cause-wrapper--bg-blue cause-wrapper--actions">
       <div class="cause-actions">
         {% capture share_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
