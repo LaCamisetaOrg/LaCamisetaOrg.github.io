@@ -14,6 +14,7 @@
   --color-muted:  #555555;
   --color-border: #e8e8e8;
 
+  --font-title: "Malvinas Sans", "Segoe UI", Arial, sans-serif;
   --font-base: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 
   --space-xs:  0.5rem;
@@ -23,6 +24,15 @@
 
   --max-width:   1200px;
   --article-gap: 5rem;
+}
+
+/* 1. Define the custom font */
+@font-face {
+  font-family: 'Malvinas Sans';
+  src: url('./MalvinasSans-Sans.otf.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* =========================================================
@@ -45,6 +55,13 @@ body {
   background-color: var(--color-white);
   line-height: 1.6;
   overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-title);
 }
 
 img {
@@ -98,6 +115,7 @@ ul[role="list"] {
   font-size: 0.9rem;
   font-weight: 600;
   white-space: nowrap;
+  font-family: var(--font-title);
 }
 
 .main-nav__link:hover {
@@ -139,7 +157,7 @@ ul[role="list"] {
   cursor: pointer;
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
+  text-underline-offset: 0.1em;
   text-decoration-color: currentColor;
 }
 
@@ -228,7 +246,7 @@ ul[role="list"] {
   font-size: clamp(2.8rem, 7vw, 5rem);
   font-weight: 800;
   color: var(--color-main);
-  line-height: 1.05;
+  line-height: 1.25;
   margin-bottom: var(--space-sm);
 }
 
@@ -287,9 +305,10 @@ ul[role="list"] {
 
 .cause-card__title {
   padding: var(--space-sm);
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   font-weight: 800;
   color: var(--color-main);
+  font-family: var(--font-title);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -321,7 +340,7 @@ ul[role="list"] {
   font-weight: 700;
   letter-spacing: 0.06em;
   cursor: pointer;
-  font-family: var(--font-base);
+  font-family: var(--font-title);
   transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
   white-space: nowrap;
 }
@@ -412,6 +431,7 @@ ul[role="list"] {
   padding: 0.45rem 1.1rem;
   border-radius: 999px;
   border: 2px solid var(--color-main);
+  font-family: var(--font-title);
   color: var(--color-main);
   background: transparent;
   font-size: 0.85rem;
@@ -981,7 +1001,7 @@ ul[role="list"] {
 .reveal h3,
 .reveal h4 {
   color: #cc0000 !important;
-  font-family: var(--font-base) !important;
+  font-family: var(--font-title) !important;
   text-transform: uppercase !important;
   font-weight: 800 !important;
   letter-spacing: 0.04em;
@@ -1043,7 +1063,6 @@ ul[role="list"] {
   cursor: pointer;
   text-align: left;
   width: 100%;
-  font-family: var(--font-base);
 }
 
 @media (min-width: 641px) {
