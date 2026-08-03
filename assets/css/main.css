@@ -567,7 +567,7 @@ ul[role="list"] {
   flex-wrap: wrap;
   gap: var(--space-xs);
   margin-top: var(--space-xs);
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-md);
 }
 
 .hashtag-chip {
