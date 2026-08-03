@@ -14,7 +14,7 @@ hashtags:
 actions:
   - title: "El 6 de Agosto se trata la ley. Acciones por región."
     link: /acciones/acciones68/
-    image: /assets/images/tierra_20260725al20260808/acciones_main.png
+    image: /assets/images/acciones_main_2.png
   - title: Firmá el petitorio del observatorio de tierras
     link: https://www.observatoriodetierras.ar/
     image: /assets/images/observatorio_tierras.jpeg
