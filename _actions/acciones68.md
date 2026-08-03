@@ -4,7 +4,7 @@ title: "Acciones del 06/08, el día que se trata la ley"
 description: "Acciones del 06/08"
 image:
   - src: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
-    alt: "Afiche del 6/8 en el Congreso Nacional. Foto del edificio del Congreso con el texto: Defendamos el Territorio, ahora afuera de la cancha. 06/08 en Congreso desde las 12hs. Verdurazo, Festival, Vuelta a la plaza, Intervenciones. La tierra no se vende, no se quema, ni se desaloja."
+    alt: "Afiche del 6/8 en el Congreso Nacional. Defendamos el Territorio, ahora afuera de la cancha. Cronograma: 12hs Verdurazo y Radio Abierta, 15:30hs Verdurazo, 17hs Vuelta a la plaza, 18hs Festival. La tierra no se vende, no se quema, ni se desaloja."
   - src: /assets/images/tierra_20260725al20260808/6_concentracion_catamarca.jpeg
     alt: "Afiche de la Jornada Nacional en Defensa de la Tierra en Catamarca el 6/8. Concentración 17hs en Plaza 25 de Mayo. Incluye marcha, números artísticos, espacio niñeces y radio abierta. No a la ley de extranjerización. La tierra no se vende, no se quema, ni se desaloja, se defiende."
   - src: /assets/images/tierra_20260725al20260808/junin_acciones.jpeg
@@ -15,6 +15,8 @@ image:
     alt: "Afiche del 6/8 en Concepción del Uruguay. Concentración 18hs en Plaza Ramírez. No a la ley de inviolabilidad de la propiedad privada. La tierra no se vende, no se quema, ni se desaloja."
   - src: /assets/images/acciones68parana.jpeg
     alt: "Afiche del 6/8 en Paraná. Volanteada 12hs en la peatonal (traé tu bandera), marcha 15hs desde Plaza de Mayo, concentración 16hs en Casa de Gobierno hasta voltear la ley. Manos alzando banderas argentina, mapuche, de Malvinas, palestina, Pueblo-Nación Charrúa y wiphala. La tierra no se vende, no se quema, ni se desaloja."
+  - src: /assets/images/tierra_20260725al20260808/santafe68.jpeg
+    alt: "Afiche de la Jornada Nacional en Santa Fe el 6/8. Bv. y Vittori (Explanada Molino). 16hs Carteleada, 17hs Acto Central, 19hs Banderazo. Nos ponemos la camiseta: La Argentina no se vende. Organiza Multisectorial Santa Fe en Defensa de la Soberanía."
 ---
 
 ¡La tierra no se vende, no se quema ni se desaloja! El 06/08 se trata la ley en el Congreso. Te compartimos las acciones por región para ese día. Nos vemos en la calle. ✊
@@ -23,9 +25,15 @@ image:
 
 📍12hs Monumento a San Martín (Luro y Mitre). Movilización.
 
-## CABA
+## Capital Federal
 
-📍12hs Congreso - Concentración. Verdurazo. Festival. Vuelta a la plaza. Intervenciones.
+📍12hs Congreso - Verdurazo. Radio Abierta.
+
+📍15:30hs Verdurazo.
+
+📍17hs Vuelta a la plaza.
+
+📍18hs Festival e intervenciones.
 
 ## Catamarca
 
@@ -107,6 +115,14 @@ image:
 ## Salta
 
 📍17hs Plaza 9 de Julio - Nos encontramos para marchar a la Legislatura, honrar a la Pacha y frenar este proyecto de ley.
+
+## Santa Fe - Ciudad
+
+📍16hs Bv. y Vittori (Explanada Molino) - Carteleada.
+
+📍17hs Acto Central.
+
+📍19hs Banderazo.
 
 ## Santa Fe - Rosario
 

@@ -79,7 +79,7 @@
       <div class="action-page__inner {% if page.image %}action-page__inner--with-image{% endif %}">
         {% if page.image %}
         <div class="action-page__image-wrap">
-          <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
         </div>
         {% endif %}
         <div class="action-page__body">
