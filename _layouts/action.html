@@ -6,17 +6,10 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
-  {% comment %}
-    Resolve OG image: og_image if set, else first element if image is a list (objects or strings), scalar if single, logo as fallback.
-  {% endcomment %}
   {% if page.og_image %}
     {% assign og_image = page.og_image %}
-  {% elsif page.image[0].src %}
-    {% assign og_image = page.image[0].src %}
-  {% elsif page.image[0].size > 2 %}
-    {% assign og_image = page.image[0] %}
-  {% elsif page.image %}
-    {% assign og_image = page.image %}
+  {% elsif page.images[0] %}
+    {% assign og_image = page.images[0].src %}
   {% else %}
     {% assign og_image = '/logo.jpeg' %}
   {% endif %}
@@ -42,15 +35,20 @@
   {% include header.html %}
   <main>
     {% include cause-nav.html %}
-    {% comment %}
-      Detect gallery: image is a list when the first element is an object (has .src) or a long string (path > 2 chars).
-      A scalar string gives page.image[0] as its first character (size 1).
-    {% endcomment %}
-    {% assign is_gallery = false %}
-    {% if page.image[0].src or page.image[0].size > 2 %}
-      {% assign is_gallery = true %}
-    {% endif %}
-    {% if is_gallery %}
+    {% if page.images %}
+      {% if page.images.size == 1 %}
+    <article class="action-page">
+      <div class="action-page__inner action-page__inner--with-image">
+        <div class="action-page__image-wrap action-gallery__item">
+          <img src="{{ page.images[0].src | relative_url }}" alt="{{ page.images[0].alt | default: page.title }}" loading="lazy">
+        </div>
+        <div class="action-page__body">
+          <h1 class="action-page__title">{{ page.title }}</h1>
+          {{ content }}
+        </div>
+      </div>
+    </article>
+      {% else %}
     <div class="cause-wrapper cause-wrapper--bg-blue">
       <div class="action-page__inner">
         <h1 class="action-page__title">{{ page.title }}</h1>
@@ -63,14 +61,21 @@
         </div>
       </div>
     </article>
+    <div class="cause-wrapper cause-wrapper--bg-blue">
+      <div class="action-page__inner">
+        <div class="action-gallery">
+          {% for img in page.images %}
+          <div class="action-gallery__item">
+            <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+      {% endif %}
     {% else %}
     <article class="action-page">
-      <div class="action-page__inner {% if page.image %}action-page__inner--with-image{% endif %}">
-        {% if page.image %}
-        <div class="action-page__image-wrap">
-          <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
-        </div>
-        {% endif %}
+      <div class="action-page__inner">
         <div class="action-page__body">
           <h1 class="action-page__title">{{ page.title }}</h1>
           {{ content }}
@@ -78,21 +83,6 @@
       </div>
     </article>
     {% endif %}
-    <div class="cause-wrapper cause-wrapper--bg-blue">
-      <div class="action-page__inner">
-        <div class="action-gallery">
-          {% for img in page.image %}
-          <div class="action-gallery__item">
-            {% if img.src %}
-            <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
-            {% else %}
-            <img src="{{ img | relative_url }}" alt="{{ page.title }}" loading="lazy">
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
     <div class="cause-wrapper cause-wrapper--bg-blue cause-wrapper--actions">
       <div class="cause-actions">
         {% capture share_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
@@ -127,7 +117,7 @@
       });
     }());
   </script>
-  {% if is_gallery %}
+  {% if page.images %}
   <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
     <button class="lightbox__close" aria-label="Cerrar">&times;</button>
     <img class="lightbox__img" src="" alt="">

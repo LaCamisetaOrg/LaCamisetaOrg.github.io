@@ -12,6 +12,14 @@
     Compartí
   </button>
 
+  {% if page.hashtags %}
+  <ul class="hashtag-list" role="list">
+    {% for tag in page.hashtags %}
+      <li class="hashtag-chip">#{{ tag }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
   <div class="share-platform-buttons">
     <a class="share-btn share-btn--whatsapp"
        href="https://wa.me/?text={{ include.text | append: ' ' | append: include.url | url_encode }}"

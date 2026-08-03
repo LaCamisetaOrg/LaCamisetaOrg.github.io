@@ -92,11 +92,6 @@
         </div>
         {% endif %}
         {% endif %}
-        <ul class="hashtag-list" role="list">
-          {% for tag in page.hashtags %}
-            <li class="hashtag-chip">#{{ tag }}</li>
-          {% endfor %}
-        </ul>
         {% capture share_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
         {% capture share_text %}Ponete la camiseta por {{ page.title }}{% endcapture %}
         {% capture share_tags %}{{ page.hashtags | join: ',' }}{% endcapture %}

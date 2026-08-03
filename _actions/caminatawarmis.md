@@ -2,8 +2,9 @@
 layout: action
 title: "Caminata de Warmis"
 description: "Mujeres del Kollasuyu en Defensa del Planeta Tierra, Pachamama "
-image:
-  - /assets/images/tierra_20260725al20260808/caminata_warmis.jpeg
+images:
+  - src: /assets/images/tierra_20260725al20260808/caminata_warmis.jpeg
+    alt: "Flyer de la Caminata de Warmis. Mujeres y Feminidades del Kollasuyu en Defensa del Planeta Tierra y la Pachamama, desde Rinconada Jujuy hasta Buenos Aires."
 ---
 
 Invitamos a todas las Mujeres y Feminidades a sumarse a esta Gran  Caminata que inicia el Lunes  3/08 desde Rinconada Jujuy , con el objetivo de llegar a Bs As, pasando por las provincias de Salta, Tucuman, Santiago del Estero, Córdoba y Rosario💪🏽  Caminamos en defensa de nuestros Bienes Naturales, el Medioambiente y los Territorios Ancestrales!
