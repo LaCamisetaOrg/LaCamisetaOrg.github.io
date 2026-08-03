@@ -3,7 +3,7 @@ layout: action
 title: "Acciones del 06/08, el día que se trata la ley"
 description: "Acciones del 06/08"
 image:
-  - src: /assets/images/tierra_20260725al20260808/acciones_main.png
+  - src: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
     alt: "Afiche del 6/8 en el Congreso Nacional. Defendamos el Territorio, ahora afuera de la cancha. Cronograma: 12hs Verdurazo y Radio Abierta, 15:30hs Verdurazo, 17hs Vuelta a la plaza, 18hs Festival. La tierra no se vende, no se quema, ni se desaloja."
   - src: /assets/images/tierra_20260725al20260808/6_concentracion_catamarca.jpeg
     alt: "Afiche de la Jornada Nacional en Defensa de la Tierra en Catamarca el 6/8. Concentración 17hs en Plaza 25 de Mayo. Incluye marcha, números artísticos, espacio niñeces y radio abierta. No a la ley de extranjerización. La tierra no se vende, no se quema, ni se desaloja, se defiende."
