@@ -567,6 +567,7 @@ ul[role="list"] {
   flex-wrap: wrap;
   gap: var(--space-xs);
   margin-top: var(--space-xs);
+  margin-bottom: var(--space-xs);
 }
 
 .hashtag-chip {
@@ -1083,4 +1084,17 @@ ul[role="list"] {
   .nav-btn-presentation:hover {
     opacity: 0.75;
   }
+}
+
+#btn-actions {
+  width: 150px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: var(--color-complementary);
+  color: var(--color-text-complementary);
+  text-decoration: none;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
