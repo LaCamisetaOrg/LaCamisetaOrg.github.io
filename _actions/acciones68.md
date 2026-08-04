@@ -101,6 +101,10 @@ images:
 
 📍18hs Plaza Ramírez. Concentración.
 
+## Entre Ríos - Concordia
+
+📍11hs Esquina de San Lorenzo y Tavella
+
 ## Entre Ríos - Gualeguaychú
 
 📍Caravanazo hacia Paraná. Movilización.
