@@ -65,6 +65,14 @@ images:
 
 📍18hs Plaza San Martín - Concentración
 
+## Chubut - Rawson
+
+📍17:30 - 25 de Mayo y San Martin - Concentración
+
+## Chubut - Trevelin
+
+📍17hs Plaza Fontana - Concentración
+
 ## Chubut - Trelew
 
 📍17hs Plaza Independencia - Movilización. Banderazo
@@ -92,6 +100,10 @@ images:
 ## Córdoba - Sierras Chicas (Agua de Oro)
 
 📍Explanada. Concentración.
+
+## Corrientes
+
+📍16hs Plaza 25 de mayo. Concentración.
 
 ## Entre Ríos - Colón
 
@@ -226,6 +238,22 @@ images:
 📍11hs Plaza San Martín (PSM). Concentración.
 
 📍18hs PSM hasta el Monumento a La Bandera. Movilización.
+
+## Santiago del Estero
+
+📍9:00 A.M. Plaza Sarmiento - Feriazo. Concentración
+
+## Tierra del Fuego - Río Grande
+
+📍16hs Rotonda de las Américas - Movilización
+
+## Tierra del Fuego - Tolhuin
+
+📍15hs Entrada de Tolhuin - Movilización
+
+## Tierra del Fuego - Ushuaia
+
+📍16hs San Martin y Fadul - Movilización
 
 ## Tucumán
 
