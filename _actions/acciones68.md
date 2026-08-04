@@ -21,9 +21,23 @@ images:
 
 ¡La tierra no se vende, no se quema ni se desaloja! El 06/08 se trata la ley en el Congreso. Te compartimos las acciones por región para ese día. Nos vemos en la calle. ✊
 
+## Buenos Aires - La Plata, Berisso y Ensenada
+
+📍11.15hs Viaje al Congreso: Estación de tren La Plata Busca la bandera de la Asamblea para subir al tren de las 11.44hs
+
+📍17hs En 7 y 50 - Semaforazo 
+
 ## Buenos Aires - Mar del Plata
 
 📍12hs Monumento a San Martín (Luro y Mitre). Movilización.
+
+## Buenos Aires - Tandil
+
+📍18hs Rodriguez y Pinto - Concentración, Banderazo
+
+## Buenos Aires - Bahía Blanca
+
+📍17hs Plaza Rivadavia - Movilización
 
 ## Capital Federal
 
@@ -43,13 +57,33 @@ images:
 
 📍12hs Ruta 3 entre KM14 y Astra. Movilización.
 
+## Chubut - Gaiman
+
+📍17hs Plaza de Gaiman - Asamblea
+
+## Chubut - Puerto Madryn
+
+📍18hs Plaza San Martín - Concentración
+
+## Chubut - Trelew
+
+📍17hs Plaza Independencia - Movilización. Banderazo
+
 ## Córdoba - Ciudad
 
 📍17hs Av. Colón y General Paz. Movilización.
 
+## Córdoba - Cosquín
+
+📍17hs Puente Carretero - Concentración
+
 ## Córdoba - Río Ceballos
 
 📍16hs Plaza Francia. Banderazo.
+
+## Córdoba - Río Cuarto
+
+📍11 a.m. Frente al consejo Deliberante - Concentración
 
 ## Córdoba - Sierras Chicas
 
@@ -58,6 +92,10 @@ images:
 ## Córdoba - Sierras Chicas (Agua de Oro)
 
 📍Explanada. Concentración.
+
+## Entre Ríos - Colón
+
+📍19hs Plaza San Martín - Concentración
 
 ## Entre Ríos - Concepción del Uruguay
 
@@ -81,7 +119,11 @@ images:
 
 ## Jujuy
 
-📍16hs Plaza Belgrano. Concentración.
+📍17hs Plaza Belgrano. Concentración.
+
+## La Rioja - Capital
+
+📍18hs Plaza 25 de Mayo - Concentración
 
 ## Mendoza - General Alvear
 
@@ -91,6 +133,10 @@ images:
 
 📍17hs Terminal Eugenio Bustos. Movilización.
 
+## Mendoza - San Rafael
+
+📍 Plazoleta del inmigrante; rotonda de la bandera, locomotora (para marchar hasta el KM0 de San Rafael)		Movilización, Concentración
+
 ## Misiones - Eldorado
 
 📍16hs desde el mástil a la Plaza 9 de Julio (17hs). Movilización.
@@ -99,22 +145,69 @@ images:
 
 📍18:30hs Plaza San Martín. Asamblea Abierta.
 
+## Neuquén - Capital
+
+📍17hs Monumento a San Martin - Movilización. Concentración
+
+## Neuquén - Chos Malal
+
+📍17hs La Madrid y 25 de Mayo - Semaforazo.
+
 ## Neuquén - San Martín de los Andes
 
 📍San Martín hasta el lago Lácar. Movilización.
 
+## Río Negro - Allen
+
+📍17hs Plaza San Martin - Movilización
+
 ## Río Negro - Bariloche
 
-📍Centro Cívico. Movilización.
+📍17hs Onelli y Moreno hacia el Centro Cívico - Movilización, Concentración
 
+## Río Negro - Comarca Andina
 
-## Río Negro - Viedma
+📍16.20hs RN 40 y paralelo 42 - Caravana hacia Plaza Pagano - El Bolsón
+📍15hs Plaza Pagano	
 
-📍Plaza San Martín. Movilización.
+## Río Negro - Las Grutas
+
+📍16.30hs Alemandri e Islas Malvinas - Concentración
+📍18hs Movilización
+
+## Río Negro - San Antonio Oeste
+
+📍16.30hs Alemandri e Islas Malvinas - Micrófono abierto y stencileada
+📍18hs Marcha
+
+## Río Negro - Viedma y Patagones
+
+📍16.30hs Fuente Pucará - Movilización. Banderazo
 
 ## Salta
 
 📍17hs Plaza 9 de Julio - Nos encontramos para marchar a la Legislatura, honrar a la Pacha y frenar este proyecto de ley.
+
+## San Juan
+
+📍16hs Plaza 25 de Mayo - Concentración
+📍18hs Movilización
+
+## San Juan - Valle Fértil
+
+📍17hs Plaza del Valle - Concentración
+
+## San Luis - Capital 
+
+📍17hs Correo Argentino - Concentración
+
+## Santa Fe
+
+📍16hs El Molino Fábrica Cultural - Blvd. Gálvez 2350
+
+## Santa Fe - Casilda
+
+📍19hs Plaza de la Memoria - Concentración
 
 ## Santa Fe - Ciudad
 
