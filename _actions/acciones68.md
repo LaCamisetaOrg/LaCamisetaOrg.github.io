@@ -30,7 +30,7 @@ images:
 <div style="display:flex; gap:1.5rem; align-items:flex-start; flex-wrap:wrap;">
 <div style="flex:1; min-width:260px;">
 <p><strong>ALERTA! No bajemos la guardia. ⚠️⚠️</strong></p>
-<p>El gobierno intenta instalar el relato de que "cedió" al no aumentar el cupo del 15% de extranjerización. No nos dejemos engañar: es solo el anzuelo para que el resto del proyecto, mucho más letal, pase desapercibido. La estructura central que atenta contra la soberanía y la justicia territorial, sigue intacta.</p>
+<p>El gobierno intenta instalar el relato de que "cedió" al no aumentar el cupo del 15% de extranjerización. No nos dejemos engañar: es solo el anzuelo para que el resto del proyecto, mucho más letal, pase desapercibido. La estructura central que atenta contra la soberanía y la justicia territorial, sigue intacta. <strong>Necesitamos más presión social para derribar la ley entera.</strong></p>
 <p><strong>Ejes concretos que SIGUEN EN PIE y que debemos frenar el 6 de agosto:</strong></p>
 <ul>
 <li><strong>Sin límites para los extranjeros.</strong> Sigue firme la derogación del artículo 10, que prohibía a un mismo extranjero tener más de 1.000 hectáreas en la zona núcleo. Habilitando mayor concentración de latifundios en manos foráneas.</li>
@@ -43,6 +43,8 @@ images:
 La movilización del 6 de agosto es la última trinchera para evitar que se sancione esta ley nefasta.<br>
 <strong>¡La tierra no se vende, se defiende!<br>
 ¡No Pasaran!</strong></p>
+
+
 </div>
 <div style="flex:0 0 auto;">
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbrCUoNEQEm/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -51,19 +53,76 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 </div>
 </div>
 
-¡La tierra no se vende, no se quema ni se desaloja! El 06/08 se trata la ley en el Congreso. Te compartimos las acciones por región para ese día. Nos vemos en la calle. ✊
+------
 
-## Buenos Aires - La Plata, Berisso y Ensenada
+<div style="display:flex; gap:1.5rem; align-items:flex-start; flex-wrap:wrap;">
+<div style="flex:1; min-width:260px;">
+<h1>Acciones federales y plurinacionales</h1>
+<p>¡La tierra no se vende, no se quema ni se desaloja! El 06/08 se trata la ley en el Congreso. Te compartimos las acciones por región para ese día. Nos vemos en la calle. ✊</p>
+<ul class="hashtag-list hashtag-list--4col">
+  <li><a class="hashtag-chip" href="#buenos-aires">Buenos Aires</a></li>
+  <li><a class="hashtag-chip" href="#capital-federal">CABA</a></li>
+  <li><a class="hashtag-chip" href="#catamarca">Catamarca</a></li>
+  <li><a class="hashtag-chip" href="#chaco">Chaco</a></li>
+  <li><a class="hashtag-chip" href="#chubut">Chubut</a></li>
+  <li><a class="hashtag-chip" href="#cordoba">Córdoba</a></li>
+  <li><a class="hashtag-chip" href="#corrientes">Corrientes</a></li>
+  <li><a class="hashtag-chip" href="#entre-rios">Entre Ríos</a></li>
+  <li><a class="hashtag-chip" href="#formosa">Formosa</a></li>
+  <li><a class="hashtag-chip" href="#jujuy">Jujuy</a></li>
+  <li><a class="hashtag-chip" href="#la-pampa">La Pampa</a></li>
+  <li><a class="hashtag-chip" href="#la-rioja">La Rioja</a></li>
+  <li><a class="hashtag-chip" href="#mendoza">Mendoza</a></li>
+  <li><a class="hashtag-chip" href="#misiones">Misiones</a></li>
+  <li><a class="hashtag-chip" href="#neuquen">Neuquén</a></li>
+  <li><a class="hashtag-chip" href="#rio-negro">Río Negro</a></li>
+  <li><a class="hashtag-chip" href="#salta">Salta</a></li>
+  <li><a class="hashtag-chip" href="#san-juan">San Juan</a></li>
+  <li><a class="hashtag-chip" href="#san-luis">San Luis</a></li>
+  <li><a class="hashtag-chip" href="#santa-cruz">Santa Cruz</a></li>
+  <li><a class="hashtag-chip" href="#santa-fe">Santa Fe</a></li>
+  <li><a class="hashtag-chip" href="#santiago-del-estero">Santiago del Estero</a></li>
+  <li><a class="hashtag-chip" href="#tierra-del-fuego">Tierra del Fuego</a></li>
+  <li><a class="hashtag-chip" href="#tucuman">Tucumán</a></li>
+</ul>
+</div>
+<div style="flex:0 0 auto;">
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbo-MKLunQa/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+</blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+</div>
+</div>
 
-📍11.15hs Viaje al Congreso: Estación de tren La Plata Busca la bandera de la Asamblea para subir al tren de las 11.44hs
 
-📍17hs En 7 y 50 - Semaforazo 
+## Buenos Aires - La Plata, Berisso y Ensenada {#buenos-aires}
+
+📍11.15hs Viaje al Congreso: Estación de tren La Plata. Busca la bandera de la Asamblea para subir al tren de las 11.44hs
+
+📍13hs Desde Estación La Plata en tren roca a Congreso
+
+📍17hs En 7 y 50 - Semaforazo
 
 ## Buenos Aires - Mar del Plata
 
 **Autoconvocados**: 📍12hs Monumento a San Martín (Luro y Mitre). Movilización.
 
 **Organizaciones**: 📍16hs Monumento a San Martín (Luro y Mitre). Movilización.
+
+## Buenos Aires - Miramar
+
+📍17hs Pza. Héroes de Malvinas – 21 y 28
+
+## Buenos Aires - San Clemente
+
+📍17hs Plaza de las Banderas
+
+## Buenos Aires - Mar de Ajó
+
+📍17hs Monumento a San Martín
+
+## Buenos Aires - Pinamar
+
+📍12hs Plazoleta Polo y Bunge
 
 ## Buenos Aires - Tandil
 
@@ -73,7 +132,23 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍17hs Plaza Rivadavia - Movilización
 
-## Capital Federal
+## Buenos Aires - Baradero
+
+📍18hs Plaza Colón
+
+## Buenos Aires - 9 de Julio
+
+📍13hs Ruidazo en Plaza Belgrano
+
+## Buenos Aires - Zárate
+
+📍18hs Plaza Mitre
+
+## Buenos Aires - Olavarría
+
+📍18hs Plaza Central
+
+## Capital Federal {#capital-federal}
 
 📍12hs Congreso - Verdurazo. Radio Abierta.
 
@@ -83,13 +158,19 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍18hs Festival e intervenciones.
 
-## Catamarca
+## Catamarca {#catamarca}
 
 📍17hs Plaza 25 de Mayo - Concentración. Movilización. Jornada Nacional en defensa de la Tierra.
 
-## Chubut - Comodoro Rivadavia
+## Chubut - Comodoro Rivadavia {#chubut}
 
 📍12hs Ruta 3 entre KM14 y Astra. Movilización.
+
+📍12hs Plaza Kompuchewe
+
+## Chubut - Esquel
+
+📍17:30hs Movilización desde el Local No a la Mina
 
 ## Chubut - Gaiman
 
@@ -111,7 +192,7 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍17hs Plaza Independencia - Movilización. Banderazo
 
-## Córdoba - Ciudad
+## Córdoba - Ciudad {#cordoba}
 
 📍17hs Av. Colón y General Paz. Movilización.
 
@@ -125,7 +206,19 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 ## Córdoba - Río Cuarto
 
-📍11 a.m. Frente al consejo Deliberante - Concentración
+📍11hs Frente al Consejo Deliberante - Concentración
+
+## Córdoba - Alta Gracia
+
+📍18hs Plaza Solares
+
+## Córdoba - Villa Las Rosas
+
+📍Desde las 16hs Plaza de Villa Las Rosas
+
+## Córdoba - Villa Dolores
+
+📍Desde las 16hs Plaza de Villa Dolores
 
 ## Córdoba - Sierras Chicas
 
@@ -135,11 +228,27 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍Explanada. Concentración.
 
-## Corrientes
+## Chaco - Resistencia {#chaco}
+
+📍17hs Mástil de la Plaza 25 de Mayo
+
+## Chaco - Presidencia Roque Sáenz Peña
+
+📍19hs Plaza San Martín
+
+## Chaco - Castelli
+
+📍18hs Plaza San Martín
+
+## Chaco - Pampa del Indio
+
+📍Concentración en la vera de la ruta
+
+## Corrientes {#corrientes}
 
 📍16hs Plaza 25 de mayo. Concentración.
 
-## Entre Ríos - Colón
+## Entre Ríos - Colón {#entre-rios}
 
 📍19hs Plaza San Martín - Concentración
 
@@ -153,7 +262,11 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 ## Entre Ríos - Gualeguaychú
 
-📍Caravanazo hacia Paraná. Movilización.
+📍18hs Plaza Urquiza (frente a la Municipalidad)
+
+## Entre Ríos - Victoria
+
+📍16hs Plaza San Martín
 
 ## Entre Ríos - Paraná
 
@@ -167,15 +280,19 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍16hs Plaza Belgrano - Concentración. 17hs Movilización.
 
-## Jujuy
+## Jujuy {#jujuy}
 
 📍17hs Plaza Belgrano. Concentración.
 
-## La Rioja - Capital
+## La Rioja - Capital {#la-rioja}
 
 📍18hs Plaza 25 de Mayo - Concentración
 
-## Mendoza - General Alvear
+## La Pampa - Santa Rosa {#la-pampa}
+
+📍18hs Plaza San Martín
+
+## Mendoza - General Alvear {#mendoza}
 
 📍17hs KM 0 (San Martín y Peatonal). Movilización.
 
@@ -187,6 +304,10 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍 Plazoleta del inmigrante; rotonda de la bandera, locomotora (para marchar hasta el KM0 de San Rafael)		Movilización, Concentración
 
+## Misiones - Posadas {#misiones}
+
+📍16hs Mástil - Movilización hacia Plaza 9 de Julio (17hs)
+
 ## Misiones - Eldorado
 
 📍16hs desde el mástil a la Plaza 9 de Julio (17hs). Movilización.
@@ -195,7 +316,7 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍18:30hs Plaza San Martín. Asamblea Abierta.
 
-## Neuquén - Capital
+## Neuquén - Capital {#neuquen}
 
 📍17hs Monumento a San Martin - Movilización. Concentración
 
@@ -203,11 +324,23 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍17hs La Madrid y 25 de Mayo - Semaforazo.
 
+## Neuquén - Villa La Angostura
+
+📍18hs Plaza Pioneros
+
 ## Neuquén - San Martín de los Andes
 
-📍San Martín hasta el lago Lácar. Movilización.
+📍18:30hs Rotonda YPF. Movilización.
 
-## Río Negro - Allen
+## Neuquén - Zapala
+
+📍17hs Plaza de los Próceres
+
+## Neuquén - Junín de los Andes
+
+📍17:30hs Plaza San Martín
+
+## Río Negro - Allen {#rio-negro}
 
 📍17hs Plaza San Martin - Movilización
 
@@ -217,8 +350,7 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 ## Río Negro - Comarca Andina
 
-📍16.20hs RN 40 y paralelo 42 - Caravana hacia Plaza Pagano - El Bolsón
-📍15hs Plaza Pagano	
+📍15hs Volanteada en RN40 y paralelo 42. Caravanazo hacia Plaza Pagano (El Bolsón) a las 16:20hs
 
 ## Río Negro - Las Grutas
 
@@ -230,15 +362,31 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 📍16.30hs Alemandri e Islas Malvinas - Micrófono abierto y stencileada
 📍18hs Marcha
 
+## Río Negro - Roca y Fiske
+
+📍16:30hs Plaza San Martín
+
+## Río Negro - Cinco Saltos
+
+📍17hs Plaza San Martín
+
+## Río Negro - Cipolletti
+
+📍17hs Plaza de la Justicia
+
 ## Río Negro - Viedma y Patagones
 
-📍16.30hs Fuente Pucará - Movilización. Banderazo
+📍16:30hs Fuente Pucará → Casa de Gobierno. Movilización.
 
-## Salta
+## Salta {#salta}
 
 📍17hs Plaza 9 de Julio - Nos encontramos para marchar a la Legislatura, honrar a la Pacha y frenar este proyecto de ley.
 
-## San Juan
+## Salta - Cachi
+
+📍16hs Plaza de Cachi
+
+## San Juan {#san-juan}
 
 📍16hs Plaza 25 de Mayo - Concentración
 📍18hs Movilización
@@ -247,15 +395,31 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍17hs Plaza del Valle - Concentración
 
-## San Luis - Capital 
+## San Luis - Capital {#san-luis}
 
 📍17hs Correo Argentino - Concentración
 
-## Santa Cruz
+## San Luis - Villa Mercedes
 
-📍17hs Gorosito Caleta Oliva 
+📍17hs Plaza San Martín
 
-## Santa Fe
+## Santa Cruz - El Calafate {#santa-cruz}
+
+📍17hs Anfiteatro del Bosque (17 de Octubre y Libertador)
+
+## Santa Cruz - Río Gallegos
+
+📍17hs Av. San Martín y Pte. Néstor Kirchner
+
+## Santa Cruz - Río Turbio
+
+📍17hs Universidad Nacional de la Patagonia Austral
+
+## Santa Cruz - Caleta Olivia
+
+📍17hs El Gorosito
+
+## Santa Fe {#santa-fe}
 
 📍16hs El Molino Fábrica Cultural - Blvd. Gálvez 2350
 
@@ -273,15 +437,21 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 ## Santa Fe - Rosario
 
-📍11hs Plaza San Martín (PSM). Concentración.
+📍11hs Concentración y pintadas en Plaza San Martín
 
-📍18hs PSM hasta el Monumento a La Bandera. Movilización.
+📍18hs Movilización desde Plaza San Martín hasta el Monumento a la Bandera
 
-## Santiago del Estero
+## Santiago del Estero {#santiago-del-estero}
 
-📍9:00 A.M. Plaza Sarmiento - Feriazo. Concentración
+📍9hs Feriazo y concentración en Plaza Sarmiento
 
-## Tierra del Fuego - Río Grande
+📍19hs Concentración en Plaza Libertad
+
+## Formosa {#formosa}
+
+📍18hs Sede Manuel Belgrano
+
+## Tierra del Fuego - Río Grande {#tierra-del-fuego}
 
 📍16hs Rotonda de las Américas - Movilización
 
@@ -293,6 +463,6 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍16hs San Martin y Fadul - Movilización
 
-## Tucumán
+## Tucumán {#tucuman}
 
-📍14hs Plaza Independencia. Intervenciones artísticas. Conferencia de prensa / Mesa informativa.
+📍14hs Plaza Independencia. Concentración e intervenciones artísticas.
