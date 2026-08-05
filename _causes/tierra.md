@@ -12,6 +12,9 @@ hashtags:
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - DerechoAlTerritorioDerechoAlHogar
 actions:
+  - title: "Acciones Federales y Plurinacionales del 5 de Agosto"
+    link: /acciones/acciones58/
+    image: /assets/images/mesainformativachilecito56.jpeg
   - title: "Festival en Lucha"
     link: /acciones/festival
     image: /assets/images/tierra_20260725al20260808/festi_01.jpeg
