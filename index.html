@@ -14,7 +14,42 @@ description: "Ponete tu camiseta dentro y fuera de la cancha"
   <p class="hero__lemma">Ponete la camiseta dentro y fuera de la cancha</p>
 </section>
 
+{% capture upcoming_cards %}
+      <a class="cause-card" href="{{ '/acciones/acciones58/' | relative_url }}">
+        <div class="cause-card__image-wrap">
+          <img src="{{ '/assets/images/conferenciaprensa56_1.jpeg' | relative_url }}" alt="Acciones del 5 de Agosto" loading="lazy">
+        </div>
+        <span class="cause-card__title">Acciones Federales y Plurinacionales del 5 de Agosto</span>
+      </a>
+      <a class="cause-card" href="{{ '/acciones/festival/' | relative_url }}">
+        <div class="cause-card__image-wrap">
+          <img src="{{ '/assets/images/tierra_20260725al20260808/festi_01.jpeg' | relative_url }}" alt="Festival En Lucha" loading="lazy">
+        </div>
+        <span class="cause-card__title">Festival En Lucha</span>
+      </a>
+      <a class="cause-card" href="{{ '/acciones/acciones68/' | relative_url }}">
+        <div class="cause-card__image-wrap">
+          <img src="{{ '/assets/images/tierra_20260725al20260808/flyer_3_b.jpeg' | relative_url }}" alt="Acciones del 06/08" loading="lazy">
+        </div>
+        <span class="cause-card__title">Acciones del 06/08, el día que se trata la ley</span>
+      </a>
+{% endcapture %}
+
+{% unless upcoming_cards == blank %}
+<div class="cause-wrapper cause-wrapper--bg-blue cause-wrapper--actions" id="ahora">
+  <div class="cause-actions">
+    <h2 class="organize-label">OCURRIENDO AHORA</h2>
+    <div class="cause-action-cards cause-action-cards--compact">
+      {{ upcoming_cards }}
+    </div>
+  </div>
+</div>
+{% endunless %}
+
 <section class="cause-cards" id="causas-urgentes">
+  {% unless upcoming_cards == blank %}
+  <h2 class="cause-cards__title">CAUSAS URGENTES</h2>
+  {% endunless %}
   {% assign sorted_causes = site.causes | sort: "order" %}
   {% for cause in sorted_causes %}
   <a class="cause-card" href="{{ cause.url | relative_url }}">
