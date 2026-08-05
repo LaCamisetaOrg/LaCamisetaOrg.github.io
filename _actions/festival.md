@@ -28,4 +28,4 @@ images:
     alt: "Flyer festival en lucha: Kumbia Queers. Lectura de Documentos, Oradores y Oradoras: Charo Lopez. Juan Solá. Maite Lanata. Jaz Stuart. Adolfo Perez Esquivel. La tierra no se vende, no se quema, no se desaloja."  
 ---
 
-  
+Festival En Lucha
