@@ -31,7 +31,9 @@ images:
 
 ## Buenos Aires - Mar del Plata
 
-📍12hs Monumento a San Martín (Luro y Mitre). Movilización.
+**Autoconvocados**: 📍12hs Monumento a San Martín (Luro y Mitre). Movilización.
+
+**Organizaciones**: 📍16hs Monumento a San Martín (Luro y Mitre). Movilización.
 
 ## Buenos Aires - Tandil
 
