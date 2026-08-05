@@ -3,10 +3,10 @@ layout: action
 title: "Acciones del 06/08, el día que se trata la ley"
 description: "Acciones del 06/08"
 images:
-  - src: /assets/images/tierra_20260725al20260808/6_concentracion_catamarca.jpeg
-    alt: "Afiche de la Jornada Nacional en Defensa de la Tierra en Catamarca el 6/8. Concentración 17hs en Plaza 25 de Mayo. Incluye marcha, números artísticos, espacio niñeces y radio abierta. No a la ley de extranjerización. La tierra no se vende, no se quema, ni se desaloja, se defiende."
   - src: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
     alt: "Afiche del 6/8 en el Congreso Nacional. Defendamos el Territorio, ahora afuera de la cancha. Cronograma: 12hs Verdurazo y Radio Abierta, 15:30hs Verdurazo, 17hs Vuelta a la plaza, 18hs Festival. La tierra no se vende, no se quema, ni se desaloja."
+  - src: /assets/images/tierra_20260725al20260808/6_concentracion_catamarca.jpeg
+    alt: "Afiche de la Jornada Nacional en Defensa de la Tierra en Catamarca el 6/8. Concentración 17hs en Plaza 25 de Mayo. Incluye marcha, números artísticos, espacio niñeces y radio abierta. No a la ley de extranjerización. La tierra no se vende, no se quema, ni se desaloja, se defiende."
   - src: /assets/images/tierra_20260725al20260808/junin_acciones.jpeg
     alt: "Afiche de acciones en Jujuy contra la Ley de Inviolabilidad de la Propiedad Privada. Cronograma: viernes 31/07 banderazo y volanteada en semáforos, concentración 17hs en Plazoleta Eva Perón; martes 4/8 conferencia de prensa y sahumada 10:30hs en Plaza Belgrano; jueves 6/8 concentración 16hs y movilización 17hs en Plaza Belgrano. Mapa de Argentina con banderines a la venta."
   - src: /assets/images/tierra_20260725al20260808/jueves_6_salta.jpeg
@@ -216,6 +216,10 @@ images:
 ## San Luis - Capital 
 
 📍17hs Correo Argentino - Concentración
+
+## Santa Cruz
+
+📍17hs Gorosito Caleta Oliva 
 
 ## Santa Fe
 
