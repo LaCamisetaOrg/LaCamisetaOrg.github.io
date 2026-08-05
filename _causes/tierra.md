@@ -33,7 +33,6 @@ actions:
   - title: "Colaborá con la Caminata de Warmis por la tierra"
     link: /acciones/caminatawarmis/
     image: /assets/images/tierra_20260725al20260808/caminata_warmis.jpeg
-past-actions:
   - title: "Sumate al Banderazo del 1° de Agosto"
     link: /acciones/banderazo20260801/
     image: /assets/images/banderazo20260801.jpeg
