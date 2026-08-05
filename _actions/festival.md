@@ -28,4 +28,26 @@ images:
     alt: "Flyer festival en lucha: Kumbia Queers. Lectura de Documentos, Oradores y Oradoras: Charo Lopez. Juan Solá. Maite Lanata. Jaz Stuart. Adolfo Perez Esquivel. La tierra no se vende, no se quema, no se desaloja."  
 ---
 
-Festival En Lucha
+## Festival En Lucha
+
+El **Festival En Lucha** se realizará el **6 de agosto a las 18hs en el Congreso** (desde las 12hs) bajo la consigna **"La tierra no se vende, no se quema, ni se desaloja"**.
+
+## Artistas
+
+* **Resistencia Suburbana**
+* **Kumbia Queers**
+* **Malena D'Alessio**
+* **Willy Bronca**
+* **Zhoca**
+
+## Oradores y Oradoras
+
+Habrá lectura de documento y palabras de:
+
+* Charo Lopez
+* Juan Solá
+* Maite Lanata
+* Jaz Stuart
+* Adolfo Pérez Esquivel
+
+Defendamos el territorio. Ahora afuera de la cancha.
