@@ -12,6 +12,9 @@ hashtags:
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - DerechoAlTerritorioDerechoAlHogar
 actions:
+  - title: "Festival en Lucha"
+    link: /acciones/festival
+    image: /assets/images/tierra_20260725al20260808/festival_01.jpeg
   - title: "El 6 de Agosto se trata la ley. Acciones por región."
     link: /acciones/acciones68/
     image: /assets/images/acciones_main_2.png
