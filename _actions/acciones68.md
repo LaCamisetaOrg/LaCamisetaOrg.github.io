@@ -2,6 +2,8 @@
 layout: action
 title: "Acciones del 06/08, el día que se trata la ley"
 description: "Acciones del 06/08"
+from_date: 2026-08-06
+to_date: 2026-08-06
 images:
   - src: /assets/images/tierra_20260725al20260808/flyer_3_b.jpeg
     alt: "Afiche del 6/8 en el Congreso Nacional. Defendamos el Territorio, ahora afuera de la cancha. Cronograma: 12hs Verdurazo y Radio Abierta, 15:30hs Verdurazo, 17hs Vuelta a la plaza, 18hs Festival. La tierra no se vende, no se quema, ni se desaloja."

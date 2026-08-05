@@ -2,6 +2,8 @@
 layout: action
 title: "La Tierra Explota - Gaumont"
 description: "El documental «La Tierra Explota, el tiempo se acaba» llegó al Gaumont."
+from_date: 2026-08-01
+to_date: 2026-08-01
 images:
   - src: /assets/images/latierraexplota_afiche.jpeg
     alt: "Afiche del documental La Tierra Explota, el tiempo se acaba."

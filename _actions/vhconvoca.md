@@ -2,6 +2,8 @@
 layout: action
 title: "Victor Hugo convoca al banderazo del 1ro de Agosto"
 description: "Victor Hugo convoca al banderazo del 1ro de Agosto"
+from_date:
+to_date:
 images:
   - src: /assets/images/am750.jpg
     alt: "Victor Hugo Morales en AM750 convocando al banderazo del 1ro de Agosto en defensa del territorio."

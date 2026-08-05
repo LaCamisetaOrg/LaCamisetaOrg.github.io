@@ -2,6 +2,8 @@
 layout: action
 title: "No a los despidos de becarios post-doctorales en el CONICET"
 description: "Audiencia pública en la Cámara de Diputados, 10 de agosto a las 16hs"
+from_date: 2026-08-10
+to_date: 2026-08-10
 images:
   - src: /assets/images/conicetaudienciapublica.jpeg
     alt: "Afiche de la audiencia pública en la Cámara de Diputados el 10 de agosto a las 16hs. En CONICET no sobra nadie. Convocatoria para impulsar la lucha contra los despidos, la precarización y el ahogo presupuestario. Manifestantes con carteles: Ciencia en Lucha, No a los despidos. Porque el CONICET no es de un presidente de turno, es del pueblo trabajador."

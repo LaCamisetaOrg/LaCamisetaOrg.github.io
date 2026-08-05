@@ -2,6 +2,8 @@
 layout: action
 title: "Caminata de Warmis"
 description: "Mujeres del Kollasuyu en Defensa del Planeta Tierra, Pachamama "
+from_date: 2026-08-03
+to_date: 2026-08-06
 images:
   - src: /assets/images/tierra_20260725al20260808/caminata_warmis.jpeg
     alt: "Flyer de la Caminata de Warmis. Mujeres y Feminidades del Kollasuyu en Defensa del Planeta Tierra y la Pachamama, desde Rinconada Jujuy hasta Buenos Aires."

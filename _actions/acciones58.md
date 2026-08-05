@@ -2,6 +2,8 @@
 layout: action
 title: "Acciones Federales y Plurinacionales del 5 de Agosto"
 description: "Acciones del 5/08"
+from_date: 2026-08-05
+to_date: 2026-08-05
 images:
   - src: /assets/images/conferenciaprensa56_1.jpeg
     alt: "Afiche del 5 de agosto 12hs. Conferencia de Prensa. No a la Ley de Extranjerización de la Tierra. Culturazo en Defensa de la Tierra y la Soberanía. Teatro Picadero, Pje. Enrique Santos Discepolo 1857, CABA. Organiza: Coordinadora Plurinacional BFS, Actrices Argentinas, CAJE, Asociación Argentina de Abogados/as Ambientalistas."

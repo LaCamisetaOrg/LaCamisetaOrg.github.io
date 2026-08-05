@@ -2,6 +2,8 @@
 layout: action
 title: "Festival En Lucha"
 description: "Fesival En Lucha"
+from_date: 2026-08-06
+to_date: 2026-08-06
 images:
   - src: /assets/images/tierra_20260725al20260808/festi_01.jpeg
     main: true

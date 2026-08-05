@@ -2,6 +2,8 @@
 layout: action
 title: "Acciones por la tierra del Viernes 31/07"
 description: "Acciones del Viernes 31/07"
+from_date: 2026-07-31
+to_date: 2026-07-31
 images:
   - src: /assets/images/tierra_20260725al20260808/viernes_31_virtual_asamblea_provincial.jpeg
     alt: "Afiche de la Asamblea Provincial Virtual del 31 de julio en defensa de la Tierra."

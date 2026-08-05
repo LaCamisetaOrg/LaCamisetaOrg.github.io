@@ -2,6 +2,8 @@
 layout: action
 title: "La Tierra Explota - Gaumont"
 description: "El documental «La Tierra Explota, el tiempo se acaba» llega al Gaumont."
+from_date: 2026-07-30
+to_date: 2026-08-01
 images:
   - src: /assets/images/latierraexplota.jpeg
     alt: "Afiche del documental La Tierra Explota, el tiempo se acaba. Funciones en el Cine Gaumont, Av. Rivadavia 1635, CABA."

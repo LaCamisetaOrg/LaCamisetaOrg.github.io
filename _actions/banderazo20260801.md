@@ -2,6 +2,8 @@
 layout: action
 title: "Banderazo 1° de Agosto"
 description: "Gran Banderazo el Día de la Pachamama"
+from_date: 2026-08-01
+to_date: 2026-08-01
 images:
   - src: /assets/images/banderazo20260801.jpeg
     alt: "Afiche del Banderazo del 1° de Agosto en CABA. Manos alzando banderas argentina, mapuche, de Malvinas y palestina frente al Obelisco. Texto: Defendamos el Territorio, ahora afuera de la cancha. 16hs Av. Corrientes y Callao al Obelisco. La tierra no se vende, no se quema, ni se desaloja."
