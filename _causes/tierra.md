@@ -20,10 +20,13 @@ actions:
     image: /assets/images/tierra_20260725al20260808/festi_01.jpeg
   - title: "El 6 de Agosto se trata la ley. Acciones por región."
     link: /acciones/acciones68/
-    image: /assets/images/acciones_main_2.png
+    image: /assets/images/urgente68tierras.jpeg
   - title: Firmá el petitorio del observatorio de tierras
     link: https://www.observatoriodetierras.ar/
     image: /assets/images/observatorio_tierras.jpeg
+  - title: "Seguí a abogadxs ambientalistas"
+    link: https://www.instagram.com/abogadesambientalistas/?hl=en
+    image: /assets/images/abogadesambientalistas.jpeg
   - title: "Seguí a Basta de Falsas Soluciones"
     link: https://www.instagram.com/bastadefalsassoluciones/
     image: /assets/images/bfs.jpg
