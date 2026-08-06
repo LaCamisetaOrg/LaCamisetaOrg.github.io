@@ -156,7 +156,7 @@ La movilización del 6 de agosto es la última trinchera para evitar que se sanc
 
 📍17hs Vuelta a la plaza.
 
-📍18hs Festival e intervenciones.
+📍18hs [Festival e intervenciones](https://lacamiseta.org/acciones/festival/).
 
 ## Catamarca {#catamarca}
 
