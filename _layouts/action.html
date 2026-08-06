@@ -41,7 +41,7 @@
       {% if page.images.size == 1 %}
     <article class="action-page">
       <div class="action-page__inner action-page__inner--with-image">
-        <div class="action-page__image-wrap action-gallery__item">
+        <div class="action-page__image-wrap action-gallery__item" style="{{page.images[0].style ?? ""}}">
           <img src="{{ page.images[0].src | relative_url }}" alt="{{ page.images[0].alt | default: page.title }}" loading="lazy">
         </div>
         <div class="action-page__body">
