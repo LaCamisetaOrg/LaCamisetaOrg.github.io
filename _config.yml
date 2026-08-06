@@ -28,4 +28,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - design.png
-  - vendor
