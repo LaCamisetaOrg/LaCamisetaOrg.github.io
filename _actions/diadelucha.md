@@ -1,6 +1,6 @@
 ---
 layout: action
-title: "Acciones del 06/08, el día que se trata la ley"
+title: "Que no nos desmovilicen"
 description: "Acciones del 06/08"
 from_date: 2026-08-06
 to_date: 2026-08-06
@@ -11,8 +11,6 @@ images:
 
 ## Urgente
 
-<div style="display:flex; gap:1.5rem; align-items:flex-start; flex-wrap:wrap;">
-<div style="flex:1; min-width:260px;">
 <p><strong>ALERTA! No bajemos la guardia. ⚠️⚠️</strong></p>
 <p>El gobierno intenta instalar el relato de que "cedió" al no aumentar el cupo del 15% de extranjerización. No nos dejemos engañar: es solo el anzuelo para que el resto del proyecto, mucho más letal, pase desapercibido. La estructura central que atenta contra la soberanía y la justicia territorial, sigue intacta. <strong>Necesitamos más presión social para derribar la ley entera.</strong></p>
 <p><strong>Ejes concretos que SIGUEN EN PIE y que debemos frenar el 6 de agosto:</strong></p>
