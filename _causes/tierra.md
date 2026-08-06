@@ -12,6 +12,9 @@ hashtags:
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - DerechoAlTerritorioDerechoAlHogar
 actions:
+  - title: "Que no nos desmovilicen"
+    link: /acciones/diadelucha
+    image: /assets/images/tierra_20260725al20260808/no_nos_distraigamos.png
   - title: "Acciones Federales y Plurinacionales del 5 de Agosto"
     link: /acciones/acciones58/
     image: /assets/images/mesainformativachilecito56.jpeg
