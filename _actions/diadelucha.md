@@ -6,6 +6,7 @@ from_date: 2026-08-06
 to_date: 2026-08-06
 images:
   - src: /assets/images/tierra_20260725al20260808/no_nos_distraigamos.png
+    style: "height: 1045px"
     alt: "No Nos distraigamos! El 06/08 Argentina se moviliza. Pase lo que pase las actividades federales SE MANTIENEN."
 ---
 
