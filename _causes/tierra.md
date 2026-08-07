@@ -12,6 +12,9 @@ hashtags:
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - DerechoAlTerritorioDerechoAlHogar
 actions:
+  - title: "Reclamemos por la liberación de lxs detenidxs tras la represión ilegal en el congreso"
+    link: /acciones/detenidxscongreso
+    image: /assets/images/pueblodijono.png
   - title: "Que no nos desmovilicen"
     link: /acciones/diadelucha
     image: /assets/images/tierra_20260725al20260808/no_nos_distraigamos.png

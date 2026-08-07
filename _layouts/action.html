@@ -41,9 +41,14 @@
       {% if page.images.size == 1 %}
     <article class="action-page">
       <div class="action-page__inner action-page__inner--with-image">
-        <div class="action-page__image-wrap action-gallery__item" style="{{page.images[0].style ?? ""}}">
-          <img src="{{ page.images[0].src | relative_url }}" alt="{{ page.images[0].alt | default: page.title }}" loading="lazy">
-        </div>
+        <figure class="action-page__image-figure">
+          <div class="action-page__image-wrap action-gallery__item" style="{{ page.images[0].style | default: "" }}">
+            <img src="{{ page.images[0].src | relative_url }}" alt="{{ page.images[0].alt | default: page.title }}" loading="lazy">
+          </div>
+          {% if page.images[0].image_source %}
+          <figcaption class="action-image-caption">fuente: <a href="{{ page.images[0].image_source }}" target="_blank" rel="noopener">{{ page.images[0].image_source }}</a></figcaption>
+          {% endif %}
+        </figure>
         <div class="action-page__body">
           <h1 class="action-page__title">{{ page.title }}</h1>
           {{ content }}
@@ -67,9 +72,14 @@
       <div class="action-page__inner">
         <div class="action-gallery">
           {% for img in page.images %}
-          <div class="action-gallery__item">
-            <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
-          </div>
+          <figure class="action-gallery__figure">
+            <div class="action-gallery__item">
+              <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
+            </div>
+            {% if img.image_source %}
+            <figcaption class="action-image-caption">fuente: <a href="{{ img.image_source }}" target="_blank" rel="noopener">{{ img.image_source }}</a></figcaption>
+            {% endif %}
+          </figure>
           {% endfor %}
         </div>
       </div>
