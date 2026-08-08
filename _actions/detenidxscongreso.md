@@ -3,14 +3,17 @@ layout: action
 title: "Reclamemos por la liberación de lxs detenidxs tras la represión ilegal en el Congreso"
 description: "Exigimos la inmediata liberación de lxs detenidxs y hacemos responsable al gobierno por su situación."
 from_date: 2026-08-07
-to_date: 2026-08-07
+to_date: 2026-08-10
 images:
   - src: /assets/images/pueblodijono.png
     alt: "El pueblo dijo no"
     image_source: https://youtu.be/IEFQJYUjQxA?si=St6UKPUuXFFEGkC-
   - src: /assets/images/aministiarepresion68.jpeg
-    alt: https://www.instagram.com/p/DbvtNbYES7X/
+    alt: "Amnistia Argentina: Un país no se construye con balazos ni gases"
     image_source: https://www.instagram.com/p/DbvtNbYES7X/
+  - src: https://www.cels.org.ar/web/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-07-at-1.27.11-PM-1-728x485.jpeg
+    alt: "CELS: Mientras el Senado sesionaba, el gobierno ordenó reprimir la protesta"
+    image_source: https://www.cels.org.ar/web/2026/08/senado-ordeno-reprimir/
 ---
 
 Exigimos la inmediata liberación de lxs detenidxs y hacemos responsable al gobierno por su situación.
@@ -20,8 +23,14 @@ Exigimos la inmediata liberación de lxs detenidxs y hacemos responsable al gobi
 
 Protestar es un derecho. El Estado tiene la obligación de garantizar la seguridad de las personas, no de reprimirlas.
 
-- [Hilo de CORREPI sobre lxs detenidxs](https://x.com/CORREPI/status/2085513213890736555)
-- [Reporte de la brutal represión en el congreso — CTAA](https://ctaa.org.ar/reporte-de-la-brutal-represion-en-el-congreso/)
+- [CORREPI: Denunciamos la represión en Congreso](https://x.com/CORREPI/status/2085513213890736555)
+- [CELS: Mientras el Senado sesionaba, el gobierno ordenó reprimir la protesta](https://www.cels.org.ar/web/2026/08/senado-ordeno-reprimir/)
+- [CTAA: Reporte de la brutal represión en el congreso](https://ctaa.org.ar/reporte-de-la-brutal-represion-en-el-congreso/)
+- [Amnistia Argentina: Un país no se construye con balazos ni gases](https://www.instagram.com/p/DbvtNbYES7X/)
+
+## Actualización
+
+- ⚠️🚨 [CORREPI: Ya están saliendo en libertad las personas detenidas ayer en la cacería de fuerzas federales y policía de la ciudad](https://x.com/CORREPI/status/2085866028492313087)
 
 ## Material en Redes
 
