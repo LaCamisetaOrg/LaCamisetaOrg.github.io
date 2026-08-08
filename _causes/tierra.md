@@ -12,6 +12,9 @@ hashtags:
   - NoALaPrivatizaciónDeTierrasYNacientesDeAgua
   - DerechoAlTerritorioDerechoAlHogar
 actions:
+  - title: "Amenaza de la mafia forestal en Misiones: la tekoá Mbya Guaraní Puente Quemado II"
+    link: https://www.instagram.com/reel/DbycMixJ8eO
+    image: https://instagram.faep14-2.fna.fbcdn.net/v/t51.71878-15/770427256_991964740510345_7257908458107301760_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=7OVOliqyiQcQ7kNvwHNeT_j&_nc_oc=AdrPWSsGvwMo-MP92c6iiVTHNhWt-5kET9vTib_vqhkRThVnoUBTxsMIrwe2TZPSQJw&_nc_zt=23&_nc_ht=instagram.faep14-2.fna&_nc_gid=-yHdtu7dhpY2znaNlowhiQ&_nc_ss=7b689&oh=00_AQHDnReBl_o70NJTcw62wm2yo6VTjVV2kIzfujbggQz1kg&oe=6A7D8407
   - title: "Reclamemos por la liberación de lxs detenidxs tras la represión ilegal en el congreso"
     link: /acciones/detenidxscongreso
     image: /assets/images/pueblodijono.png
