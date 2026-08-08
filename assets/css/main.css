@@ -1165,6 +1165,7 @@ ul[role="list"] {
   text-align: center;
   background-color: var(--color-complementary);
   color: var(--color-text-complementary);
+  font-family: var(--font-title);
   text-decoration: none;
   border-radius: 999px;
   font-size: 0.78rem;
