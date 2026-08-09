@@ -8,6 +8,9 @@ images:
   - src: /assets/images/conicetaudienciapublica.jpeg
     alt: "Afiche de la audiencia pública en la Cámara de Diputados el 10 de agosto a las 16hs. En CONICET no sobra nadie. Convocatoria para impulsar la lucha contra los despidos, la precarización y el ahogo presupuestario. Manifestantes con carteles: Ciencia en Lucha, No a los despidos. Porque el CONICET no es de un presidente de turno, es del pueblo trabajador."
     image_source: "https://www.instagram.com/p/Db0loxwiaL6/"
+ - src: https://pbs.twimg.com/media/HO-fdRIXsAADQLS?format=jpg&name=small
+   alt: "AUDIENCIA PÚBLICA En rechazo a los despidos de becarios y becarias postdoctorales en el CONICET. 10 de agosto, 16:00 hs. Sala 2 del Anexo C, Cámara de Diputados de la Nación- Av. Rivadavia 1841, CABA."
+   image_source: https://x.com/ateconicet/status/2085060540821377132 
 ---
 
 🔥 **No a los despidos de becarios post-doctorales en el CONICET**
