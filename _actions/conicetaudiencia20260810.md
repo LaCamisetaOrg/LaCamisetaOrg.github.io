@@ -13,7 +13,7 @@ images:
     image_source: https://x.com/ateconicet/status/2085060540821377132 
 ---
 
-🔥 **No a los despidos de becarios post-doctorales en el CONICET**
+🔥 **No a los despidos de becarios post-doctorales en el CONICET** 
 
 📆 10 de agosto, 16:00 hs
 
@@ -28,3 +28,7 @@ Hoy se suma el despido de 379 becarias y becarios posdoctorales, el cese de la c
 En ese marco, se presentará el proyecto de ley elaborado para acompañar estos reclamos.
 
 ¡La lucha sigue!
+
+## Actualización
+
+🔥 La inscripción está cerrada, pero no importa la distancia: ¡acompañá la lucha desde donde estés! ✊🏾 Sumate a la audiencia pública contra los despidos en el CONICET, por las altas y por el acceso a la salud. No hace falta estar en la puerta para estar del lado correcto de la historia. Próximamente se compartirán los enlaces para seguirla por redes. 
