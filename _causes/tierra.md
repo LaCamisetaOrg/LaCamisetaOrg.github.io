@@ -13,62 +13,36 @@ hashtags:
   - DerechoAlTerritorioDerechoAlHogar
 actions:
   - title: "Amenaza de la mafia forestal en Misiones: la tekoá Mbya Guaraní Puente Quemado II"
-    link: https://www.instagram.com/reel/DbycMixJ8eO
+    url: https://www.instagram.com/reel/DbycMixJ8eO
     image: https://instagram.faep14-2.fna.fbcdn.net/v/t51.71878-15/770427256_991964740510345_7257908458107301760_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=7OVOliqyiQcQ7kNvwHNeT_j&_nc_oc=AdrPWSsGvwMo-MP92c6iiVTHNhWt-5kET9vTib_vqhkRThVnoUBTxsMIrwe2TZPSQJw&_nc_zt=23&_nc_ht=instagram.faep14-2.fna&_nc_gid=-yHdtu7dhpY2znaNlowhiQ&_nc_ss=7b689&oh=00_AQHDnReBl_o70NJTcw62wm2yo6VTjVV2kIzfujbggQz1kg&oe=6A7D8407
-  - title: "Reclamemos por la liberación de lxs detenidxs tras la represión ilegal en el congreso"
-    link: /acciones/detenidxscongreso
-    image: /assets/images/pueblodijono.png
-  - title: "Que no nos desmovilicen"
-    link: /acciones/diadelucha
-    image: /assets/images/tierra_20260725al20260808/no_nos_distraigamos.png
-  - title: "Acciones Federales y Plurinacionales del 5 de Agosto"
-    link: /acciones/acciones58/
-    image: /assets/images/mesainformativachilecito56.jpeg
-  - title: "Festival en Lucha"
-    link: /acciones/festival
-    image: /assets/images/tierra_20260725al20260808/festi_01.jpeg
-  - title: "El 6 de Agosto se trata la ley. Acciones por región."
-    link: /acciones/acciones68/
-    image: /assets/images/urgente68tierras.jpeg
-  - title: Firmá el petitorio del observatorio de tierras
-    link: https://www.observatoriodetierras.ar/
+    from_date: 2026-08-06
+    location: Misiones
+    inline: true
+  - title: "Firmá el petitorio del observatorio de tierras"
+    url: https://www.observatoriodetierras.ar/
     image: /assets/images/observatorio_tierras.jpeg
+    from_date: 2026-07-31
+    location: Federal
+    inline: true
   - title: "Seguí a abogadxs ambientalistas"
-    link: https://www.instagram.com/abogadesambientalistas/?hl=en
+    url: https://www.instagram.com/abogadesambientalistas/?hl=en
     image: /assets/images/abogadesambientalistas.jpeg
+    from_date: 2026-07-31
+    location: Federal
+    inline: true
   - title: "Seguí a Basta de Falsas Soluciones"
-    link: https://www.instagram.com/bastadefalsassoluciones/
+    url: https://www.instagram.com/bastadefalsassoluciones/
     image: /assets/images/bfs.jpg
+    from_date: 2026-07-31
+    location: Federal
+    inline: true
   - title: "Sumate a la Campaña Plurinacional \"Todx Somos Pueblo Lule\""
-    link: https://www.instagram.com/p/DbHQoltztkz/
+    url: https://www.instagram.com/p/DbHQoltztkz/
     image: /assets/images/lule.jpg
-  - title: "Colaborá con la Caminata de Warmis por la tierra"
-    link: /acciones/caminatawarmis/
-    image: /assets/images/tierra_20260725al20260808/caminata_warmis.jpeg
-  - title: "Sumate al Banderazo del 1° de Agosto"
-    link: /acciones/banderazo20260801/
-    image: /assets/images/banderazo20260801.jpeg
-  - title: "La Tierra Explota - Estreno el 1° de Agosto"
-    link: /acciones/latierraexplotaestreno18
-    image: /assets/images/latierraexplota_afiche.jpeg
-  - title: "Victor Hugo convoca al Banderazo del 1ro de Agosto"
-    link: /acciones/vhconvoca
-    image: /assets/images/am750.jpg
-  - title: "Reunión virtual del 20 de julio"
-    link: /acciones/reunion20260720/
-    image: /assets/images/reunion_20260720.jpeg
-  - title: "Mirá la La Tierra Explota en el Gaumont"
-    link: /acciones/latierraexplota/
-    image: /assets/images/latierraexplota.jpeg
-  - title: "Participá de las acciones por la Tierra del 25 de Julio al 6 de Agosto"
-    link: /acciones/reunion20260725al20260808/
-    image: /assets/images/tierra_20260725al20260808/flyer_1_b.jpeg
-  - title: "Sumate a la Charla abierta del Observatorio de Tierras"
-    link: /acciones/charla20260729/
-    image: /assets/images/charla_observatorio_tierras.jpeg
-  - title: "Acciones del Viernes 31 por region"
-    link: /acciones/viernes31/
-    image: /assets/images/tierra_20260725al20260808/viernes_31_junin_charla.jpeg
+    from_date: 2026-07-31
+    location: Salta
+    inline: true
+
 order: 1
 ---
 

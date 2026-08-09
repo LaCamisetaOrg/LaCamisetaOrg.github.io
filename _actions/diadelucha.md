@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "Que no nos desmovilicen"
 description: "Acciones del 06/08"
 from_date: 2026-08-06

@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "Caminata de Warmis"
 description: "Mujeres del Kollasuyu en Defensa del Planeta Tierra, Pachamama "
 from_date: 2026-08-03

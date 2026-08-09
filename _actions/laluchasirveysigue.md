@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "La lucha sirve y sigue: lo que logramos y lo que sigue"
 description: "La lucha sirve y sigue"
 from_date: 2026-08-08

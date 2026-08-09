@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "Banderazo 1° de Agosto"
 description: "Gran Banderazo el Día de la Pachamama"
 from_date: 2026-08-01

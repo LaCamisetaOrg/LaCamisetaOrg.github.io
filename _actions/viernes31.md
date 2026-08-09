@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "Acciones por la tierra del Viernes 31/07"
 description: "Acciones del Viernes 31/07"
 from_date: 2026-07-31

@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "Reclamemos por la liberación de lxs detenidxs tras la represión ilegal en el Congreso"
 description: "Exigimos la inmediata liberación de lxs detenidxs y hacemos responsable al gobierno por su situación."
 from_date: 2026-08-07

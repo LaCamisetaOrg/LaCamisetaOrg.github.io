@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "Acciones Federales y Plurinacionales del 5 de Agosto"
 description: "Acciones del 5/08"
 from_date: 2026-08-05

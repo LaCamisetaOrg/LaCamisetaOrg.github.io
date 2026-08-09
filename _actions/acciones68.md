@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: Federal
 title: "Acciones del 06/08, el día que se trata la ley"
 description: "Acciones del 06/08"
 from_date: 2026-08-06

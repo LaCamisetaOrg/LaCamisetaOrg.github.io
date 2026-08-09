@@ -7,13 +7,6 @@ hashtags:
   - EnConicetNoSobraNadie
   - EnIntiNoSobraNadie
   - EnCneaNoSobraNadie
-actions:
-  - title: "Audiencia pública el 10 de Agosto por los 400 despidos en CONICET"
-    link: /acciones/conicetaudiencia20260810/
-    image: /assets/images/conicetaudienciapublica.jpeg
-  - title: "Participá de la Concentración en el Polo Científico Tecnológico el 29 de Julio"
-    link: /acciones/polo20260729/
-    image: /assets/images/polo20260729.jpeg
 order: 5
 ---
 

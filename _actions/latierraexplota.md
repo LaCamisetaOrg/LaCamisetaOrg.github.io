@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: CABA
 title: "La Tierra Explota - Gaumont"
 description: "El documental «La Tierra Explota, el tiempo se acaba» llega al Gaumont."
 from_date: 2026-07-30

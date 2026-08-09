@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: ciencia
+location: CABA
 title: "No a los despidos de becarios post-doctorales en el CONICET"
 description: "Audiencia pública en la Cámara de Diputados, 10 de agosto a las 16hs"
 from_date: 2026-08-10

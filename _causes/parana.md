@@ -8,11 +8,19 @@ hashtags:
   - NoALaPrivatizaciónDelParana
 actions:
   - title: "Seguí al foro por la recuperación del Paraná"
-    link: "https://www.instagram.com/foroporlarecuperaciondelparana"
+    url: "https://www.instagram.com/foroporlarecuperaciondelparana"
     image: /assets/images/foro_parana.jpg
+    from_date: 2026-06-01
+    location: Federal
+    inline: true
+
   - title: "Mirá la película Argentina sangra por las barrancas del río Paraná"
-    link: "https://youtu.be/JI1j14kuEPc?si=ZyN8izPeS4spc52p"
+    url: "https://youtu.be/JI1j14kuEPc?si=ZyN8izPeS4spc52p"
     image: /assets/images/argentina_sangra_pelicula.png
+    from_date: 2026-06-01
+    location: Federal
+    inline: true
+
 order: 4
 ---
 

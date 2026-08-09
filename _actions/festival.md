@@ -1,5 +1,7 @@
 ---
 layout: action
+cause: tierra
+location: CABA
 title: "Festival En Lucha"
 description: "Fesival En Lucha"
 from_date: 2026-08-06

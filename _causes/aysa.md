@@ -10,8 +10,11 @@ hashtags:
   - ElAguaEsNuestra
 actions:
   - title: "Seguí a la Campaña Fuera Mekorot"
-    link: https://www.instagram.com/fueramekorot/
+    url: https://www.instagram.com/fueramekorot/
     image: /assets/images/fueramekorot.jpg
+    from_date: 2026-06-01
+    location: Federal
+    inline: true
 order: 2
 ---
 

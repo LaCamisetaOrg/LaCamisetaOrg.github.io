@@ -54,28 +54,29 @@
     </div>
     <div class="cause-wrapper cause-wrapper--bg-blue cause-wrapper--actions">
       <div class="cause-actions" id="actions">
-        {% if page.actions.size > 0 %}
         {% assign today = 'now' | date: '%Y-%m-%d' %}
+        {% assign cause_actions = site.actions | where: "cause", page.slug %}
+        {% assign inline_actions = "" | split: "" %}
+        {% if page.actions %}
+          {% assign inline_actions = page.actions %}
+        {% endif %}
+        {% assign all_actions = cause_actions | concat: inline_actions %}
+        {% assign all_actions_sorted = all_actions | sort: "from_date" | reverse %}
         {% assign current_actions = "" | split: "" %}
         {% assign past_actions = "" | split: "" %}
-        {% for action in page.actions %}
-          {% assign action_link_clean = action.link | remove: "/" %}
-          {% assign is_past = false %}
-          {% for site_action in site.actions %}
-            {% assign site_url_clean = site_action.url | remove: "/" %}
-            {% if action_link_clean == site_url_clean and site_action.to_date %}
-              {% assign to_date_str = site_action.to_date | date: '%Y-%m-%d' %}
-              {% if to_date_str < today %}
-                {% assign is_past = true %}
-              {% endif %}
+        {% for action in all_actions_sorted %}
+          {% if action.to_date %}
+            {% assign to_str = action.to_date | date: '%Y-%m-%d' %}
+            {% if to_str < today %}
+              {% assign past_actions = past_actions | push: action %}
+            {% else %}
+              {% assign current_actions = current_actions | push: action %}
             {% endif %}
-          {% endfor %}
-          {% if is_past %}
-            {% assign past_actions = past_actions | push: action %}
           {% else %}
             {% assign current_actions = current_actions | push: action %}
           {% endif %}
         {% endfor %}
+        {% if all_actions.size > 0 %}
         {% if past_actions.size > 0 %}
         <div class="actions-tabs" role="tablist">
           <button class="actions-tab actions-tab--active" role="tab" aria-selected="true" aria-controls="tab-current" id="btn-current">ORGANIZATE</button>
@@ -87,10 +88,15 @@
         <div id="tab-current" role="tabpanel" aria-labelledby="btn-current">
           <div class="cause-action-cards">
             {% for action in current_actions %}
-            <a class="cause-card" href="{{ action.link | relative_url }}">
+            {% if action.inline %}
+              {% assign card_image = action.image %}
+            {% else %}
+              {% assign card_image = action.images[0].src %}
+            {% endif %}
+            <a class="cause-card" href="{{ action.url | relative_url }}">
               <div class="cause-card__image-wrap">
-                {% if action.image %}
-                <img src="{{ action.image | relative_url }}" alt="{{ action.title }}" loading="lazy">
+                {% if card_image %}
+                <img src="{{ card_image | relative_url }}" alt="{{ action.title }}" loading="lazy">
                 {% endif %}
               </div>
               <span class="cause-card__title">{{ action.title }}</span>
@@ -102,10 +108,15 @@
         <div id="tab-past" role="tabpanel" aria-labelledby="btn-past" hidden>
           <div class="cause-action-cards">
             {% for action in past_actions %}
-            <a class="cause-card" href="{{ action.link | relative_url }}">
+            {% if action.inline %}
+              {% assign card_image = action.image %}
+            {% else %}
+              {% assign card_image = action.images[0].src %}
+            {% endif %}
+            <a class="cause-card" href="{{ action.url | relative_url }}">
               <div class="cause-card__image-wrap">
-                {% if action.image %}
-                <img src="{{ action.image | relative_url }}" alt="{{ action.title }}" loading="lazy">
+                {% if card_image %}
+                <img src="{{ card_image | relative_url }}" alt="{{ action.title }}" loading="lazy">
                 {% endif %}
               </div>
               <span class="cause-card__title">{{ action.title }}</span>
