@@ -24,8 +24,7 @@ Se presentará el proyecto por **iniciativa popular en defensa del agua para la 
 
 ## Lugar
 
-**Club Cárdenas** — Av. Coronel Cárdenas 2910, Mataderos (CABA)
-A 4 cuadras de Gral. Paz y G. Laferrere · Tel: 1162342857 (Alberto)
+📍 **Club Cárdenas**: Av. Coronel Cárdenas 2910, Mataderos (CABA). A 4 cuadras de Gral. Paz y G. Laferrere
 
 ## Convocan
 
