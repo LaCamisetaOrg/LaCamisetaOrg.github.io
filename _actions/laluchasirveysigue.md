@@ -61,8 +61,9 @@ Más información
 
 ## La lucha sigue
 
-⚠️ ¡Pero cuidado! Quedó el capítulo de desalojos, cambios en expropiaciones por parte del Estado y Registro de la Propiedad Inmueble.
+⚠️ ¡Pero cuidado! Quedó el capítulo de desalojos, cambios en expropiaciones por parte del Estado y Registro de la Propiedad Inmueble. Además, el Senado se apresta a convertir en ley el Súper RIGI. 
 
 - [El Senado se olvidó de las comunidades originarias y de los pequeños campesinos](https://www.instagram.com/reel/DbunXQSgSMH)
 - [Los gobernadores del litio, la minería y el agro ahora pueden desalojar a más de 1200 comunidades y campesinos.](https://www.instagram.com/reel/Dbwb2T-RWdz)
 - [Estos son los senadores que votaron para entregar el país](https://www.instagram.com/reel/DbusOe0huX5)
+- [CABA: Asamblea abierta 15/08 en el Parque Centenario](https://www.instagram.com/p/Dby9PsMRCXc)
