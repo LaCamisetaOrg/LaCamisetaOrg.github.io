@@ -19,6 +19,10 @@ defaults:
     values:
       layout: cause
 
+feed:
+  collections:
+    - actions
+
 markdown: kramdown
 plugins:
   - jekyll-feed
