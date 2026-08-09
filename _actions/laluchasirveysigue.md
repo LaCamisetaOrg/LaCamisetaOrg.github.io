@@ -26,6 +26,9 @@ images:
   - src: /assets/images/salirabuscarnos.png
     alt: "Multitud bajo la lluvia con paraguas y una bandera argentina. Texto: \"Sigamos en la calle\"."
     image_source: https://www.instagram.com/reel/DbyqjVuPpWp
+  - src: /assets/images/asamblea156caba.jpeg
+    alt: "Asamblea Abierta CABA: Sábado 15/08 - 15hs. Parque Centenario (en el mástil - si llueve se traslada a un lugar techado)" 
+    image_source: https://www.instagram.com/p/Dby9PsMRCXc 
 ---
 
 La movilización popular, federal y plurinacional del 6 de agosto fue multitudinaria y contundente. En las calles de todo el país, el pueblo dijo a viva voz: ¡La tierra no se vende, no se quema ni se desaloja! Fue esta movilización pacífica, plural e histórica la que hizo caer a los capítulos del manejo del fuego y de extranjerización de la tierra.
