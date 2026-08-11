@@ -6,7 +6,9 @@ title: "Vivienda, Tierra y Hábitat para el Pueblo."
 description: "Movilización por el derecho a la vivienda."
 from_date: 2026-08-10
 to_date: 2026-08-12
-
+images:
+  - src: /assets/images/vivienda.png
+    alt: "Flyer. Lee: Frenemos los desalojos. Basta de gente sin casa y casas sin gente. Miércoles 12/08 17 horas Parque Lezama"
 ---
 
 *VIVIENDA, TIERRA Y HÁBITAT PARA EL PUEBLO. ¡BASTA DE DESALOJOS!*
