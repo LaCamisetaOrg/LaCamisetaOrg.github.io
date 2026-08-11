@@ -1,6 +1,6 @@
 ---
 layout: action
-cause: ciencia
+cause: tierra
 location: Capital
 title: "Asamblea Por la Tierra"
 description: "Asamblea por la Tierra"
