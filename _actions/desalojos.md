@@ -14,9 +14,9 @@ images:
 Informate sobre la ley de Desalojos Exprés.
 El día *Miércoles 12 de agosto a las 19 hs por Zoom*
 
+Inscribite en el siguiente link: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaREwSe3tE72UQhF5SkX5IGWl4R7fVaosxyJ60Ek8QN_UO4Q/viewform?usp=publish-editor">Formulario Inscripción</a>
+
 Es urgente ‼️ 
 Y necesario que participen las comunidades y pueblos indígenas ‼️
 
 Ya que pronto se dará tratamiento en la Cámara de Diputados.
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeaREwSe3tE72UQhF5SkX5IGWl4R7fVaosxyJ60Ek8QN_UO4Q/viewform?usp=publish-editor">https://docs.google.com/forms/d/e/1FAIpQLSeaREwSe3tE72UQhF5SkX5IGWl4R7fVaosxyJ60Ek8QN_UO4Q/viewform?usp=publish-editor</a>
-
