@@ -18,4 +18,5 @@ Es urgente ‼️
 Y necesario que participen las comunidades y pueblos indígenas ‼️
 
 Ya que pronto se dará tratamiento en la Cámara de Diputados.
-https://docs.google.com/forms/d/e/1FAIpQLSeaREwSe3tE72UQhF5SkX5IGWl4R7fVaosxyJ60Ek8QN_UO4Q/viewform?usp=publish-editor
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeaREwSe3tE72UQhF5SkX5IGWl4R7fVaosxyJ60Ek8QN_UO4Q/viewform?usp=publish-editor">https://docs.google.com/forms/d/e/1FAIpQLSeaREwSe3tE72UQhF5SkX5IGWl4R7fVaosxyJ60Ek8QN_UO4Q/viewform?usp=publish-editor</a>
+
