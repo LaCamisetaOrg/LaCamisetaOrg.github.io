@@ -11,10 +11,20 @@ images:
     alt: "Flyer. Lee: Asamblea Abierta. Sábado 15/08 15 horas. Parque Centenario. En el mástil, en caso de lluvia se traslada a un lugar techado. Nos seguimos movilizando contra la ley de Inviolabilidad de Propiedad Privada y contra el Súper RIGI."
 ---
 
+Texto originalmente posteado en Instagram por Basta de Falsas Soluciones.
+
 📢 Asamblea abierta
 
 📍Sábado 15/08 - 15hs
 Parque Centenario (en el mástil - si llueve se traslada a un lugar techado)
+
+❤️‍🔥✊🏾 Desde la Coordinadora Basta de Falsas Soluciones convocamos a seguir organizándonos contra la entrega de nuestros territorios.
+
+🤚🏽Gracias a la organización y la lucha dimos marcha atrás al gobierno en su intención de modificar la Ley de Tierras y la de Manejo del Fuego. Ahora queda lo referido a *desalojos y expropiaciones*, capítulos que vulneran derechos esenciales de los pueblos originarios y la sociedad en general.
+
+💧⚡ Al mismo tiempo, el Senado se apresta a convertir en ley el Súper RIGI, en beneficio de tecno magnates que vienen por el agua, la energía y nuestras tierras.
+
+Sumate a activar!
 
 <br/>
 <div style="flex:0 0 auto;">
