@@ -41,7 +41,7 @@ Esto no se puede permitir. La movilización continuará hasta que caiga la ley p
 
 ## Fuimos miles
 
-Estuvimos [en todo el país](./acciones68.md) y [combatiendo la represión en el Congreso](./detenidxscongreso.md):
+Estuvimos [en todo el país](/acciones/acciones68) y [combatiendo la represión en el Congreso](/acciones/detenidxscongreso):
 
 * [La represión del gobierno de Milei, intentó tapar la enorme derrota política del proyecto de Ley de Sturzenegger](https://www.instagram.com/reel/DbvR73mRltx).
 * [El jueves nos hicimos presentes en la Plaza del Congreso](https://www.instagram.com/reel/DbyHKPeRdLf)
