@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ponete la camiseta por {{ page.title }} — {{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
   {% if page.og_image %}
     {% assign og_image = page.og_image %}
@@ -13,7 +14,7 @@
   {% endif %}
 
   <!-- Open Graph / WhatsApp / Facebook -->
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   <meta property="og:title" content="Ponete la camiseta por {{ page.title }}">
   <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
@@ -33,6 +34,27 @@
   <script src="{{ '/assets/js/flag.js' | relative_url }}"></script>
 
   <script defer src="https://umami.nicky.ar/script.js" data-website-id="9bd6fa79-ae17-4878-9343-01e75ea4c7de"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ page.title | prepend: "Ponete la camiseta por " | jsonify }},
+    "description": {{ page.excerpt | strip_html | truncatewords: 30 | jsonify }},
+    "image": "{{ site.url }}{{ site.baseurl }}{{ og_image }}",
+    "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+    {% if page.hashtags %}"keywords": {{ page.hashtags | join: ", " | jsonify }},{% endif %}
+    "inLanguage": "es-AR",
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/logo.jpeg"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
   {% include header.html %}
