@@ -22,10 +22,29 @@ images:
   - alt: "Afiche de CONADU Histórica y CTA Autónoma. El Congreso Extraordinario de CONADU Histórica ratificó la continuidad del plan de lucha y convocó a profundizar la movilización en defensa de la Universidad Pública, convocando a una semana de paro del 18 al 22 de agosto."
     src: "assets/images/parosuniversitario0626/conaduh.jpeg"
     image_source: https://www.instagram.com/p/DbuSe88DNi_
+  - alt: "Afiche de CONADU Histórica, CONADU, CTERA, FAGDUT, FATUN, UDA, FEDUN y FUA. Miércoles 19 de agosto: La Universidad también es Soberanía. 300 días de incumplimiento de la Ley de Financiamiento Universitario. Acto en todas las Universidades. 11h en Palacio Pizzurno."
+    src: "assets/images/parosuniversitario0626/conadu19.jpeg"
+    image_source: https://www.instagram.com/p/Db_31aRudQw
+  - alt: "Afiche de CONADU Histórica y CTA Autónoma. Semana de Paro Nacional de la docencia de las universidades nacionales del 18 al 22 de agosto. Por el cumplimiento de la Ley de Financiamiento Universitario y el pago de lo adeudado. Milei cumplí con la ley."
+    src: "assets/images/parosuniversitario0626/conaduh22.jpeg"
+    image_source: https://www.instagram.com/p/Db_GnYJIGf_
 ---
 
-Gremios docentes y nodocentes de todo el país paran el **miércoles 12 de agosto** y la **semana del 18 al 22 de agosto** en defensa de la universidad pública.
+Gremios docentes y nodocentes de todo el país paran el **miércoles 12 de agosto** y la **semana del 18 al 22 de agosto** en defensa de la universidad pública. Reclaman el cumplimiento de la **Ley de Financiamiento Universitario**, el pago de lo adeudado y que el Gobierno acate la cautelar judicial ya firme.
 
-Reclaman el cumplimiento de la **Ley de Financiamiento Universitario**, el pago de lo adeudado y que el Gobierno acate la cautelar judicial ya firme. El Congreso Extraordinario de CONADU Histórica ratificó la continuidad del plan de lucha y convocó a profundizar la movilización.
+## Miércoles 12 de agosto: Paro nacional 24hs
+Paro de docentes y nodocentes universitarios en todo el país.
 
-Convocan AGD UBA, FEDUN, FATUN, CONADU Histórica, FUBA y CTA Autónoma.
+Convocan AGD UBA, FEDUN, FATUN, FUBA, CONADU Histórica y CTA Autónoma.
+
+## Martes 18 al sábado 22 de agosto: Semana de paro nacional
+
+La docencia universitaria para durante una semana completa. El Congreso Extraordinario de CONADU Histórica ratificó la continuidad del plan de lucha y convocó a profundizar la movilización.
+
+Convocan CONADU Histórica, AGD UBA y CTA Autónoma.
+
+## Miércoles 19 de agosto: Acto en Palacio Pizzurno
+
+📍 Palacio Pizzurno, CABA, 11h.
+
+Convocan CONADU Histórica, CONADU, CTERA, FAGDUT, FATUN, UDA, FEDUN y FUA.
