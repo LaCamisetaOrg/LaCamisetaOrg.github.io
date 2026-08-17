@@ -72,7 +72,12 @@
       <div class="action-page__inner action-page__inner--with-image">
         <figure class="action-page__image-figure">
           <div class="action-page__image-wrap action-gallery__item" style="{{ page.images[0].style | default: "" }}">
+            {% assign img0_ext = page.images[0].src | split: '.' | last | downcase %}
+            {% if img0_ext == 'mp4' or img0_ext == 'webm' or img0_ext == 'ogg' %}
+            <video class="action-page__video" src="{{ page.images[0].src | relative_url }}" controls playsinline preload="metadata" aria-label="{{ page.images[0].alt | default: page.title }}"></video>
+            {% else %}
             <img src="{{ page.images[0].src | relative_url }}" alt="{{ page.images[0].alt | default: page.title }}" loading="lazy">
+            {% endif %}
           </div>
           {% if page.images[0].image_source %}
           <figcaption class="action-image-caption">fuente: <a href="{{ page.images[0].image_source }}" target="_blank" rel="noopener">{{ page.images[0].image_source }}</a></figcaption>
@@ -102,8 +107,17 @@
         <div class="action-gallery">
           {% for img in page.images %}
           <figure class="action-gallery__figure">
-            <div class="action-gallery__item">
+            {% assign img_ext = img.src | split: '.' | last | downcase %}
+            <div class="action-gallery__item{% if img_ext == 'mp4' or img_ext == 'webm' or img_ext == 'ogg' %} action-gallery__item--video{% endif %}"
+              {% if img_ext == 'mp4' or img_ext == 'webm' or img_ext == 'ogg' %}data-video-src="{{ img.src | relative_url }}" data-video-alt="{{ img.alt | default: page.title }}"{% endif %}>
+              {% if img_ext == 'mp4' or img_ext == 'webm' or img_ext == 'ogg' %}
+              <div class="action-gallery__video-thumb">
+                <video src="{{ img.src | relative_url }}" preload="metadata" muted playsinline aria-hidden="true"></video>
+                <span class="action-gallery__play-icon" aria-hidden="true">▶</span>
+              </div>
+              {% else %}
               <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy">
+              {% endif %}
             </div>
             {% if img.image_source %}
             <figcaption class="action-image-caption">fuente: <a href="{{ img.image_source }}" target="_blank" rel="noopener">{{ img.image_source }}</a></figcaption>
@@ -129,6 +143,12 @@
         {% capture share_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
         {% capture share_text %}{{ page.title }}{% endcapture %}
         {% include share-buttons.html url=share_url text=share_text %}
+        {% if page.cause %}
+          {% assign cause_page = site.causes | where: "slug", page.cause | first %}
+          {% if cause_page %}
+          <a class="organize-btn cause-more-btn" href="{{ cause_page.url | relative_url }}">Ver más acciones por {{ cause_page.title }}</a>
+          {% endif %}
+        {% endif %}
       </div>
     </div>
   </main>
@@ -162,29 +182,51 @@
   <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
     <button class="lightbox__close" aria-label="Cerrar">&times;</button>
     <img class="lightbox__img" src="" alt="">
+    <video class="lightbox__video" src="" controls playsinline style="display:none;max-width:90vw;max-height:90vh;border-radius:6px;cursor:default;"></video>
   </div>
   <script>
     (function () {
-      var lb    = document.getElementById('lightbox');
-      var lbImg = lb.querySelector('.lightbox__img');
+      var lb      = document.getElementById('lightbox');
+      var lbImg   = lb.querySelector('.lightbox__img');
+      var lbVideo = lb.querySelector('.lightbox__video');
 
       document.querySelectorAll('.action-gallery__item img').forEach(function (img) {
         img.parentElement.style.cursor = 'zoom-in';
         img.parentElement.addEventListener('click', function () {
           lbImg.src = img.src;
           lbImg.alt = img.alt;
+          lbImg.style.display = '';
+          lbVideo.style.display = 'none';
+          lbVideo.pause();
+          lbVideo.src = '';
           lb.classList.add('is-open');
           document.body.style.overflow = 'hidden';
+        });
+      });
+
+      document.querySelectorAll('.action-gallery__item--video').forEach(function (item) {
+        item.style.cursor = 'pointer';
+        item.addEventListener('click', function () {
+          lbVideo.src = item.dataset.videoSrc;
+          lbVideo.alt = item.dataset.videoAlt;
+          lbVideo.style.display = '';
+          lbImg.style.display = 'none';
+          lbImg.src = '';
+          lb.classList.add('is-open');
+          document.body.style.overflow = 'hidden';
+          lbVideo.play();
         });
       });
 
       function close() {
         lb.classList.remove('is-open');
         document.body.style.overflow = '';
+        lbVideo.pause();
+        lbVideo.src = '';
       }
 
       lb.addEventListener('click', function (e) {
-        if (e.target !== lbImg) close();
+        if (e.target !== lbImg && e.target !== lbVideo) close();
       });
       lb.querySelector('.lightbox__close').addEventListener('click', close);
       document.addEventListener('keydown', function (e) {

@@ -115,10 +115,18 @@
             {% else %}
               {% assign card_image = action.images[0].src %}
             {% endif %}
+            {% assign card_ext = card_image | split: '.' | last | downcase %}
             <a class="cause-card" href="{{ action.url | relative_url }}">
               <div class="cause-card__image-wrap">
                 {% if card_image %}
-                <img src="{{ card_image | relative_url }}" alt="{{ action.title }}" loading="lazy">
+                  {% if card_ext == 'mp4' or card_ext == 'webm' or card_ext == 'ogg' %}
+                  <div class="cause-card__video-thumb">
+                    <video src="{{ card_image | relative_url }}" preload="metadata" muted playsinline aria-hidden="true"></video>
+                    <span class="cause-card__play-icon" aria-hidden="true">▶</span>
+                  </div>
+                  {% else %}
+                  <img src="{{ card_image | relative_url }}" alt="{{ action.title }}" loading="lazy">
+                  {% endif %}
                 {% endif %}
               </div>
               <span class="cause-card__title">{{ action.title }}</span>
@@ -135,10 +143,18 @@
             {% else %}
               {% assign card_image = action.images[0].src %}
             {% endif %}
+            {% assign card_ext = card_image | split: '.' | last | downcase %}
             <a class="cause-card" href="{{ action.url | relative_url }}">
               <div class="cause-card__image-wrap">
                 {% if card_image %}
-                <img src="{{ card_image | relative_url }}" alt="{{ action.title }}" loading="lazy">
+                  {% if card_ext == 'mp4' or card_ext == 'webm' or card_ext == 'ogg' %}
+                  <div class="cause-card__video-thumb">
+                    <video src="{{ card_image | relative_url }}" preload="metadata" muted playsinline aria-hidden="true"></video>
+                    <span class="cause-card__play-icon" aria-hidden="true">▶</span>
+                  </div>
+                  {% else %}
+                  <img src="{{ card_image | relative_url }}" alt="{{ action.title }}" loading="lazy">
+                  {% endif %}
                 {% endif %}
               </div>
               <span class="cause-card__title">{{ action.title }}</span>
