@@ -2,8 +2,8 @@
 layout: action
 cause: aysa
 location: CABA
-title: "Festival En Lucha"
-description: "Fesival En Lucha"
+title: "Cine Debate Contra el Saqueo de Aysa "
+description: "Proyección de La Tierra Explota y cine debate por la venta de AySA a Mekorot"
 from_date: 2026-08-19
 to_date: 2026-08-19
 images:
