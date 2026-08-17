@@ -303,6 +303,37 @@ ul[role="list"] {
   object-position: top;
 }
 
+.cause-card__video-thumb {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cause-card__video-thumb video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  pointer-events: none;
+}
+
+.cause-card__play-icon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  pointer-events: none;
+}
+
+.cause-card:hover .cause-card__play-icon {
+  color: var(--color-primary, #e63946);
+}
+
 .cause-card__title {
   padding: var(--space-sm);
   font-size: 1.15rem;
@@ -647,6 +678,7 @@ ul[role="list"] {
   border-radius: 999px;
   font-size: 0.78rem;
   font-weight: 700;
+  font-family: var(--font-title);
   text-decoration: none;
   background: var(--color-action);
   color: #fff;
@@ -654,6 +686,17 @@ ul[role="list"] {
   transition: opacity 0.15s ease;
   line-height: 1;
   white-space: nowrap;
+}
+
+.cause-more-btn {
+  display: block;
+  text-align: center;
+  margin-top: var(--space-sm);
+  font-size: 0.9rem;
+  padding: 0.55rem 1.4rem;
+  background: var(--color-complementary);
+  color: var(--color-text-complementary);
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 .organize-btn:hover { opacity: 0.82; }
@@ -768,6 +811,13 @@ ul[role="list"] {
   display: block;
 }
 
+.action-page__video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
 .action-image-caption {
   font-size: 0.9rem;
   color: var(--color-muted);
@@ -855,6 +905,38 @@ ul[role="list"] {
   object-fit: cover;
   object-position: top;
   display: block;
+}
+
+.action-gallery__video-thumb {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.action-gallery__video-thumb video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.action-gallery__play-icon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  pointer-events: none;
+}
+
+.action-gallery__item--video:hover .action-gallery__play-icon {
+  color: var(--color-primary, #e63946);
 }
 
 /* =========================================================
