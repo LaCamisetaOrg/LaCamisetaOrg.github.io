@@ -689,14 +689,20 @@ ul[role="list"] {
 }
 
 .cause-more-btn {
-  display: block;
-  text-align: center;
   margin-top: var(--space-sm);
-  font-size: 0.9rem;
-  padding: 0.55rem 1.4rem;
-  background: var(--color-complementary);
-  color: var(--color-text-complementary);
-  border-color: rgba(0, 0, 0, 0.15);
+  padding: 0.45rem 1.1rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.cause-more-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-white);
+  border-color: var(--color-white);
+  opacity: 1;
 }
 
 .organize-btn:hover { opacity: 0.82; }
