@@ -17,7 +17,7 @@ images:
 
 💧 El gobierno avanza con la privatización de AySA y cambia las reglas del acceso al agua.
 
-El **Decreto 70/2023** desreguló la economía y modificó o derogó leyes de forma directa. La **Ley Bases N° 27.742** otorgó delegaciones legislativas al Ejecutivo, declaró emergencias, estableció el régimen de privatizaciones, el RIGI y reformas del Estado, entregando la soberanía al poder económico. Incluyó a AySA —que brinda servicio a 15 millones de personas en 26 municipios y CABA— entre las empresas a privatizar.
+El **Decreto 70/2023** desreguló la economía y modificó o derogó leyes de forma directa. La **Ley Bases N° 27.742** otorgó delegaciones legislativas al Ejecutivo, declaró emergencias, estableció el régimen de privatizaciones, el RIGI y reformas del Estado, entregando la soberanía al poder económico. Incluyó a AySA, que brinda servicio a 15 millones de personas en 26 municipios y CABA, entre las empresas a privatizar.
 
 El **DNU 493/25** y el **805/25** suprimen el derecho humano al agua, convirtiéndola en mercancía, contraviniendo normativas nacionales e internacionales. Habilitan:
 
@@ -49,11 +49,11 @@ Los Decretos de Necesidad Urgencia N°s 493/25 y el 805/2025 habilitan:
 
 ## ACCIONES Y PRÓXIMAS ACTIVIDADES en Defensa de la Soberanía, los Derechos y la Vida
 
-**18/8**: En la Agencia de Planificación (APLA) — Callao 982, CABA — 11hs — Nos concentramos frente al organismo que planifica las obras de saneamiento, para reclamar que vuelvan a activar las obras de expansión del servicio hoy todas paralizadas. Principalmente que se incorporen a nuestros barrios en obras nuevas y terminar las ya iniciadas.
+**18/8**: En la Agencia de Planificación (APLA) - Callao 982, CABA - 11hs - Nos concentramos frente al organismo que planifica las obras de saneamiento, para reclamar que vuelvan a activar las obras de expansión del servicio hoy todas paralizadas. Principalmente que se incorporen a nuestros barrios en obras nuevas y terminar las ya iniciadas.
 
-**20/8**: A las 13hs al MINISTERIO DE ECONOMÍA — Hipólito Yrigoyen 250, CABA — junto a la convocatoria familias de la CGT y las CTA. Porque el aumento acumulativo en los servicios va a agudizar la situación de ENDEUDAMIENTO DE LAS FAMILIAS.
+**20/8**: A las 13hs al MINISTERIO DE ECONOMÍA - Hipólito Yrigoyen 250, CABA - junto a la convocatoria familias de la CGT y las CTA. Porque el aumento acumulativo en los servicios va a agudizar la situación de ENDEUDAMIENTO DE LAS FAMILIAS.
 
-**27/8**: Al MINISTERIO DE ECONOMÍA — Hipólito Yrigoyen 250, CABA — A las 9:30. Fecha de apertura de sobres con las ofertas prevista en la licitación de Privatización de AySA. Iremos a repudiar esta entrega y denunciar a cualquiera de las corporaciones del poder económico que pretenda quedarse con al agua y saneamiento de nuestro pueblo.
+**27/8**: Al MINISTERIO DE ECONOMÍA - Hipólito Yrigoyen 250, CABA - A las 9:30. Fecha de apertura de sobres con las ofertas prevista en la licitación de Privatización de AySA. Iremos a repudiar esta entrega y denunciar a cualquiera de las corporaciones del poder económico que pretenda quedarse con al agua y saneamiento de nuestro pueblo.
 
 Compartilo en tus Redes!
 

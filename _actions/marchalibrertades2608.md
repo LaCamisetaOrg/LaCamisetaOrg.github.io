@@ -2,15 +2,15 @@
 layout: action
 cause: libertades-democraticas
 location: CABA
-title: "Defendamos las Libertades Democráticas — Luchar no es delito"
+title: "26 de Agosto: Defendamos las Libertades Democráticas. Luchar no es delito"
 description: "26 de agosto, 16hs, de Plaza de los Dos Congresos al Obelisco. Libertad para Milton Tolomeo y Eneas Gallo, presos políticos por la jornada del 11 de febrero de 2026."
-from_date: 2026-08-26
+from_date: 2026-08-24
 to_date: 2026-08-26
 images:
   - src: /assets/images/marchalibrertades2608.jpg
     main: true
     highlight: true
-    alt: "Afiche de la marcha del 26 de agosto — Luchar no es delito. Defendamos las Libertades Democráticas. 16hs de Plaza de los Dos Congresos al Obelisco. Libertad para Milton y Eneas, detenidos tras la jornada del 11 de febrero de 2026 contra la Reforma Laboral."
+    alt: "Afiche de la marcha del 26 de agosto. Luchar no es delito. Defendamos las Libertades Democráticas. 16hs de Plaza de los Dos Congresos al Obelisco. Libertad para Milton y Eneas, detenidos tras la jornada del 11 de febrero de 2026 contra la Reforma Laboral."
     image_source: https://www.instagram.com/p/DcBfWsFDZ7i
 ---
 

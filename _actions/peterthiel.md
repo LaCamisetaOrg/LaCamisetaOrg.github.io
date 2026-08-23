@@ -2,7 +2,7 @@
 layout: action
 cause: tierra
 location: Federal
-title: "Desalojo Express a Peter Thiel"
+title: "29 de Agosto: Desalojo Express a Peter Thiel"
 description: "Los territorios y el agua no se venden"
 from_date: 2026-08-19
 to_date: 2026-08-29
@@ -18,7 +18,7 @@ La Tierra y el Agua no se venden
 📍Sábado 29/8 - 15:30hs - Marchamos de la Flor de Figueroa Alcorta hasta la casa de Peter Thiel.
 Traé tu máscara o disfraz
 
-En las próximas semanas el Senado se va a reunir para intentar dar la media sanción que le falta al "Súper RIGI", una legislación al servicio de los Peter Thiel que quieren apropiarse de los territorios, del agua y de la energía de los pueblos. 
+En las próximas semanas el Senado se va a reunir para intentar dar la media sanción que le falta al "Súper RIGI", una legislación al servicio de los Peter Thiel que quieren apropiarse de los territorios, del agua y de la energía de los pueblos.
 
 ✊ ¡Tenemos que seguir en las calles!
 
