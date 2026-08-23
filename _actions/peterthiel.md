@@ -9,6 +9,7 @@ to_date: 2026-08-29
 images:
   - src: /assets/images/peterthiel.jpeg
     alt: "Flyer convocando el Sábado 29 de Agosto 15:30 horas desde la Flor de Figueroa Alcorta hasta la casa de Peter Thiel. Lee: Desalojo express a Peter Thiel. Los territorios y el agua no se venden. Traé tu máscara o disfraz. Convoca: Coordinadora plurinacional Basta de falsas soluciones."
+    image_source: "https://www.instagram.com/p/DcMOO_9EcVF"
 ---
 
 DESALOJO EXPRESS A PETER THIEL
@@ -27,5 +28,3 @@ Ya logramos frenar con movilizaciones en todo el país, las modificaciones que f
 Por eso, mientras seguimos la pelea en el Congreso y acompañamos luchas como la del freno a la nueva privatización de AySA, vení el sábado 29/8 entregarle la orden popular de desalojo express que se merece este magnate neofascista amigo de Javier Milei.
 
 Los territorios y el agua se defienden!
-
-Fuente: https://www.instagram.com/p/DcMOO_9EcVF/?igsh=bjlrcmEzOG1kc3N4

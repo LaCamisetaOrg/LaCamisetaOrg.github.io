@@ -1,24 +1,26 @@
 ---
-cause: pending
+layout: action
+cause: tierra
+location: Federal
+title: "24 de agosto: Participar del encuentro sobre Súper RIGI y soberanía territorial"
 description: 🕊️ Desde la sala de 🎗️ *Concientización y Capacitación* de Autoconvocadxs
   por Nuestra Tierra 🇦🇷  🤲 Te invitamos a participar en la apertura del encuentro
   y diálogo en formación y debate para comprende
-from_date: 2026-08-21
+from_date: 2026-08-23
+to_date: 2026-08-24
 images:
-- alt: pending
-  highlight: true
-  image_source: https://www.instagram.com/autoconvocadosxnuestratierra/p/DcUNFQCGqsv
-  main: true
-  src: /assets/images/actions/autoconvocadosxnuestratierra_20260821_ded6e11a.jpg
-layout: action
-title: 🕊️ Desde la sala de 🎗️ *Concientización y Capacitación* de
+  - alt: "Flyer de Autoconvocadxs por Nuestra Tierra: charla virtual el 24 de agosto sobre Súper RIGI, pueblos originarios y soberanía territorial"
+    highlight: true
+    image_source: https://www.instagram.com/autoconvocadosxnuestratierra/p/DcUNFQCGqsv
+    main: true
+    src: /assets/images/actions/autoconvocadosxnuestratierra_20260821_ded6e11a.jpg
 ---
 
 🕊️ Desde la sala de 🎗️ *Concientización y Capacitación* de Autoconvocadxs por Nuestra Tierra 🇦🇷
 
 🤲 Te invitamos a participar en la apertura del encuentro y diálogo en formación y debate para comprender la problemática que nos atraviesan uniendo las distintas luchas que afronta nuestro territorio.
 
-Este lunes tendremos una charla por Meet con profesionales en legislación, antropología y psicología donde vamos hablar sobre: 
+Este lunes tendremos una charla por Meet con profesionales en legislación, antropología y psicología donde vamos hablar sobre:
 
 - Abordar el Súper RIGI y la extranjerización de nuestras tierras.
 

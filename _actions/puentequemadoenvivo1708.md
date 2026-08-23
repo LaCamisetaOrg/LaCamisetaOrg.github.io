@@ -15,7 +15,7 @@ images:
 
 Aguyjevete,
 
-Desde Puente Quemado II, vamos a realizar una transmisión en vivo por Instagram del [@colectivodecinearapyau](https://www.instagram.com/colectivodecinearapyau?igsh=bWVtNDByZzZlMnpz&utm_source=qr).
+Desde Puente Quemado II, vamos a realizar una transmisión en vivo por Instagram del [@colectivodecinearapyau](https://www.instagram.com/colectivodecinearapyau).
 
 Invitamos a todas las personas y organizaciones a sumarse en este importante evento virtual.
 
