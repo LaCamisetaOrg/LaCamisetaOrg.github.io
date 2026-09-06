@@ -17,7 +17,10 @@ description: "Ponete la camiseta dentro y fuera de la cancha"
 {% assign today = 'now' | date: '%Y-%m-%d' %}
 {% assign tomorrow_ts = 'now' | date: '%s' | plus: 86400 %}
 {% assign tomorrow = tomorrow_ts | date: '%Y-%m-%d' %}
+{% assign three_days_ts = 'now' | date: '%s' | plus: 259200 %}
+{% assign three_days = three_days_ts | date: '%Y-%m-%d' %}
 {% assign upcoming_actions = "" | split: "" %}
+{% assign near_actions = "" | split: "" %}
 {% for action in site.actions %}
   {% if action.from_date and action.to_date %}
     {% assign from_str = action.from_date | date: '%Y-%m-%d' %}
@@ -25,8 +28,14 @@ description: "Ponete la camiseta dentro y fuera de la cancha"
     {% if from_str <= tomorrow and to_str >= today %}
       {% assign upcoming_actions = upcoming_actions | push: action %}
     {% endif %}
+    {% if from_str <= three_days and to_str >= today %}
+      {% assign near_actions = near_actions | push: action %}
+    {% endif %}
   {% endif %}
 {% endfor %}
+{% if upcoming_actions.size < 3 %}
+  {% assign upcoming_actions = near_actions %}
+{% endif %}
 {% assign upcoming_actions = upcoming_actions | sort: "from_date" %}
 
 {% if upcoming_actions.size > 0 %}
