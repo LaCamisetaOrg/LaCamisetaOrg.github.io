@@ -33,7 +33,7 @@ description: "Ponete la camiseta dentro y fuera de la cancha"
     {% endif %}
   {% endif %}
 {% endfor %}
-{% if upcoming_actions.size < 3 %}
+{% if upcoming_actions.size < 4 %}
   {% assign upcoming_actions = near_actions %}
 {% endif %}
 {% assign upcoming_actions = upcoming_actions | sort: "from_date" %}
