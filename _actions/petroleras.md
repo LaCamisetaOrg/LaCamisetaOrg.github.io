@@ -13,4 +13,4 @@ images:
 
 Este 15 de Septiembre a las 17 horas informate sobre la actualidad y desafíos de las Petroleras en el Mar Argentino.
 
-Inscribite en el siguiente Link: https://docs.google.com/forms/d/e/1FAIpQLSex9-AdJOoXWIB3TZkhPL5SH2wfHDcY2SoMV45MJRoEZ1wvrw/viewform
+Inscribite en el siguiente Link: <a href="https://docs.google.com/forms/d/e/1FAIpQLSex9-AdJOoXWIB3TZkhPL5SH2wfHDcY2SoMV45MJRoEZ1wvrw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSex9-AdJOoXWIB3TZkhPL5SH2wfHDcY2SoMV45MJRoEZ1wvrw/viewform</a>
