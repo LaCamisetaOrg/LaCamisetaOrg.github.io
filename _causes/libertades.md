@@ -1,7 +1,6 @@
 ---
 title: "Las Libertades Democráticas"
 slug: "libertades-democraticas"
-image: /assets/images/marchalibrertades2608.jpg
 image_alt: "Ponete la camiseta por las libertades democráticas"
 hashtags:
   - LucharNoEsDelito

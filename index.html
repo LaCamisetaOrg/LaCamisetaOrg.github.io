@@ -66,14 +66,25 @@ description: "Ponete la camiseta dentro y fuera de la cancha"
   {% endif %}
   {% assign sorted_causes = site.causes | sort: "order" %}
   {% for cause in sorted_causes %}
-  {% if cause.image %}
+  {% assign card_img_src = cause.image %}
+  {% assign card_img_alt = cause.image_alt | default: cause.title %}
+  {% unless card_img_src %}
+    {% assign cause_actions = site.actions | where: "cause", cause.slug | sort: "from_date" | reverse %}
+    {% assign latest_action = cause_actions | first %}
+    {% if latest_action %}
+      {% assign action_img = latest_action.images | where: "highlight", true | first %}
+      {% unless action_img %}{% assign action_img = latest_action.images | first %}{% endunless %}
+      {% if action_img %}{% assign card_img_src = action_img.src %}{% endif %}
+    {% endif %}
+  {% endunless %}
   <a class="cause-card" href="{{ cause.url | relative_url }}">
     <div class="cause-card__image-wrap">
-      <img src="{{ cause.image | relative_url }}" alt="{{ cause.image_alt | default: cause.title }}" loading="lazy">
+      {% if card_img_src %}
+      <img src="{{ card_img_src | relative_url }}" alt="{{ card_img_alt }}" loading="lazy">
+      {% endif %}
     </div>
     <span class="cause-card__title">{{ cause.title }}</span>
   </a>
-  {% endif %}
   {% endfor %}
 </section>
 

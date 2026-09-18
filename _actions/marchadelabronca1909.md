@@ -1,6 +1,6 @@
 ---
 layout: action
-title: "19 de septiembre: Marchar en la Gran Marcha de la Bronca"
+title: "19 de septiembre: Marchemos en la Gran Marcha de la Bronca"
 description: "Unificamos por abajo lo que las burocracias dividen por arriba. Marcha de la Bronca en todo el país el 19 de septiembre."
 cause: libertades-democraticas
 from_date: 2026-08-19

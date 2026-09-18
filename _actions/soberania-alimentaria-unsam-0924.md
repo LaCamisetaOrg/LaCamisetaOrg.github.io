@@ -1,7 +1,7 @@
 ---
 layout: action
 cause: alimentacion
-title: "24 de septiembre: Participar del ciclo sobre soberanía alimentaria en la Argentina"
+title: "24 de septiembre: Participá del ciclo de soberanía alimentaria en la UNSAM"
 description: "El Círculo de Soberanía Alimentaria UNSAM organiza dos encuentros sobre las amenazas al sistema alimentario: el RIGI, el patentamiento de semillas y la derogación de la ley de octógonos. Jueves de 18 a 21 h, Campus Miguelete."
 from_date: 2026-09-24
 to_date: 2026-10-29

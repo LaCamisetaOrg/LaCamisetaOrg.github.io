@@ -1,9 +1,10 @@
 ---
 layout: action
 cause: tierra
-title: "15 de septiembre: Defender las playas públicas del sur"
+title: "15 de septiembre: Defendé las playas públicas del sur"
 description: "Los balnearios privados avanzan ilegalmente sobre las playas del sur con movimientos de arena. La arena mojada es un bien de dominio público y su modificación por privados es un delito ambiental."
 from_date: 2026-09-15
+to_date: 2026-09-20
 images:
   - src: "/assets/images/actions/asambleaplayasdelsur_20260915_d327045b.webp"
     alt: "Afiche de alerta vecinal: Están destruyendo las playas del sur, con instrucciones sobre cómo actuar para frenarlos"
