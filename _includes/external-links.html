@@ -1,0 +1,13 @@
+<script>
+  (function () {
+    document.querySelectorAll('a[href]').forEach(function (a) {
+      try {
+        var url = new URL(a.getAttribute('href'), window.location.href);
+        if (url.hostname && url.hostname !== window.location.hostname) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener noreferrer');
+        }
+      } catch (e) {}
+    });
+  }());
+</script>

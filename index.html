@@ -66,14 +66,14 @@ description: "Ponete la camiseta dentro y fuera de la cancha"
   {% endif %}
   {% assign sorted_causes = site.causes | sort: "order" %}
   {% for cause in sorted_causes %}
+  {% if cause.image %}
   <a class="cause-card" href="{{ cause.url | relative_url }}">
     <div class="cause-card__image-wrap">
-      {% if cause.image %}
       <img src="{{ cause.image | relative_url }}" alt="{{ cause.image_alt | default: cause.title }}" loading="lazy">
-      {% endif %}
     </div>
     <span class="cause-card__title">{{ cause.title }}</span>
   </a>
+  {% endif %}
   {% endfor %}
 </section>
 
