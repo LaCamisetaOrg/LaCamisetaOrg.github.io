@@ -7,7 +7,7 @@ description: "Organicemos la bronca contra el nefasto fallo de la corte. Prepare
 from_date: 2026-09-30
 to_date: 2026-10-02
 images:
-  - src: "/assets/images/actions/autoconvocados_2_10.jpg"
+  - src: "/assets/images/autoconvocados_2_10.jpg"
     alt: "Autoconvocatoria. Viernes 2 de Octubre. 17 Horas. Parque Lezama, CABA. Organicemos la bronca contra el nefasto fallo de la corte. Preparemos una Gran Movilización."
     highlight: true
     main: true
