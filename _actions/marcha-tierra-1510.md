@@ -4,7 +4,7 @@ cause: tierra
 location: Federal
 title: "15 de octubre: Marchemos al Congreso: la tierra no se vende"
 description: "El 15 de octubre, todes a las calles del país y al Congreso. El 29 de septiembre la Corte Suprema dejó sin efecto el amparo que frenaba la venta de nuestras tierras. Difundí el mapa del Observatorio de Tierras para visibilizar la extranjerización."
-from_date: 2026-10-15
+from_date: 2026-10-10
 to_date: 2026-10-15
 images:
   - src: "/assets/images/actions/bastadefalsassoluciones_20261001_fc23cab5.webp"
