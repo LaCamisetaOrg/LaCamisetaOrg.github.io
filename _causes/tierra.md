@@ -17,6 +17,7 @@ actions:
     from_date: 2026-10-11
     to_date: 2026-10-15
     location: Federal
+    image: /assets/images/embanderemos.png
     inline: true
   - title: "Amenaza de la mafia forestal en Misiones: la tekoá Mbya Guaraní Puente Quemado II"
     url: https://www.instagram.com/reel/DbycMixJ8eO
